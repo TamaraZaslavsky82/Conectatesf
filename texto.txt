@@ -1,0 +1,185 @@
+card: {
+   
+    
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 2,
+    maxWidth: '60%',
+    marginBottom:10,
+    marginTop:10 ,
+    marginLeft:10,
+  
+  },
+  title:{
+    fontSize:12,
+    fontWeight: 'bold',
+  }
+  
+import React, {useState} from 'react';
+import {
+    FlatList,
+    View,
+    TouchableOpacity,
+    ImageBackground,
+    StyleSheet,
+    Text,
+    Image,
+} from 'react-native';
+import {
+    List,
+    Button,
+    Divider,
+    Provider as PaperProvider,
+    Card,
+    Title,
+} from 'react-native-paper';
+
+const CategoriesScreen = ({navigation}) => {
+    const data = require('./data.json'); // Asegúrate de que la ruta al archivo JSON sea correcta
+
+    // Obtén todas las categorías
+    const allCategories = data.map(item => item.category);
+
+    // Filtra las categorías para eliminar las duplicadas y ordénalas alfabéticamente de la A a la Z
+    const uniqueCategories = allCategories
+        .filter((category, index, self) => self.indexOf(category) === index)
+        .sort((a, b) => a.localeCompare(b));
+
+    // Estado para la categoría seleccionada
+    const [selectedCategory, setSelectedCategory] = useState(null);
+
+    // Estado para la subcategoría seleccionada
+    const [selectedSubCategory, setSelectedSubCategory] = useState(null);
+
+    const handleCategorySelect = category => {
+        setSelectedCategory(category);
+        setSelectedSubCategory(null);
+    };
+
+    const handleSubCategorySelect = subCategory => {
+        setSelectedSubCategory(subCategory);
+    };
+
+    const handleBackToSubCategories = () => {
+        setSelectedSubCategory(null);
+    };
+
+    // Filtra los datos para obtener solo los elementos de la categoría seleccionada
+    const filteredData = selectedCategory
+        ? data.filter(item => item.category === selectedCategory)
+        : [];
+
+    // Filtra los datos para obtener solo los elementos de la subcategoría seleccionada
+    const filteredSubCategoryData = selectedSubCategory
+        ? filteredData.filter(item => item.subCategory === selectedSubCategory)
+        : [];
+
+    return (
+        <PaperProvider>
+            <ImageBackground
+                source={require('./montaña.jpg')}
+                style={styles.backgroundImage}>
+                <View
+                    style={{
+                        flex: 1,
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        padding: 10,
+                    }}>
+                    {!selectedCategory ? (
+                        <>
+                            <Text style={{fontSize: 20, textAlign: 'center', margin: 10}}>
+                                Aquí puedes encontrar todas las categorías disponibles
+                            </Text>
+                            <FlatList
+                                data={uniqueCategories}
+                                numColumns={2} // Añade esta línea para tener dos columnas
+                                renderItem={({item}) => (
+                                    <Card style={styles.card} onPress={() => handleCategorySelect(item)}>
+                                        <Card.Content>
+                                            <Title>{item}</Title>
+                                        </Card.Content>
+                                    </Card>
+                                )}
+                                keyExtractor={item => item}
+                                key="categories" // Añade esta línea
+                            />
+                        </>
+                    ) : (
+                        <>
+                            <Button
+                                style={{
+                                    backgroundColor: 'white',
+                                    marginBottom: 10,
+                                    marginTop: 10,
+                                }}
+                                onPress={handleBackToSubCategories}>
+                                Volver a Subcategorías
+                            </Button>
+                            <FlatList
+                                data={filteredSubCategoryData}
+                                renderItem={({item}) => (
+                                    <TouchableOpacity
+                                        onPress={() => {
+                                            // Navega a 'Detail' o 'PremiumDetail' dependiendo del estado del item
+                                            if (item.status === 'Free') {
+                                                navigation.navigate('Detail', {itemData: item});
+                                            } else if (item.status === 'Premium') {
+                                                navigation.navigate('PremiumDetail', {
+                                                    itemData: item,
+                                                });
+                                            } else if (item.status === 'Lugares') {
+                                                navigation.navigate('Lugares', {itemData: item});
+                                            }
+                                        }}>
+                                        <List.Item
+                                            title={
+                                                <Text style={{color: 'darkviolet'}}>
+                                                    {item.title}
+                                                </Text>
+                                            }
+                                            description={
+                                                <Text
+                                                    style={{
+                                                        color: 'darkviolet',
+                                                    }}>{`${item.description}`}</Text>
+                                            }
+                                            left={() => (
+                                                <Image
+                                                    source={require('./estrella.png')}
+                                                    style={{width: 30, height: 30}}
+                                                />
+                                            )}
+                                            style={{backgroundColor: 'rgba(255, 255, 255, 0.9)'}}
+                                        />
+                                    </TouchableOpacity>
+                                )}
+                                keyExtractor={item => item.id}
+                                ItemSeparatorComponent={Divider}
+                                key="subcategories" // Añade esta línea
+                            />
+                        </>
+                    )}
+                </View>
+            </ImageBackground>
+        </PaperProvider>
+    );
+};
+
+const styles = StyleSheet.create({
+    backgroundImage: {
+        flex: 1,
+        resizeMode: 'cover',
+        justifyContent: 'center',
+    },
+    card: {
+        flex: 1,
+        margin: 5,
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: 10,
+        maxWidth: '45%', // Ajusta este valor para cambiar el tamaño de las tarjetas
+    },
+});
+
+export default CategoriesScreen;
