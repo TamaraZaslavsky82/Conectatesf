@@ -35,6 +35,10 @@ import wind from './windy.jpg';
 import clouds from './clouds.jpg';
 import AddBanner from './AddBnner';
 import ContactFormScreen from './ContactForm';
+import EventComponent from './Event';
+import EventIcon from './estrella.png';
+import PushNotification from 'react-native-push-notification';
+import GeoMapaWifi from './GeomapaWifi';
 
 LogBox.ignoreLogs(['new NativeEventEmitter()']);
 
@@ -72,62 +76,70 @@ const AnimationScreen = ({navigation}) => {
 
 
 
+
 const AppTabs = () => {
   // ...
 
   return (
     <View style={{ flex: 1 }}>
-      <Tab.Navigator
-        screenOptions={({ route }) => ({
-          tabBarIcon: ({ focused }) => {
-            let icon;
+     <Tab.Navigator
+  screenOptions={({ route }) => ({
+    tabBarIcon: ({ focused }) => {
+      let icon;
 
-            if (route.name === 'Conectate') {
-              icon = HomeIcon;
-            } else if (route.name === 'Categorias') {
-              icon = CategoriesIcon;
-            } else if (route.name === 'GeoMapa') {
-              icon = GeoMapaIcon;
-            } else if (route.name === 'Sumate!') {
-              label = 'Sumate!'; // Asegúrate de tener un icono para esta pestaña
-            }
+      if (route.name === 'Conectate') {
+        icon = HomeIcon;
+      } else if (route.name === 'Categorias') {
+        icon = CategoriesIcon;
+      } else if (route.name === 'GeoMapa') {
+        icon = GeoMapaIcon;
+      } else if (route.name === 'Eventos') {
+        icon = EventIcon; 
+      }
 
-            return <Image source={icon} style={{ width: 30, height: 30, tintColor: focused ? 'blue' : 'gray' }} />;
-          },
-          tabBarLabel: ({ focused, color }) => {
-            let labelName;
-            let customColor;
+      // Solo devolver un componente de imagen si hay un icono
+      if (icon) {
+        return <Image source={icon} style={{ width: 30, height: 30, tintColor: focused ? 'blue' : 'gray' }} />;
+      }
+    },
+    tabBarLabel: ({ focused, color }) => {
+      let labelName;
+      let customColor;
 
-            if (route.name === 'Conectate') {
-              labelName = 'Conectate';
-              customColor = focused ? 'blue' : 'gray';
-            } else if (route.name === 'Categorias') {
-              labelName = 'Categorias';
-              customColor = focused ? 'blue' : 'gray';
-            } else if (route.name === 'GeoMapa') {
-              labelName = 'GeoMapa';
-              customColor = focused ? 'blue' : 'gray';
-            } else if (route.name === 'Sumate!') {
-              labelName = 'Sumate!';
-              customColor = focused ? 'darkviolet' : 'gray'; // Cambiado el color cuando está enfocado a 'darkviolet' solo para 'Sumate!'
-            }
+      if (route.name === 'Conectate') {
+        labelName = 'Conectate';
+        customColor = focused ? 'blue' : 'gray';
+      } else if (route.name === 'Categorias') {
+        labelName = 'Categorias';
+        customColor = focused ? 'blue' : 'gray';
+      } else if (route.name === 'GeoMapa') {
+        labelName = 'GeoMapa';
+        customColor = focused ? 'blue' : 'gray';
+      } else if (route.name === 'Eventos') {
+        labelName = 'Eventos';
+        customColor = focused ? 'blue' : 'gray';
+      } else if (route.name === 'Sumate!') {
+        labelName = 'Sumate!';
+        customColor = focused ? 'darkviolet' : 'gray'; // Cambiado el color cuando está enfocado a 'darkviolet' solo para 'Sumate!'
+      }
 
-            return <Text style={{ color: customColor }}>{labelName}</Text>;
-          },
-          tabBarActiveTintColor: 'blue',
-          tabBarInactiveTintColor: 'gray',
-          tabBarStyle: {
-            borderTopLeftRadius: 20,
-            borderTopRightRadius: 20,
-            height: 60,
-            position: 'absolute',
-            backgroundColor: '#ffffff',
-          },
-        })}
-      >
+      return <Text style={{ color: customColor }}>{labelName}</Text>;
+    },
+    tabBarActiveTintColor: 'blue',
+    tabBarInactiveTintColor: 'gray',
+    tabBarStyle: {
+      borderTopLeftRadius: 20,
+      borderTopRightRadius: 20,
+      height: 60,
+      position: 'absolute',
+      backgroundColor: '#ffffff',
+    },
+  })}
+>
         <Tab.Screen name="Conectate" component={HomeScreen} />
         <Tab.Screen name="Categorias" component={CategoriesScreen} />
         <Tab.Screen name="GeoMapa" component={GeoMapa} />
+        <Tab.Screen name="Eventos" component={EventComponent} /> 
         <Tab.Screen name="Sumate!" component={ContactFormScreen} /> 
       </Tab.Navigator>
       <View style={{ position: 'absolute', bottom: 60, width: '100%', zIndex: 1 }}>
@@ -140,34 +152,56 @@ const AppTabs = () => {
 
 
 
-const App = () => {
-  return (
-    <NavigationContainer>
-      <Stack.Navigator
-        initialRouteName="AnimationScreen"
-        screenOptions={{headerShown: false}}>
-        <Stack.Screen name="AnimationScreen" component={AnimationScreen} />
-        <Stack.Screen name="App" component={AppTabs} />
-        <Stack.Screen 
-          name="Detail" 
-          component={DetailScreen} 
-          options={{headerShown: true, title: 'Descripcion'}} // Cambia el nombre en la barra de navegación
-        />
-        <Stack.Screen 
-          name="PremiumDetail" 
-          component={PremiumDetail} 
-          options={{headerShown: true, title: 'Descripcion Premium'}} // Cambia el nombre en la barra de navegación
-        />
-        <Stack.Screen
-          name="Lugares"
-          component={Lugares}
-          options={{headerShown: true}} 
+class App extends React.Component {
+  componentDidMount() {
+   PushNotification.createChannel(
+  {
+    channelId: "your-channel-id", // (required)
+    channelName: "My channel", // (required)
+    channelDescription: "A channel to categorise your notifications", // (optional) default: undefined.
+    playSound: false, // (optional) default: true
+    soundName: "default", // (optional) See `soundName` parameter of `localNotification` function
+    importance: 4, // (optional) default: 4. Int value of the Android notification importance
+    vibrate: true, // (optional) default: true. Creates the default vibration pattern if true.
+  },
+  (created) => console.log(`createChannel returned '${created}'`) // (optional) callback returns whether the channel was created, false means it already existed.
+);
+  }
+
+  render() {
+    return (
+      <NavigationContainer>
+        <Stack.Navigator
+          initialRouteName="AnimationScreen"
+          screenOptions={{headerShown: false}}>
+          <Stack.Screen name="AnimationScreen" component={AnimationScreen} />
+          <Stack.Screen name="App" component={AppTabs} />
+          <Stack.Screen 
+            name="Detail" 
+            component={DetailScreen} 
+            options={{headerShown: true, title: 'Descripcion'}} // Cambia el nombre en la barra de navegación
           />
-            <Stack.Screen name="Contacto" component={ContactFormScreen} options={{headerShown: true, title: 'Sumate'}} /> 
-      </Stack.Navigator>
-    </NavigationContainer>
-  );
-};
+          <Stack.Screen 
+            name="PremiumDetail" 
+            component={PremiumDetail} 
+            options={{headerShown: true, title: 'Descripcion Premium'}} // Cambia el nombre en la barra de navegación
+          />
+          <Stack.Screen
+            name="Lugares"
+            component={Lugares}
+            options={{headerShown: true}} 
+            />
+             <Stack.Screen
+            name="GeoMapaWifi"
+            component={GeoMapaWifi}
+            options={{headerShown: true}} 
+            />
+              <Stack.Screen name="Contacto" component={ContactFormScreen} options={{headerShown: true, title: 'Sumate'}} /> 
+        </Stack.Navigator>
+      </NavigationContainer>
+    );
+  }
+}
 const HomeScreen = ({navigation}) => {
   const [open, setOpen] = useState(false);
 const [searchQuery, setSearchQuery] = React.useState('');
@@ -200,8 +234,8 @@ const [filteredData, setFilteredData] = useState([]);
   };
 
     const options = {
-      keys: ['name', 'category', 'title', 'description', 'subCategory', 'phone', 'status'],
-      threshold: 0.3
+      keys: ['name', 'category', 'title', 'description', 'subCategory', 'phone', 'status','tags'],
+      threshold: 0.2
     };
 
     const fuse = new Fuse(data, options);
@@ -411,6 +445,18 @@ const [filteredData, setFilteredData] = useState([]);
     </Card>
   ))
 } */}
+ <Text style={{
+              fontSize: 40,
+              fontWeight: 'bold',
+              marginTop: 50,
+              color: 'white',
+              marginLeft: 20,
+            }}>Puntos WIFI libres y gratuitos</Text>
+          <TouchableOpacity onPress={() => navigation.navigate('GeoMapaWifi')}>
+            <Card style={{ margin: 10, elevation: 5 }}>
+              <Card.Cover source={require('./bannerpuntos.jpg')} style={{ borderRadius: 10, height:350 }} />
+            </Card>
+          </TouchableOpacity>
           <View>
             <Text style={{
               fontSize: 40,

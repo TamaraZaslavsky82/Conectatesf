@@ -25,23 +25,24 @@ const PremiumDetailScreen = ({route}) => {
     }, []);
     
 
-    const getDirections = async () => {
-        const origin = `${currentLocation.longitude},${currentLocation.latitude}`;
-        const destination = `${itemData.location.longitude},${itemData.location.latitude}`;
-        const url = `https://api.mapbox.com/directions/v5/mapbox/driving/${origin};${destination}?access_token=tu-token-de-acceso`;
+   const getDirections = async () => {
+    const origin = `${currentLocation.latitude},${currentLocation.longitude}`;
+    const destination = `${itemData.location.latitude},${itemData.location.longitude}`;
+    const url = `https://maps.googleapis.com/maps/api/directions/json?origin=${origin}&destination=${destination}&key=${GOOGLE_MAPS_APIKEY}`;
 
-        try {
-            const response = await fetch(url);
-            const data = await response.json();
+    try {
+        const response = await fetch(url);
+        const data = await response.json();
 
-            if (data.routes && data.routes.length > 0) {
-                setDirectionsRoute(data.routes[0].geometry.coordinates);
-            }
-        } catch (error) {
-            console.log(error);
+        if (data.routes && data.routes.length > 0) {
+            const points = data.routes[0].overview_polyline.points;
+            const coordinates = decodePolyline(points); // Necesitarás una función para decodificar la polilínea
+            setDirectionsRoute(coordinates);
         }
-    };
-
+    } catch (error) {
+        console.log(error);
+    }
+};
     const dialCall = (number) => {
         let phoneNumber = '';
         if (Platform.OS === 'android') { phoneNumber = `tel:${number}`; }
@@ -125,7 +126,7 @@ const PremiumDetailScreen = ({route}) => {
                             <Text style={styles.buttonText}>Llamar</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.button} onPress={()=>sendWhatsApp(itemData.phone)}>
-                            <Text style={styles.buttonText}>Eviar WhatsApp</Text>
+                            <Text style={styles.buttonText}>Enviar WhatsApp</Text>
                         </TouchableOpacity>
                         {itemData.links && (
                             <View style={styles.links}>
@@ -149,33 +150,35 @@ const PremiumDetailScreen = ({route}) => {
                     </Card.Content>
                 </Card>
             </View>
-            <View style={{ flex: 1, height: 200 }}>
-            <MapView
-                    style={{ flex: 1 }}
-                    initialRegion={{
-                        latitude: itemData.location.latitude,
-                        longitude: itemData.location.longitude,
-                        latitudeDelta: 0.0922,
-                        longitudeDelta: 0.0421,
-                    }}
-                >
-                    <Marker
-                        coordinate={{latitude: itemData.location.latitude, longitude: itemData.location.longitude}}
-                        title={itemData.title}
-                    />
-                    {currentLocation && (
-                        <MapViewDirections
-                            origin={currentLocation}
-                            destination={{latitude: itemData.location.latitude, longitude: itemData.location.longitude}}
-                            apikey={GOOGLE_MAPS_APIKEY}
-                            strokeWidth={3}
-                            strokeColor="hotpink"
-                        />
-                    )}
-                </MapView>
-            <Button title="Cómo llegar" onPress={getDirections} />
-            <Button title="Compartir" onPress={onShare} />
-            </View>
+           {itemData.location && (
+    <View style={{ flex: 1, height: 200 }}>
+        <MapView
+            style={{ flex: 1 }}
+            initialRegion={{
+                latitude: itemData.location.latitude,
+                longitude: itemData.location.longitude,
+                latitudeDelta: 0.0922,
+                longitudeDelta: 0.0421,
+            }}
+        >
+            <Marker
+                coordinate={{latitude: itemData.location.latitude, longitude: itemData.location.longitude}}
+                title={itemData.title}
+            />
+            {currentLocation && (
+                <MapViewDirections
+                    origin={currentLocation}
+                    destination={{latitude: itemData.location.latitude, longitude: itemData.location.longitude}}
+                    apikey={GOOGLE_MAPS_APIKEY}
+                    strokeWidth={3}
+                    strokeColor="hotpink"
+                />
+            )}
+        </MapView>
+        <Button title="Cómo llegar" onPress={getDirections} />
+        <Button title="Compartir" onPress={onShare} />
+    </View>
+)}
         </ScrollView>
     );
             }

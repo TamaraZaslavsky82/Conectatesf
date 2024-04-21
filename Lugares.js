@@ -67,53 +67,55 @@ const Lugares = ({route}) => {
         }
     };
 
-return (
-    <ScrollView>
-        <Swiper height={200} autoplay>
-            {itemData.image && itemData.image.map((imageUrl, index) => (
-                <Image key={index} style={styles.image} source={{ uri: imageUrl }} />
-            ))}
-        </Swiper>
-        <View style={styles.content}>
-            <Card style={styles.card}>
-                <Card.Content>
-                    <Text style={styles.title}>{itemData.title}</Text>
-                    <Text style={styles.subtitle}>{itemData.category}</Text>
-                    <Text style={styles.description}>{itemData.description}</Text>
-                    <Text style={styles.status}>Dificultad: {itemData.dificultad}</Text>
-                    <Text style={styles.description}>{itemData.subCategory}</Text>
-                    <Text style={styles.status}>{itemData.status}</Text>
-                </Card.Content>
-            </Card>
-        </View>
-    
-        <View style={{ flex: 1, height: 200 }}>
-                <MapView
-                    style={{ flex: 1 }}
-                    initialRegion={{
-                        latitude: itemData.location.latitude,
-                        longitude: itemData.location.longitude,
-                        latitudeDelta: 0.0922,
-                        longitudeDelta: 0.0421,
-                    }}
-                >
-                    <Marker
-                        coordinate={{latitude: itemData.location.latitude, longitude: itemData.location.longitude}}
-                        title={itemData.title}
-                    />
-                    {coords.length > 0 && (
-                        <Polyline 
-                            coordinates={coords}
-                            strokeWidth={2}
-                            strokeColor="red"
+    return (
+        <ScrollView>
+            <Swiper height={400} autoplay>
+                {itemData.image && itemData.image.map((imageUrl, index) => (
+                    <Image key={index} style={styles.image} source={{ uri: imageUrl }} />
+                ))}
+            </Swiper>
+            <View style={styles.content}>
+                <Card style={styles.card}>
+                  <Card.Content>
+        <Text style={styles.title}>{itemData.title}</Text>
+        <Text style={styles.subtitle}>{itemData.category}</Text>
+        <Text style={styles.description}>{itemData.description}</Text>
+        {itemData.alert && <Text style={styles.status}>Alerta: {itemData.alert}</Text>} 
+        {itemData.horarios && <Text style={styles.description}>Horarios: {itemData.horarios}</Text>}
+        <Text style={styles.status}>Dificultad: {itemData.dificultad}</Text>
+        <Text style={styles.description}>{itemData.subCategory}</Text>
+        <Text style={styles.status}>{itemData.status}</Text>
+    </Card.Content>
+                </Card>
+            </View>
+        
+            <View style={{ flex: 1, height: 200 }}>
+                    <MapView
+                        style={{ flex: 1 }}
+                        initialRegion={{
+                            latitude: itemData.location.latitude,
+                            longitude: itemData.location.longitude,
+                            latitudeDelta: 0.0922,
+                            longitudeDelta: 0.0421,
+                        }}
+                    >
+                        <Marker
+                            coordinate={{latitude: itemData.location.latitude, longitude: itemData.location.longitude}}
+                            title={itemData.title}
                         />
-                    )}
-                </MapView>
-        <Button title="Cómo llegar" onPress={getDirections} />
-        <Button title="Compartir" onPress={onShare} />
-        </View>
-    </ScrollView>
-);
+                        {coords.length > 0 && (
+                            <Polyline 
+                                coordinates={coords}
+                                strokeWidth={2}
+                                strokeColor="red"
+                            />
+                        )}
+                    </MapView>
+            <Button title="Cómo llegar" onPress={getDirections} />
+            <Button title="Compartir" onPress={onShare} />
+            </View>
+        </ScrollView>
+    );
 }
 
 const styles = StyleSheet.create({

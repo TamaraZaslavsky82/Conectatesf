@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Posada El Algarrobo",
     "description": "El Restaurante Posada El Algarrobo te invita a embarcarte en un viaje culinario por los sabores más auténticos de la región.\n\nSu menú, cuidadosamente elaborado con productos frescos y de estación, te ofrece una amplia variedad de platos para todos los gustos. Desde suculentas carnes asadas hasta pastas caseras y ensaladas frescas, cada bocado es una explosión de sabor.\n\nDisfruta de tus comidas en un ambiente cálido y familiar. La atención personalizada del personal te hará sentir como en casa.\n\nSe realizan Eventos y Cumpleaños con o sin servicio.",
-    "horarios": "Lunes , Martes y Jueves  y Domingos de 12 a 16hs - Miércoles cerrados - Viernes y Sábados de 12 a16 y de 21 a 24hs",
+    "horario": "Lunes , Martes y Jueves  y Domingos de 12 a 16hs - Miércoles cerrados - Viernes y Sábados de 12 a16 y de 21 a 24hs",
     "image": [
       "https://i.imgur.com/W31Ou7h.jpeg",
       "https://i.imgur.com/U89II4h.jpeg",
@@ -14,7 +14,7 @@
     "category": "Lugares para comer",
 
     "name": "Yanina",
-    "phone": "+54 9 11 6962-2127",
+    "phone": "1169622127",
     "status": "Premium",
     "location": {
       "latitude": -32.618943,
@@ -24,15 +24,16 @@
       "website": "",
       "instagram": "https://www.instagram.com/posadaelalgarrobo/",
       "facebook": ""
-    }
+    },
+    "tags": ["Restaurante", "Comida regional", "Eventos", "Cumpleaños", "Almuerzo", "Cena","Pastas","Delivery"]
   },
   {
     "id": 2,
-    "title": "Nombre del lugar 2",
-    "description": "This is Card 2",
-    "category": "Lugares para comer",
-    "name": "Name 2",
-    "phone": "098-765-4321",
+    "title": "Policia",
+    "description": "Numero de telefono de la policia.",
+    "category": "Telefonos utiles",
+    "name": "Policia",
+    "phone": "101",
 
     "status": "Free",
     "location": {
@@ -43,7 +44,8 @@
       "website": "https://www.example.com",
       "instagram": "https://www.instagram.com/example",
       "facebook": "https://www.facebook.com/example"
-    }
+    },
+    "tags": ["Tag 1", "Tag 2", "Tag 3"]
   },
   {
     "id": 3,
@@ -61,7 +63,8 @@
       "website": "https://www.example.com",
       "instagram": "https://www.instagram.com/example",
       "facebook": "https://www.facebook.com/example"
-    }
+    },
+    "tags": ["Tag 1", "Tag 2", "Tag 3"]
   },
   {
     "id": 4,
@@ -87,7 +90,8 @@
       "website": "https://www.example.com",
       "instagram": "https://www.instagram.com/example",
       "facebook": "https://www.facebook.com/example"
-    }
+    },
+    "tags": ["Dique",  "Pesca", "Kayak", "Caminatas", "Cabalgatas", "Mountain bike"]
   },
   {
     "id": 5,
@@ -110,14 +114,16 @@
       "website": "https://www.example.com",
       "instagram": "https://www.instagram.com/example",
       "facebook": "https://www.facebook.com/example"
-    }
+    },
+    
+    "tags": ["Museo", "Visitas guiadas", "Talleres educativos", "Monumento Histórico Nacional"]
   },
   {
     "id": 6,
     "title": "Salto Escondido",
     "description": "El Salto Escondido es una de las Siete Maravillas Naturales de San Luis y un destino imperdible para los amantes de la naturaleza. Se encuentra en la localidad de San Francisco del Monte de Oro, a unos 12 kilómetros del centro de la ciudad.\n\nEl Salto Escondido es una cascada de 70 metros de altura que se precipita desde un farallón rocoso, creando una imagen imponente y cautivadora. El agua cae en una olla de color esmeralda de 8 metros de diámetro y 5 metros de profundidad, rodeada de vegetación autóctona.",
     "category": "Lugares que tenes que conocer",
-
+"alert":"Consultar en la seccion de Guias turiscas y Actividades recreativas para realizar la visita",
     "status": "Lugares",
     "dificultad": "Alta",
     "image": [
@@ -132,14 +138,15 @@
       "website": "https://www.example.com",
       "instagram": "https://www.instagram.com/example",
       "facebook": "https://www.facebook.com/example"
-    }
+    },
+    "tags": ["Cascada", "Maravilla Natural", "Senderismo", "Trekking"]
   },
   {
     "id": 7,
     "title": "Salto de las Gemelas",
-    "description": "El Salto de las Gemelas es una cascada de 60 metros de altura ubicada en la localidad de San Francisco del Monte de Oro, en la provincia de San Luis, Argentina. Se encuentra dentro de la Reserva Natural Provincial** El Chañar **y es un destino ideal para los amantes de la naturaleza y el senderismo",
+    "description": "El Salto de las Gemelas es una cascada de 60 metros de altura ubicada en la localidad de San Francisco del Monte de Oro, en la provincia de San Luis, Argentina. Se encuentra dentro de la Reserva Natural Provincial** El Chañar **y es un destino ideal para los amantes de la naturaleza y el senderismo\n\nCONSULTAR EN TURISMO!!",
     "category": "Lugares que tenes que conocer",
-
+    "alert":"Consultar en la seccion de Guias turiscas y Actividades recreativas para realizar la visita",
     "status": "Lugares",
     "dificultad": "Media",
     "image": [
@@ -155,14 +162,15 @@
       "website": "https://www.example.com",
       "instagram": "https://www.instagram.com/example",
       "facebook": "https://www.facebook.com/example"
-    }
+    },
+    "tags": ["Cascada", "Reserva Natural", "Senderismo", "Trekking"]
   },
   {
     "id": 8,
     "title": "Ollas de Rio Gomez",
     "description": "Las Ollas de Río Gómez son un conjunto de pozas naturales de aguas cristalinas y color verde esmeralda, ubicadas en el Valle de Conlara, en la provincia de San Luis, Argentina. Se encuentran a orillas del Río Gómez, a unos 10 kilómetros de la localidad de San Francisco del Monte de Oro",
     "category": "Lugares que tenes que conocer",
-
+    
     "status": "Lugares",
     "dificultad": "Media",
     "image": ["https://i.imgur.com/NHN2CBR.jpeg"],
@@ -174,7 +182,8 @@
       "website": "https://www.example.com",
       "instagram": "https://www.instagram.com/example",
       "facebook": "https://www.facebook.com/example"
-    }
+    },
+    "tags": ["Pozas naturales", "Aguas cristalinas", "Valle de Conlara"]
   },
   {
     "id": 9,
@@ -184,7 +193,7 @@
 
     "status": "Lugares",
     "dificultad": "Media",
-    "iamge": ["https://i.imgur.com/KJVCeoV.jpeg"],
+    "image  ": ["https://i.imgur.com/KJVCeoV.jpeg"],
     "location": {
       "latitude": -32.673947,
       "longitude": -66.145165
@@ -193,14 +202,15 @@
       "website": "https://www.example.com",
       "instagram": "https://www.instagram.com/example",
       "facebook": "https://www.facebook.com/example"
-    }
+    },
+    "tags": ["Embalse", "Naturaleza"]
   },
   {
     "id": 10,
     "title": "Quebrada de Lopez",
-    "description": "La Quebrada de López es un cañón natural de gran belleza ubicado en la localidad de San Francisco del Monte de Oro, en la provincia de San Luis, Argentina. Se encuentra a solo 4 kilómetros del centro de la ciudad\n\nUn lugar de gran belleza natural. Sus paredes de arenisca roja alcanzan hasta 80 metros de altura, creando un paisaje imponente y cautivador. En el fondo de la quebrada se encuentra un río de aguas cristalinas que invita a disfrutar de un refrescante baño",
+    "description": "La Quebrada de López es un cañón natural de gran belleza ubicado en la localidad de San Francisco del Monte de Oro, en la provincia de San Luis, Argentina. Se encuentra a solo 4 kilómetros del centro de la ciudad\n\nUn lugar de gran belleza natural. Sus paredes de arenisca roja alcanzan hasta 80 metros de altura, creando un paisaje imponente y cautivador. En el fondo de la quebrada se encuentra un río de aguas cristalinas que invita a disfrutar de un refrescante baño.",
     "category": "Lugares que tenes que conocer",
-
+    "alert": "Unicamente con vehiculos todo terreno",
     "status": "Lugares",
     "dificultad": "Baja",
     "image": ["https://i.imgur.com/uLHAxVx.jpeg"],
@@ -212,12 +222,13 @@
       "website": "https://www.example.com",
       "instagram": "https://www.instagram.com/example",
       "facebook": "https://www.facebook.com/example"
-    }
+    },
+    "tags": ["Cañón natural", "Arenisca roja", "Río de aguas cristalinas"]
   },
   {
     "id": 11,
-    "title": "Mirador del Cerro",
-    "description": "El Mirador del Cerro ofrece una vista panorámica de la ciudad de San Francisco del Monte de Oro, el Valle de Conlara y las sierras Comechingones. Desde el mirador se pueden observar los principales atractivos turísticos de la zona\n\nUbicado en la localidad de San Francisco del Monte de Oro, en la provincia de San Luis, Argentina. Se encuentra a solo 5 kilómetros del centro de la ciudad, por la Ruta Provincial N° 20.",
+    "title": "Mirador Rodeo de Gallinas",
+    "description": "El Mirador del Cerro ofrece una vista panorámica de la ciudad de San Francisco del Monte de Oro, el Valle de Conlara y las sierras Comechingones. Desde el mirador se pueden observar los principales atractivos turísticos de la zona\n\nUbicado en la localidad de San Francisco del Monte de Oro, en la provincia de San Luis, Argentina. Se encuentra a solo 5 kilómetros del centro de la ciudad, por la Ruta Provincial N° 20.\n\n Cuenta con un punto WIFI gratuito para los visitantes, que te permite compartir en tus redes sociales toda la belleza que ofrece el lugar.",
     "category": "Lugares que tenes que conocer",
 
     "status": "Lugares",
@@ -231,7 +242,8 @@
       "website": "https://www.example.com",
       "instagram": "https://www.instagram.com/example",
       "facebook": "https://www.facebook.com/example"
-    }
+    },
+    "tags": ["Mirador", "Vista panorámica", "Valle de Conlara", "Sierras Comechingones","WIFI"]
   },
   {
     "id": 12,
@@ -239,7 +251,7 @@
     "description": "El arte prehistorico esta presente en San Francisco del Monte de Oro en mas de un centenar de yacimientos de arte rupestre localizado en las serranias y son tan antigos como la presencia de los primitivos habitantes de esas tierras\n\nEn la zona se pueden ver pinturas rupestres datadas en unos 6.000 años antes de Cristo. Las pinturas muestran puntos, lineas , formas, objetos antropomorfos y zoomorfos en pictogradias y petroglifos\n\nUn lugar que no podes dejar de visitar si te gusta la historia y la naturaleza.",
 
     "category": "Lugares que tenes que conocer",
-
+    "alert":"Consultar en la seccion de Guias turiscas y Actividades recreativas para realizar la visita",
     "status": "Lugares",
     "dificultad": "Baja",
     "image": [
@@ -254,14 +266,15 @@
       "website": "https://www.example.com",
       "instagram": "https://www.instagram.com/example",
       "facebook": "https://www.facebook.com/example"
-    }
+    },
+    "tags": ["Pinturas rupestres", "Arte prehistorico", "Yacimientos", "Serranias"]
   },
   {
     "id": 13,
     "title": "Cascada de Rio Gomez",
     "description": "La Cascada del Río Gómez es una cascada de 20 metros de altura ubicada en la localidad de San Francisco del Monte de Oro, en la provincia de San Luis, Argentina. Se encuentra dentro de la Reserva Natural Provincial El Chañar y es un destino ideal para los amantes de la naturaleza y el senderismo\n\nLa cascada está formada por el Río Gómez que se precipita desde un farallón rocoso, creando una imagen imponente y cautivadora. El agua cae en una olla de color verde esmeralda, rodeada de vegetación autóctona.",
     "category": "Lugares que tenes que conocer",
-
+    "alert":"Consultar en la seccion de Guias turiscas y Actividades recreativas para realizar la visita",
     "status": "Lugares",
     "dificultad": "Alta",
     "image": ["https://i.imgur.com/NHN2CBR.jpeg"],
@@ -273,7 +286,8 @@
       "website": "https://www.example.com",
       "instagram": "https://www.instagram.com/example",
       "facebook": "https://www.facebook.com/example"
-    }
+    },
+    "tags": ["Cascada", "Reserva Natural", "Senderismo", "Trekking"]
   },
   {
     "id": 14,
@@ -282,7 +296,8 @@
     "category": "Construccion",
     "name": "ALEJANDRO JOSÉ AGÜERO",
     "phone": "2665002361",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Construccion", "Plomeria", "Gas", "Electricidad", "Carpinteria", "Herreria"]
   },
   {
     "id": 15,
@@ -291,7 +306,8 @@
     "category": "Holisticos",
     "name": "Lic. Laura Ponce",
     "phone": "1151555581",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Consteladora", "Sistémica", "Configuraciones", "Imágenes", "Bert Hellinger"]  
   },
   {
     "id": 16,
@@ -300,7 +316,8 @@
     "category": "Actividades recreativas",
     "name": "Laura Ponce",
     "phone": "1151555581",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Alquiler", "Bicicletas", "MTB", "Mountaine bike", "Todo terreno"]
   },
   {
     "id": 17,
@@ -309,7 +326,8 @@
     "category": "Clases y Talleres",
     "name": "Roberto Lencina",
     "phone": "1167395457",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Clases", "Escultura", "Modelado", "Arcilla", "Charlas", "Temáticas"]
   },
   {
     "id": 18,
@@ -319,7 +337,8 @@
     "subCategory": "Instalaciones ",
     "name": "Roberto Lencina",
     "phone": "1167395457",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Instalaciones", "Trabajos", "Artísticos"]
   },
   {
     "id": 19,
@@ -328,14 +347,15 @@
     "category": "Productores - Emprendedores",
     "name": "Laura Ponce",
     "phone": "1151555581",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Confección", "Piezas", "Arcillas", "Locales", "Método", "Ancestral", "Diseño", "Azulejos", "Decorativos"]
   },
 
   {
     "id": 20,
     "title": "Ari Tarot - Reiki",
     "description": "Explora un oasis de bienestar y autoconocimiento en nuestros servicios holísticos, donde cada experiencia te invita a sumergirte en la profundidad de tu ser. Desde fascinantes lecturas de tarot hasta la reveladora apertura de Registros Akáshicos, pasando por la energía sanadora del Reiki y las sutiles Flores de Bach, nuestro abanico de técnicas tejiendo un camino hacia la armonía integral. Te ofrecemos un acompañamiento holístico, donde el cuidado de tu cuerpo, mente y espíritu se entrelazan para guiarte hacia tu máximo potencial. ¡Descubre el poder transformador de la conexión interior\n\n Solo con turno previo",
-    "horarios": "",
+    "horario": "",
     "image": [
       "https://i.imgur.com/iDuCcTQ.jpeg",
       "https://i.imgur.com/4bPrdz5.jpeg",
@@ -356,13 +376,14 @@
       "website": "",
       "instagram": "",
       "facebook": ""
-    }
+    },
+    "tags": ["Tarot", "Reiki", "Registros Akáshicos", "Flores de Bach", "Armonía integral", "Conexión interior"]
   },
   {
     "id": 21,
     "title": "Posada El Algarrobo",
     "description": "¡Bienvenido a la Posada El Albarrobo, tu santuario de paz en San Francisco del Monte de Oro! Sumérgete en un paraíso de verdor y serenidad, donde extensos jardines te invitan a explorar y relajarte en armonía con la naturaleza. Destacándose entre el paisaje, una impresionante piscina de generosas dimensiones te espera para refrescar tus sentidos bajo el sol radiante de San Luis.\n\nCada rincón de esta posada irradia belleza y comodidad, brindándote un refugio donde el lujo se entrelaza con la calidez del hogar. Descansa en nuestras habitaciones equipadas con aire acondicionado, donde la modernidad se fusiona con la elegancia rústica de la región. Mantente conectado con el mundo gracias a nuestra conexión Wi-Fi de alta velocidad, mientras te sumerges en la tranquilidad del entorno.\n\nYa sea que busques una escapada romántica, unas vacaciones en familia o simplemente un retiro para reconectar contigo mismo, la Posada El Albarrobo te espera con los brazos abiertos para ofrecerte una experiencia inolvidable. ¡Descubre el encanto de la vida campestre en su máxima expresión!",
-    "horarios": "Abierto todo el año",
+    "horario": "Abierto todo el año",
     "image": [
       "https://i.imgur.com/UJb4Y3E.jpeg",
       "https://i.imgur.com/i1lJ8mi.jpeg",
@@ -370,7 +391,7 @@
       "https://i.imgur.com/rafFjbp.jpeg",
       "https://i.imgur.com/hJKBvq3.jpeg"
     ],
-    "category": "Lugares para quedarse",
+    "category": "Cabañas - Alojamientos -Campings",
     "subCategory": "",
     "name": "Viviana",
     "phone": "+5492657493676",
@@ -384,13 +405,14 @@
       "website": "",
       "instagram": "",
       "facebook": ""
-    }
+    },
+    "tags": ["Posada", "Paz", "Santuario", "Verdor", "Serenidad", "Jardines", "Piscina", "Habitaciones", "Aire acondicionado", "WiFi", "Vacaciones", "Retiro", "Experiencia","Alojamiento", "Cabañas"]
   },
   {
     "id": 22,
     "title": "Camping las Palmas",
     "description": "Imagina despertar con el susurro de las hojas y el canto de las aves, mientras el sol acaricia tu rostro y te invita a una jornada llena de aventuras en medio de la naturaleza virgen de las serranías.\n\nEn Camping Las Palmas, cada día es una nueva oportunidad para explorar y descubrir. Desde parcelas amplias y sombreadas hasta baños impecables y una proveeduría bien surtida, hemos pensado en cada detalle para garantizarte una estadía confortable y sin preocupaciones.\n\n¿Qué te apetece hacer hoy? Sumérgete en nuestra refrescante piscina, desafía al río San Francisco en un emocionante paseo en kayak, o simplemente relájate junto al asador compartiendo deliciosas comidas al aire libre con tus seres queridos.\n\nYa sea que vengas en familia, en pareja o con amigos, en Camping Las Palmas encontrarás tu lugar. ¡Reserva hoy mismo y prepárate para vivir una experiencia de camping como ninguna otra!",
-    "horarios": "Abierto todo el año",
+    "horario": "Abierto todo el año",
     "image": [
       "https://i.imgur.com/lwptB74.jpeg",
       "https://i.imgur.com/bRq49ju.jpeg",
@@ -398,7 +420,7 @@
       "https://i.imgur.com/2cvHHuP.jpeg",
       "https://i.imgur.com/XcI7apQ.jpeg"
     ],
-    "category": "Lugares para quedarse",
+    "category": "Cabañas - Alojamientos -Campings",
     "subCategory": "",
     "name": "Alicia",
     "phone": "+5493516210400",
@@ -411,7 +433,8 @@
       "website": "",
       "instagram": "",
       "facebook": ""
-    }
+    },
+    "tags": ["Camping", "Naturaleza", "Parcelas", "Baños", "Proveeduría", "Piscina", "Río San Francisco", "Asador", "Comidas al aire libre","Despensa"]
   },
   {
     "id": 23,
@@ -420,7 +443,8 @@
     "category": "Remises",
     "name": "Juan Garay",
     "phone": "",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Remis", "Transporte", "Viajes", "Traslados", "Servicio", "Conductor", "Vehiculo" ]
   },
   {
     "id": 24,
@@ -433,177 +457,195 @@
     "location": {
       "latitude": -32.59218,
       "longitude": -66.131925
-    }
+    },
+    "tags": ["Conservas", "Verduras", "Escabeches", "Morrones", "Agridulces"]
   },
   {
     "id": 25,
-    "title": "Plomeria",
+    "title": "Plomeria Ricardo Guiñazu",
     "description": "Servicio de plomeria.",
     "category": "Servicios",
     "subCategory": "Plomeria",
     "name": "Ricardo Guiñazu",
     "phone": "2665015922",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Plomeria", "Servicio", "Reparaciones", "Instalaciones", "Mantenimiento", "Cañerias", "Griferia"]
   },
   {
     "id": 26,
-    "title": "Plomeria",
+    "title": "Plomeria Ariel Garay",
     "description": "Servicio de plomeria.",
     "category": "Servicios",
     "subCategory": "Plomeria",
     "name": "Ariel Garay",
     "phone": "2664690767",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Plomeria", "Servicio", "Reparaciones", "Instalaciones", "Mantenimiento", "Cañerias", "Griferia"]
   },
   {
     "id": 27,
-    "title": "Plomeria",
+    "title": "Plomeria Jose Velazquez",
     "description": "Servicio de plomeria.",
     "category": "Servicios",
     "subCategory": "Plomeria",
     "name": "Jose Velazquez",
     "phone": "2664206988",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Plomeria", "Servicio", "Reparaciones", "Instalaciones", "Mantenimiento", "Cañerias", "Griferia"]
   },
   {
     "id": 28,
-    "title": "Plomeria",
+    "title": "Plomeria Marcelo Kowalik",
     "description": "Servicio de plomeria.",
     "category": "Servicios",
     "subCategory": "Plomeria",
     "name": "Marcelo Kowalik",
     "phone": "2664327067",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Plomeria", "Servicio", "Reparaciones", "Instalaciones", "Mantenimiento", "Cañerias", "Griferia"]
   },
   {
     "id": 29,
-    "title": "Plomeria",
+    "title": "Plomeria Martin Islas",
     "description": "Servicio de plomeria.",
     "category": "Servicios",
     "subCategory": "Plomeria",
     "name": "Martin Islas",
     "phone": "2664212831",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Plomeria", "Servicio", "Reparaciones", "Instalaciones", "Mantenimiento", "Cañerias", "Griferia"]
   },
   {
     "id": 30,
-    "title": "Electricista",
+    "title": "Electricista Rodrigo Molina",
     "description": "Servicio de electricista.",
     "category": "Servicios",
     "subCategory": "Electricista",
     "name": "Rodigro Molina",
     "phone": "2664687898",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Electricista", "Servicio", "Reparaciones", "Instalaciones", "Mantenimiento", "Cableado", "Tableros"]
   },
   {
     "id": 31,
-    "title": "Electricista",
+    "title": "Electricista Exequiel Alvarez",
     "description": "Servicio de electicista.",
     "category": "Servicios",
     "subCategory": "Electricista",
     "name": "Exequiel Alvarez",
     "phone": "2664681663",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Electricista", "Servicio", "Reparaciones", "Instalaciones", "Mantenimiento", "Cableado", "Tableros"]
   },
   {
     "id": 32,
-    "title": "Electricista",
+    "title": "Electricista Julio Lacuesta",
     "description": "Servicio de electricista.",
     "category": "Servicios",
     "subCategory": "Electricista",
     "name": "Julio Lacuesta",
     "phone": "2664209580",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Electricista", "Servicio", "Reparaciones", "Instalaciones", "Mantenimiento", "Cableado", "Tableros"]
   },
   {
     "id": 33,
-    "title": "Albañileria",
+    "title": "Albañileria Oscar Moyano",
     "description": "Servicio de albañil.",
     "category": "Servicios",
     "subCategory": "Albañileria",
     "name": "Oscar Moyano",
     "phone": "2664629133",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Albañileria", "Servicio", "Reparaciones", "Construcciones", "Mantenimiento", "Paredes", "Techos"]
   },
   {
     "id": 34,
-    "title": "Albañileria",
+    "title": "Albañileria Gustavo Gatica",
     "description": "Servicio de albañil.",
     "category": "Servicios",
     "subCategory": "Albañileria",
     "name": "Gustavo Gatica",
     "phone": "2664202623",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Albañileria", "Servicio", "Reparaciones", "Construcciones", "Mantenimiento", "Paredes", "Techos"]
   },
   {
     "id": 35,
-    "title": "Albañileria",
+    "title": "Albañileria Eduardo Aguero",
     "description": "Servicio de albañil.",
     "category": "Servicios",
     "subCategory": "Albañileria",
     "name": "Eduardo Aguero",
     "phone": "2664220340",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Albañileria", "Servicio", "Reparaciones", "Construcciones", "Mantenimiento", "Paredes", "Techos"]
   },
   {
     "id": 36,
-    "title": "Albañileria",
+    "title": "Albañileria Guillermo Sosa",
     "description": "Servicio de albañil.",
     "category": "Servicios",
     "subCategory": "Albañileria",
     "name": "Guillermo Sosa",
     "phone": "2664002454",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Albañileria", "Servicio", "Reparaciones", "Construcciones", "Mantenimiento", "Paredes", "Techos"]
   },
   {
     "id": 37,
-    "title": "Albañileria",
+    "title": "Albañileria Rafael Cabrera",
     "description": "Servicio de albañil.",
     "category": "Servicios",
     "subCategory": "Albañileria",
     "name": "Rafael Cabrera",
     "phone": "2664662960",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Albañileria", "Servicio", "Reparaciones", "Construcciones", "Mantenimiento", "Paredes", "Techos"]
   },
   {
     "id": 38,
-    "title": "Albañileria",
+    "title": "Albañileria Americo Vallejo",
     "description": "Servicio de albañil.",
     "category": "Servicios",
     "subCategory": "Albañileria",
     "name": "Americo Vallejo",
     "phone": "2664779708",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Albañileria", "Servicio", "Reparaciones", "Construcciones", "Mantenimiento", "Paredes", "Techos"]
   },
   {
     "id": 39,
-    "title": "Albañileria",
+    "title": "Albañileria Daniel Flores",
     "description": "Servicio de albañil.",
     "category": "Servicios",
     "subCategory": "Albañileria",
     "name": "Daniel Flores ",
     "phone": "2664773987",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Albañileria", "Servicio", "Reparaciones", "Construcciones", "Mantenimiento", "Paredes", "Techos"]
   },
   {
     "id": 40,
-    "title": "Pintor",
+    "title": "Pintor Agustin Facturita",
     "description": "Trabajos de pintura.",
     "category": "Servicios",
     "subCategory": "Pintor",
     "name": "Agustin Facturita",
     "phone": "265046055",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Pintor", "Servicio", "Pintura", "Mantenimiento"]
   },
   {
     "id": 41,
-    "title": "Pintor",
+    "title": "Pintor Luis Lescano",
     "description": "Trabajos de pintura.",
     "category": "Servicios",
     "subCategory": "Pintor",
     "name": "Luis Lescano",
     "phone": "2665048776",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Pintor", "Servicio", "Pintura", "Mantenimiento"]
   },
   {
     "id": 42,
@@ -613,27 +655,30 @@
     "subCategory": "Pintor",
     "name": "Carlos Sosa",
     "phone": "2664202623",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Instalaciones", "DirecTv", "Servicio", "Mantenimiento", "Antenas" ]
   },
   {
     "id": 43,
-    "title": "Herreria",
+    "title": "Herreria Cristian Barile",
     "description": "Trabajos de herreria.",
     "category": "Servicios",
     "subCategory": "Herreria",
     "name": "Cristian Barile",
     "phone": "2665016782",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Herreria", "Servicio"]
   },
   {
     "id": 44,
-    "title": "Herreria",
+    "title": "Herreria Palomo",
     "description": "Trabajos de herreria.",
     "category": "Servicios",
     "subCategory": "Herreria",
     "name": "Palomo",
     "phone": "2664628978",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Herreria", "Servicio"]
   },
   {
     "id": 45,
@@ -643,7 +688,8 @@
     "subCategory": "",
     "name": "Gaston Sanchez",
     "phone": "1131959772",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Construccion", "Cabañas", "Servicio"]
   },
   {
     "id": 46,
@@ -661,7 +707,8 @@
   },
   "image": [
     "https://i.imgur.com/5oYtgMs.jpeg"
-   ]
+   ],
+    "tags": ["Maderera", "Madera", "Construccion", "Tirantes", "Machimbres", "Pilares", "Envios", "Domicilio", "Presupuesto"]
   },
   {
     "id": 47,
@@ -671,27 +718,30 @@
     "subCategory": "",
     "name": "Juan Carlos",
     "phone": "2664895414",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Construccion", "Cabañas", "Servicio"]
   },
   {
     "id": 48,
-    "title": "Instalacion y refrigeracion",
+    "title": "Instalacion y refrigeracion Mario Muñoz",
     "description": "Instalacion y refrigeracion de aires acondicionados.",
     "category": "Servicios",
     "subCategory": "Instalaciones ",
     "name": "Mario Muñoz",
     "phone": "2664406730",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Instalacion", "Refrigeracion", "Aires acondicionados"]
   },
   {
     "id": 49,
-    "title": "Instalaciones y refrigeracion",
+    "title": "Instalaciones y refrigeracion Sebastian",
     "description": "Instalacion y refrigeracion de aires acondicionados.",
     "category": "Servicios",
     "subCategory": "Instalaciones ",
     "name": "Sebastian ",
     "phone": "1131740744",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Instalacion", "Refrigeracion", "Aires acondicionados"]
   },
   {
     "id": 50,
@@ -701,17 +751,19 @@
     "subCategory": "Electricista",
     "name": "Damian",
     "phone": "1154664349",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Electricista", "Servicio", "Reparaciones", "Instalaciones", "Mantenimiento", "Cableado", "Tableros"]
   },
   {
     "id": 51,
-    "title": "Construccion de cabañas",
-    "description": "Construccion de cabañas.",
-    "category": "Construccion",
-    "subCategory": "",
-    "name": "Juan Carlos",
-    "phone": "2664895414",
-    "status": "Free"
+    "title": "Albañileria Raul",
+    "description": "Trabajos de albañileria en general",
+    "category": "Servicios",
+    "subCategory": "Albañileria",
+    "name": "Raul",
+    "phone": "2664734859",
+    "status": "Free",
+    "tags": ["Albañileria", "Servicio", "Reparaciones", "Construcciones", "Mantenimiento", "Paredes", "Techos"]
   },
   {
     "id": 52,
@@ -725,7 +777,8 @@
     "location": {
       "latitude": -32.58704,
       "longitude": -66.126068
-    }
+    },
+    "tags": ["Productos", "Naturales", "Saludables", "Medicinales", "Shampoo", "Cremas", "Protector solar", "Detergente solido"]
   },
   {
     "id": 53,
@@ -739,7 +792,8 @@
     "location": {
       "latitude": -32.58704,
       "longitude": -66.126068
-    }
+    },
+    "tags": ["Hierbas", "Medicinales", "Infusion", "Te", "Mate", "Terere"]
   },
   {
     "id": 54,
@@ -753,7 +807,8 @@
     "location": {
       "latitude": -32.58704,
       "longitude": -66.126068
-    }
+    },
+    "tags": ["Mecanica", "Distribucion", "Tren delantero", "Lavado de inyectores"]
   },
   {
     "id": 55,
@@ -767,7 +822,8 @@
     "location": {
       "latitude": -32.594867,
       "longitude": -66.124868
-    }
+    },
+    "tags": ["Herramientas", "Libros", "Revistas", "Utensilios", "Casa"]
   },
   {
     "id": 56,
@@ -781,7 +837,8 @@
     "location": {
       "latitude": -32.58704,
       "longitude": -66.126068
-    }
+    },
+    "tags": ["Motos", "Cilindrada", "Servicios", "Rectificaciones", "Alesados", "Repuestos"]
   },
   {
     "id": 57,
@@ -796,7 +853,8 @@
     "location": {
       "latitude": -32.58704,
       "longitude": -66.126823
-    }
+    },
+    "tags": ["Indumentaria", "Ropa deportiva", "Multimarcas", "Originales"]
   },
   {
     "id": 58,
@@ -810,7 +868,8 @@
     "location": {
       "latitude": -32.58704,
       "longitude": -66.126068
-    }
+    },
+    "tags": ["Mecanica", "Distribucion", "Tren delantero", "Lavado de inyectores"]
   },
   {
     "id": 59,
@@ -824,7 +883,8 @@
     "location": {
       "latitude": -32.612832,
       "longitude": -66.136981
-    }
+    },
+    "tags": ["Joyas", "Artesanales", "Piedras"]
   },
   {
     "id": 60,
@@ -838,7 +898,8 @@
     "location": {
       "latitude": -32.612832,
       "longitude": -66.136981
-    }
+    },
+    "tags": ["Aromaterapia", "Perfumes", "Esencias", "Emociones"]
   },
   {
     "id": 61,
@@ -852,7 +913,8 @@
     "location": {
       "latitude": -32.544917,
       "longitude": -66.135115
-    }
+    },
+    "tags": ["Anotadores", "Agendas", "Artesanales", "Cuadros", "Madera", "Pintado a mano", "Diseños únicos", "Pedidos personalizados"]
   },
   {
     "id": 62,
@@ -862,7 +924,8 @@
     "subCategory": "",
     "name": "Tamara Zaslavsky",
     "phone": "2664663623",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Clases", "Computacion", "Programacion", "Edades" ]
   },
   {
     "id": 63,
@@ -876,7 +939,8 @@
     "location": {
       "latitude": -32.603123,
       "longitude": -66.126358
-    }
+    },
+    "tags": ["Servicio", "Tecnico", "Electronico", "Diseñador", "Grafico", "Desarrollador", "Web"]
   },
   {
     "id": 64,
@@ -886,17 +950,24 @@
     "subCategory": "",
     "name": "Gabriel Marcelo Sosa",
     "phone": "2657219252",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Venta", "Gas", "Garrafas", "Envios", "Domicilio"]
   },
   {
     "id": 65,
-    "title": "Remis Horacio",
-    "description": " Servicio de remis",
-    "category": "Remises",
+    "title": "Acuarella - Libreria",
+    "description": "Libreria y papeleria",
+    "category": "Librerias",
     "subCategory": "",
-    "name": "Horacio",
-    "phone": "2664367466",
-    "status": "Free"
+    "name": "Acuarella",
+    "horario": "Lunes a viernes de 7 a 13 y de 18 a 21:30hs - Sabados de 9:30 a 13:30",
+    "phone": "2651412028",
+    "status": "Free",
+    "location": {
+      "latitude": -32.597032,
+      "longitude": -66.126725
+    },
+    "tags": ["Libreria", "Papeleria" ]
   },
   {
     "id": 66,
@@ -906,7 +977,8 @@
     "subCategory": "",
     "name": "Sara",
     "phone": "2664732383",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Remis", "Servicio", "Transporte", "Viajes", "Traslados", "Conductor", "Vehiculo"]
   },
   {
     "id": 67,
@@ -916,13 +988,14 @@
     "subCategory": "",
     "name": "Roque Rivero",
     "phone": "2665041549",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Radio", "Frecuencia", "Musica", "Informacion", "Entretenimiento", "Cultura"]
   },
   {
     "id": 68,
     "title": "Cabañas MISKY WAYRA",
     "description": "Complejo de Cabañas Misky Wayra.  Contamos desde cabañitas monoambiente a Cabañas de 3 dormitorios. Pileta con jacuzzi , bajada exclusiva al Río San Francisco,  Aire Acondicionado , Quincho cerrado con parrillas , horno industrial, disco. Amplio parque con arboleda y total seguridad para niños",
-    "category": "Lugares para quedarse",
+    "category": "Cabañas - Alojamientos -Campings",
     "subCategory": "",
     "name": "Danisa",
     "phone": "222615603481",
@@ -930,7 +1003,8 @@
     "location": {
       "latitude": -32.606836,
       "longitude": -66.122838
-    }
+    },
+    "tags": ["Cabañas", "Monoambiente", "Dormitorios", "Pileta", "Jacuzzi", "Río San Francisco", "Aire Acondicionado", "Quincho", "Parrillas", "Horno industrial", "Disco", "Parque", "Arboleda", "Seguridad", "Niños"]
   },
   {
     "id": 69,
@@ -940,7 +1014,8 @@
     "subCategory": "Corte de pasto y desmonte",
     "name": "Juan Ramon Gil",
     "phone": "2664625813",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Corte de pasto", "Servicio", "Jardineria", "Desmonte"]
   },
   {
     "id": 70,
@@ -954,7 +1029,8 @@
     "location": {
       "latitude": -32.592980,
       "longitude": -66.127010
-    }
+    },
+    "tags": ["Indumentaria", "Ropa", "Repartos", "Domicilio"]
   },
   {
     "id": 71,
@@ -968,7 +1044,8 @@
     "location": {
       "latitude": -32.592980,
       "longitude": -66.127010
-    }
+    },
+    "tags": ["Tupperware", "Accesorios", "Hogar", "Repartos", "Domicilio"]
   },
   {
     "id": 72,
@@ -978,7 +1055,8 @@
     "subCategory": "",
     "name": "Fabiana Barroso",
     "phone": "2614196618",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Regionales", "Vinos", "Miel", "Dulces", "Salsas", "Escabeches", "Organico", "Artesanal"]
     
   },
   {
@@ -989,18 +1067,20 @@
     "subCategory": "Paisajismo",
     "name": "Fabiana Barroso",
     "phone": "2614196618",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Paisajismo", "Servicio", "Jardineria", "Diseño", "Mantenimiento", "Plantas", "Flores"]
     
   },
   {
     "id": 74,
-    "title": "Reparacion Electronica",
+    "title": "Reparacion Electronica Juan Pablo Prez",
     "description": "Servicio de reparacion electronica",
     "category": "Servicios",
     "subCategory": "Reparacion Electronica",
     "name": "Juan Pablo Prez",
     "phone": "1169814412",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Reparacion", "Electronica", "Servicio", "Tecnico", "Componentes", "Placas", "Circuitos"]
     
   },
    {
@@ -1016,7 +1096,8 @@
     "location": {
       "latitude": -32.599957,
       "longitude": -66.126236
-    }
+    },
+    "tags": ["Autoservicio", "Despensa", "Polirubro", "Almacen", "Productos", "Comestibles", "Bebidas", "Limpieza", "Higiene", "Almacen"]
     
   },
   {
@@ -1032,7 +1113,8 @@
     "location": {
       "latitude": -32.598349,
       "longitude": -66.125988
-    }
+    },
+    "tags": ["Masajes", "Corporales", "Holistico", "Relajacion", "Bienestar", "Salud", "Cuerpo"]
     
   },
   {
@@ -1048,7 +1130,8 @@
     "location": {
       "latitude": -32.598349,
       "longitude": -66.125988
-    }
+    },
+    "tags": ["Terapia", "Holistica", "Terapias", "Online", "Presencial", "Bienestar", "Salud", "Cuerpo"]
     
   },
   {
@@ -1064,7 +1147,8 @@
     "location": {
       "latitude": -32.600792,
       "longitude": -66.127365
-    }
+    },
+    "tags": ["Panaderia", "Facturas", "Tortas", "Panes", "Galletas", "Elaboracion", "Propia"]
     
   },
   {
@@ -1080,15 +1164,16 @@
     "location": {
       "latitude": -32.594641,
       "longitude": -66.127845
-    }
+    },
+    "tags": ["Panaderia", "Facturas", "Tortas", "Panes", "Galletas", "Elaboracion", "Propia"]
     
   },
   {
     "id": 80,
     "title": "Naturalmente",
-    "description": "Dietetica. Productos para celíacos, diabeticos, veranos, deportistas.\n\nHarinas, cereales, legumbres, especias.\n\nAceites, vinagres, aderezos, conservas, dulces, mermeladas, frutos secos, semillas, frutas deshidratadas, leches vegetales, bebidas, infusiones, suplementos naturales.\n\nCientos de productos para quienes eligen comer sano y rico", 
+    "description": "Dietetica. Productos para celíacos, diabeticos, veganos, deportistas.\n\nHarinas, cereales, legumbres, especias.\n\nAceites, vinagres, aderezos, conservas, dulces, mermeladas, frutos secos, semillas, frutas deshidratadas, leches vegetales, bebidas, infusiones, suplementos naturales.\n\nCientos de productos para quienes eligen comer sano y rico", 
     
-    "horarios": "Lunes a sabados de 9 a 13 hs y de 17 a 21 hs - Domingos de 10 a 13 hs",
+    "horario": "Lunes a sabados de 9 a 13 hs y de 17 a 21 hs - Domingos de 10 a 13 hs",
     "image": [
       "https://i.imgur.com/vECARGc.jpeg",
       "https://i.imgur.com/85nq8uq.jpeg",
@@ -1109,7 +1194,8 @@
       "website": "",
       "instagram": "https://www.instagram.com/naturalmente.sanfrancisco/",
       "facebook": "https://www.facebook.com/profile.php?id=100009489944700"
-    }
+    },
+    "tags": ["Dietetica", "Productos", "Celiacos", "Diabeticos", "Veganos", "Deportistas", "Harinas", "Cereales", "Legumbres", "Especias", "Aceites", "Vinagres", "Aderezos", "Conservas", "Dulces", "Mermeladas", "Frutos secos", "Semillas", "Frutas deshidratadas", "Leches vegetales", "Bebidas", "Infusiones", "Suplementos naturales"]
   },
   {
     "id": 81,
@@ -1124,7 +1210,8 @@
     "location": {
       "latitude": -32.610793,
       "longitude": -66.126366
-    }
+    },
+    "tags": ["Carniceria", "Carnes", "Pollos",  "Verduras", "Frutas"]
     
   },
   {
@@ -1140,7 +1227,9 @@
     "location": {
       "latitude": -32.600507,
       "longitude": -66.127793
-    }
+    },
+    "tags": ["Quiniela", "Quini loto", "Quiniela", "Impuestos", "Rentas", "Sellados", "Edesal"]
+
     
   },
   {
@@ -1156,7 +1245,8 @@
     "location": {
       "latitude": -32.594927,
       "longitude": -66.127729
-    }
+    },
+    "tags": ["Quiniela", "Quini loto", "Quiniela", "Impuestos", "Rentas", "Sellados", "Edesal"]
     
   },
   {
@@ -1168,7 +1258,8 @@
     "name": "Cecilia Vera",
     "phone": "3546400528",
     "horario":"",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Yoga", "Multinivel", "Bienestar", "Integral", "Sesiones", "Grupales", "Personalizadas"]
   
     
   },
@@ -1185,7 +1276,8 @@
     "location": {
       "latitude": -32.597344,
       "longitude": -66.128025
-    }
+    },
+    "tags":["Alfajores", "Artesanal", "Envios"]
   
     
   },
@@ -1198,7 +1290,9 @@
     "name": "",
     "phone": "2665056056",
     "horario":"",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Radio", "FM", "Progrmas"]
+
   
     
   },
@@ -1211,7 +1305,8 @@
     "name": "Agustina",
     "phone": "2665021695",
     "horario":"",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Doula", "Acompañante", "Perinatal", "Puericultura", "Terapeurico", "Niños", "Adultos"]
   
     
   },
@@ -1248,7 +1343,9 @@
     "location": {
       "latitude": -32.600463,
       "longitude": -66.127785
-    }
+    },
+    "tags": ["Polirubro", "Maxikiosco", "Despensa", "Accesorios", "Celulares", "Plaza Pringles", "San Francisco del Monte de Oro"]
+
   
     
   },
@@ -1265,7 +1362,8 @@
     "location": {
       "latitude": -32.604055,
       "longitude": -66.128913
-    }
+    },
+    "tags": ["Gimnasia", "Taller", "Centro de Jubilados", "Pensionados", "Nacionales", "San Francisco del Monte de Oro", "Neguichita Quevedo", "Arbol de Vida"]
   
     
   },
@@ -1282,7 +1380,8 @@
     "location": {
       "latitude": -32.604055,
       "longitude": -66.128913
-    }
+    },
+    "tags": ["Yoga", "Clases", "Centro de Jubilados", "Pensionados", "Nacionales", "San Francisco del Monte de Oro", "Neguichita Quevedo", "Arbol de Vida"]
   
     
   },
@@ -1299,7 +1398,8 @@
     "location": {
       "latitude": -32.604055,
       "longitude": -66.128913
-    }
+    },
+    "tags": ["Terapias", "Alternativas", "Centro de Jubilados", "Pensionados", "Nacionales", "San Francisco del Monte de Oro", "Neguichita Quevedo", "Arbol de Vida"]
   
     
   },
@@ -1316,7 +1416,8 @@
     "location": {
       "latitude": -32.604055,
       "longitude": -66.128913
-    }
+    },
+    "tags": ["Reciclado", "Taller", "Centro de Jubilados", "Pensionados", "Nacionales", "San Francisco del Monte de Oro", "Neguichita Quevedo", "Arbol de Vida"]
   
     
   },
@@ -1333,7 +1434,8 @@
     "location": {
       "latitude": -32.604055,
       "longitude": -66.128913
-    }
+    },
+    "tags": ["Pintura", "Taller", "Centro de Jubilados", "Pensionados", "Nacionales", "San Francisco del Monte de Oro", "Neguichita Quevedo", "Arbol de Vida"]
   
     
   },
@@ -1350,7 +1452,8 @@
     "location": {
       "latitude": -32.604055,
       "longitude": -66.128913
-    }
+    },
+    "tags": ["Escultura", "Clases", "Centro de Jubilados", "Pensionados", "Nacionales", "San Francisco del Monte de Oro", "Neguichita Quevedo", "Arbol de Vida"]
   
     
   },
@@ -1367,7 +1470,8 @@
     "location": {
       "latitude": -32.604055,
       "longitude": -66.128913
-    }
+    },
+    "tags": ["Danzas", "Folcloricas", "Clases", "Centro de Jubilados", "Pensionados", "Nacionales", "San Francisco del Monte de Oro", "Neguichita Quevedo", "Arbol de Vida"]
   
     
   },
@@ -1384,7 +1488,8 @@
     "location": {
       "latitude": -32.604055,
       "longitude": -66.128913
-    }
+    },
+    "tags": ["Memoria", "Activa", "Taller", "Centro de Jubilados", "Pensionados", "Nacionales", "San Francisco del Monte de Oro", "Neguichita Quevedo", "Arbol de Vida"]
   
     
   },
@@ -1401,7 +1506,8 @@
     "location": {
       "latitude": -32.604055,
       "longitude": -66.128913
-    }
+    },
+    "tags": ["Tejido", "Clases", "Centro de Jubilados", "Pensionados", "Nacionales", "San Francisco del Monte de Oro", "Neguichita Quevedo", "Arbol de Vida"]
   
     
   },
@@ -1418,7 +1524,8 @@
     "location": {
       "latitude": -32.604055,
       "longitude": -66.128913
-    }
+    },
+    "tags": ["Corte", "Confeccion", "Clases", "Centro de Jubilados", "Pensionados", "Nacionales", "San Francisco del Monte de Oro", "Neguichita Quevedo", "Arbol de Vida"]
   
     
   },
@@ -1435,7 +1542,8 @@
     "location": {
       "latitude": -32.604055,
       "longitude": -66.128913
-    }
+    },
+    "tags": ["Masajes", "Piedras", "Centro de Jubilados", "Pensionados", "Nacionales", "San Francisco del Monte de Oro", "Neguichita Quevedo", "Arbol de Vida"]
   
     
   },
@@ -1452,7 +1560,8 @@
     "location": {
       "latitude": -32.604055,
       "longitude": -66.128913
-    }
+    },
+    "tags": ["Consultorio", "Medico", "PAMI", "Centro de Jubilados", "Pensionados", "Nacionales", "San Francisco del Monte de Oro", "Neguichita Quevedo", "Arbol de Vida"]
   
     
   },
@@ -1476,7 +1585,8 @@
     "location": {
       "latitude": -32.598786,
       "longitude": -66.128340
-    }
+    },
+    "tags": ["Forrajeria", "Alimento", "Mascotas", "Animales", "Grandes", "Limpieza"]
   
     
   },
@@ -1501,7 +1611,8 @@
     "location": {
       "latitude": -32.598772,
       "longitude": -66.128342
-    }
+    },
+    "tags": ["Polirubro", "Pesca", "Regaleria", "Pegamentos", "Celulares", "Cuchillos", "Linternas"]
   
     
   },
@@ -1518,13 +1629,14 @@
     "location": {
       "latitude": -32.599838,
       "longitude": -66.126384
-    }
+    },
+    "tags": ["Supermercado", "Fiambres", "Verduleria", "Almacen", "Bebidas", "Limpieza", "Panaderia", "Bazar"]
   
     
   },
   {
     "id":105 ,
-    "title": "Taitekia",
+    "title": "Taytekia",
     "description": "Taytekia, alfajores artesanales hechos con amor!\n\nDesde 2016, en un entorno sano y natural, elaboramos los mejores alfajores del norte Puntano.\n\nExquitas galletitas caseras de cacao amargo, rellenas con dulce de leche, bañadas en chocolate semi amargo y blanco (nuevo sabor que no te podés perder)\n\nVariedades:\n\nDulce de leche (negros y blancos)\n\nMembrillo\n\nCrocante\n\nMousse\n\nCiruela casero\n\nBombas de nuez\n\nAlfajores Mini de dulce de leche.\n\nEncontranos en el paraje Río Juan Gómez, a 5 km de San Francisco del Monte de Oro y en algunas ferias locales.",
     "subCategory": "",
     "name": "Lorena",
@@ -1548,7 +1660,8 @@
     "website": "",
     "instagram": "https://www.instagram.com/taytekia.alfajoresartesanales/",
     "facebook": ""
-  }
+  },
+  "tags":["Alfajores","Galletitas","Variedades", "Regalos"]
     
   },
   {
@@ -1564,7 +1677,8 @@
     "location": {
       "latitude": -32.599527,
       "longitude": -66.125988
-    }
+    },
+    "tags": ["Pintureria", "Ferreteria", "Productos", "Hogar"]
   
     
   },
@@ -1581,7 +1695,8 @@
     "location": {
       "latitude": -32.600727,
       "longitude": -66.127460
-    }
+    },
+    "tags": ["Inmobiliaria", "Ventas", "Inmuebles", "Alquileres", "Administacion", "Martillera"]
   
     
   },
@@ -1598,7 +1713,8 @@
     "location": {
       "latitude": -32.599801,
       "longitude": -66.126974
-    }
+    },
+    "tags": ["Regionales", "Productos", "Regionales"]
   
     
   },
@@ -1615,7 +1731,8 @@
     "location": {
       "latitude": -32.592259,
       "longitude": -66.128156
-    }
+    },
+    "tags": ["Garrafas", "Venta", "Domicilio", "Gas", "YPF", "Hiper Gas"]
   
     
   },
@@ -1632,7 +1749,8 @@
     "location": {
       "latitude": -32.592259,
       "longitude": -66.128156
-    }
+    },
+    "tags": ["Remis", "Servicio"]
   
     
   },
@@ -1649,12 +1767,13 @@
     "location": {
       "latitude": -32.592259,
       "longitude": -66.128156
-    }
+    },
+    "tags": ["Delivery", "Bebidas"]
   
     
   },
   {
-    "id": 111,
+    "id": 112,
     "title":"Reparacion de celulares Franco Aguero",
     "description": "Reparaciones de celulares- Servicio Tecnico - Cambio de Baterias - Reparaciones Urgentes - Cambios de Pins de carga - Cambios de modulo - Arreglos en general . Local LAS LOCAS",
     "category": "Servicios",
@@ -1666,12 +1785,13 @@
     "location": {
       "latitude": -32.599972,
       "longitude": -66.127626
-    }
+    },
+    "tags": ["Reparacion", "Celulares", "Servicio", "Tecnico", "Baterias", "Pins", "Carga", "Modulo", "Arreglos"]
   
     
   },
   {
-    "id": 112,
+    "id": 113,
     "title":"Profesora de Musica",
     "description": "Clases grupales e Individuales - Guitarra - Bajo - Percusion - Canto - Nivel Inicial e Intermedio",
     "category": "Clases y Talleres",
@@ -1679,13 +1799,14 @@
     "name": "Analia Moreyra",
     "phone": "1132007611",
     "horario":"",
-    "status": "Free"
+    "status": "Free",
+    "tags": ["Musica", "Clases", "Guitarra", "Bajo", "Percusion", "Canto", "Nivel", "Inicial", "Intermedio"]
     
   
     
   },
   {
-    "id": 113,
+    "id": 114,
     "title":"Reinas del Oro",
     "description": "Venta de Miel 100% organica, cosechada en nuestra localidad",
     "category": "Productores - Emprendedores",
@@ -1697,10 +1818,11 @@
     "location": {
       "latitude": -32.600789,
       "longitude": -66.124286
-    }
+    },
+    "tags": ["Miel", "Organica", "Cosechada", "Localidad","Productos", "Productores"]
   },
   {
-    "id": 114,
+    "id": 115,
     "title":"Alicia Boutique by Trilogia",
     "description": "Ofrecemos indumentaria para mujer y hombres.Ropa de fiesta o gala. Productos de blanqueria. Marroqueria",
     "category": "Indumentaria",
@@ -1712,10 +1834,11 @@
     "location": {
       "latitude": -32.598303,
       "longitude": -66.125881
-    }
+    },
+    "tags": ["Boutique", "Indumentaria", "Mujer", "Hombres", "Ropa", "Fiesta", "Gala", "Blanqueria", "Marroqueria"]
   },
   {
-    "id": 115,
+    "id": 116,
     "title":"Alicia Boutique by Trilogia",
     "description": "Manicura",
     "category": "Estetica",
@@ -1727,10 +1850,11 @@
     "location": {
       "latitude": -32.598303,
       "longitude": -66.125881
-    }
+    },
+    "tags": ["Manicura", "Estetica"]
   },
   {
-    "id": 116,
+    "id": 117,
     "title":"Amancay  Merceria",
     "description": "Venta de hilos, agujas, elasticos, regalos y mucho mas",
     "category": "Merceria",
@@ -1742,10 +1866,11 @@
     "location": {
       "latitude": -32.593710,
       "longitude": -66.125181
-    }
+    },
+    "tags": ["Merceria", "Hilos", "Agujas", "Elasticos", "Regalos"]
   },
   {
-    "id": 116,
+    "id": 118,
     "title":"Reiki",
     "description": "Reiki: logràs bienestar a nivel físico, emocional y espiritual. Libera tensiones, nos ayuda a ver cuestiones con mayor claridad, cura afecciones, y alivia dolores",
     "category": "Holisticos",
@@ -1757,10 +1882,11 @@
     "location": {
       "latitude": -32.593710,
       "longitude": -66.125181
-    }
+    },
+    "tags": ["Reiki", "Bienestar", "Fisico", "Emocional", "Espiritual", "Tensiones", "Claridad", "Cura", "Afecciones", "Dolores"]
   },
   {
-    "id": 117,
+    "id": 119,
     "title":"Amancay  Tienda",
     "description": "Ropa interior - Remeras - Pantalones de joggings y mucho mas",
     "category": "Indumentaria",
@@ -1772,12 +1898,14 @@
     "location": {
       "latitude": -32.593710,
       "longitude": -66.125181
-    }
-  },  {
-    "id": 118,
+    },
+    "tags": ["Tienda", "Ropa", "Interior", "Remeras", "Pantalones", "Joggings"]
+  },  
+  {
+    "id": 120,
     "title":"Akasia Hospedaje",
     "description": "Posada equipada para 4 personas. Amplio monomabiente , cama matrimonial , una cucheta con servicio de sabanas y toallas. Cocina equipada, con vajilla, heladera con freezer, cocina horno. Baño privado con termotanque. Aire acondicionado, sin TV. Gran patio con parrilla. Atendido por su dueña",
-    "category": "Lugares para quedarse",
+    "category": "Cabañas - Alojamientos -Campings",
     "subCategory": "",
     "name": "Aruza",
     "phone": "1164005480",
@@ -1786,10 +1914,11 @@
     "location": {
       "latitude": -32.588000,
       "longitude": -66.125059
-    }
+    },
+    "tags": ["Hospedaje", "Posada", "Monomabiente", "Cama", "Matrimonial", "Cucheta", "Sabanas", "Toallas", "Cocina", "Vajilla", "Heladera", "Freezer", "Cocina", "Horno", "Baño", "Termotanque", "Aire", "Acondicionado", "Patio", "Parrilla"]
   },
   {
-    "id": 119,
+    "id": 121,
     "title":"ComVida Tienda natural",
     "description": "Venta de alimentos que alimentan... Productos organicos o agroecologicos. Legumbres, cereales, semillas, evansados y productos elaborados vegetarianos, veganos y sin tacc. Miel, aceitunas, fideos y mucho mas",
     "category": "Dieteticas",
@@ -1801,9 +1930,11 @@
     "location": {
       "latitude": -32.588000,
       "longitude": -66.125059
-  }
-},{
-  "id": 120,
+  },
+  "tags": ["Tienda", "Alimentos", "Organicos", "Agroecologicos", "Legumbres", "Cereales", "Semillas", "Evansados", "Productos", "Elaborados", "Vegetarianos", "Veganos", "Sin tacc", "Miel", "Aceitunas", "Fideos"]
+},
+{
+  "id": 122,
   "title":"Panaderia  Las Buenas Migas",
   "description": "Panificados, facturas, masas, sandwhichs de miga, tartas dulces. Todo elaboracion propia",
   "category": "Panaderias",
@@ -1815,10 +1946,11 @@
   "location": {
     "latitude": -32.599622,
     "longitude": -66.126322
-}
+},
+"tags": ["Panaderia", "Panificados", "Facturas", "Masas", "Sandwhichs", "Miga", "Tartas", "Dulces"]
 },
 {
-  "id": 121,
+  "id": 123,
   "title":"Autoservicio Don Pepe",
   "description": "Fiambres - Verduleria - Almacen - Bebidas - Limpieza - Panaderia, todo lo que buscas y necesitas",
   "category": "Autoservicios - Despensas - Polirubros",
@@ -1830,10 +1962,11 @@
   "location": {
     "latitude": -32.598872,
     "longitude": -66.126667
-}
+},
+"tags": ["Autoservicio", "Fiambres", "Verduleria", "Almacen", "Bebidas", "Limpieza", "Panaderia"]
 },
 {
-  "id": 122,
+  "id": 124,
   "title":"Autoservicio Don Pepe",
   "description": "Todo lo que necesitas en Bazar",
   "category": "Bazar y hogar",
@@ -1845,10 +1978,11 @@
   "location": {
     "latitude": -32.598872,
     "longitude": -66.126667
-}
+},
+"tags": ["Autoservicio", "Bazar", "Hogar"]
 },
 {
-  "id": 123,
+  "id": 125,
   "title":"Umbri Indumentaria",
   "description": "Indumentaria femenina, accesorios, carteras, zapatos. Todo lo que buscas para estar a la moda",
   "category": "Indumentaria",
@@ -1860,10 +1994,11 @@
   "location": {
     "latitude": -32.599011,
     "longitude": -66.126295
-}
+},
+"tags": ["Indumentaria", "Femenina", "Accesorios", "Carteras", "Zapatos", "Moda"]
 },
 {
-  "id": 124,
+  "id": 126,
   "title":"Chacinados La Candela",
   "description": "Chacinados, embutidos, vinos, conservas , productos regionales y mucho mas",
   "category": "Productores - Emprendedores",
@@ -1875,10 +2010,11 @@
   "location": {
     "latitude": -32.601605,
     "longitude": -66.128133
-}
+},
+"tags": ["Chacinados", "Embutidos", "Vinos", "Conservas", "Productos", "Regionales"]
 },
 {
-  "id": 125,
+  "id": 127,
   "title":"Verduleria Soler",
   "description": "Todo tipo de verduras y frutas de primera calidad, contamos con productos de despenza y almacén",
   "category": "Carnicerias - Verdulerias",
@@ -1890,10 +2026,11 @@
   "location": {
     "latitude": -32.598963,
     "longitude": -66.126157
-}
+},
+"tags": ["Verduleria", "Frutas", "Verduras", "Productos", "Despenza", "Almacen"]
 },
 {
-  "id": 126,
+  "id": 127,
   "title":"Carniceria Ricarte",
   "description": "Carne de primera calidad, milanesasa, hamburguesas, chorizos, pollo y mcuho mas",
   "category": "Carnicerias - Verdulerias",
@@ -1905,10 +2042,11 @@
   "location": {
     "latitude": -32.598963,
     "longitude": -66.126157
-}
+},
+"tags": ["Carniceria", "Carne", "Milanesasa", "Hamburguesas", "Chorizos", "Pollo"]
 },
 {
-  "id": 127,
+  "id": 129,
   "title":"Verduleria Del Sur",
   "description": "Frutas  y verduras al mejor precio",
   "category": "Carnicerias - Verdulerias",
@@ -1920,26 +2058,11 @@
   "location": {
     "latitude": -32.601450,
     "longitude": -66.128085
-}
+},
+"tags": ["Verduleria", "Frutas", "Verduras", "Precio"]
 },
 {
-  "id": 128,
-  "title":"Verduleria Del Sur",
-  "description": "Productos de almacen y despensa",
-  "category": "Carnicerias - Verdulerias",
-  "subCategory": "",
-  "name": "Verduleria Del Sur",
-  "phone": "",
-  "horario":"Lunes a sabados de 9 a 13:30 y de 18 a 21hs - Domingos de 9 a 14hs",
-  "status": "Free",
-  "location": {
-    "latitude": -32.601450,
-    "longitude": -66.128085
-}
-},
-
-{
-  "id": 129,
+  "id": 130,
   "title":"Pilares del Monte",
   "description": "Construccion de Cabañas de tronco. Hacemos realidad tu sueño de tener tu cabaña de tronco",
   "category": "Construccion",
@@ -1952,14 +2075,10 @@
     "latitude": -32.603814,
     "longitude": -66.1287196
 },
-"image": [
-  "https://i.imgur.com/huSoF1E.jpeg",
-  "https://i.imgur.com/zgGlLab.jpeg",
-  "https://i.imgur.com/ciCiLxc.jpeg"
- ]
+"tags": ["Construccion", "Cabañas", "Tronco", "Sueño"]
 },
 {
-  "id": 130,
+  "id": 131,
   "title":"Libreria Centro",
   "description": "Libreria comercial - artistica - impresiones - personalizados y kiosco",
   "category": "Librerias",
@@ -1971,37 +2090,39 @@
   "location": {
     "latitude": -32.599808,
     "longitude": -66.126914
-}
+},
+"tags": ["Libreria", "Comercial", "Artistica", "Impresiones", "Personalizados", "Kiosco"]
 },
 {
-  "id": 131,
+  "id": 132,
   "title":"La Red",
   "description": "Venta  articulos de informatica, instalacion de antenas wifi",
   "category": "Informatica",
   "subCategory": "",
   "name": "Raul Lucero",
   "phone": "2664220048",
-  "horario":" ",
+  "horario":"",
   "status": "Free",
   "location": {
     "latitude": -32.599812,
     "longitude": -66.126889
-}
+},
+"tags": ["Venta", "Articulos", "Informatica", "Instalacion", "Antenas", "Wifi"]
 },
 {
-  "id": 132,
+  "id": 133,
   "title":"Academia de Folklore Retoños de mi Tierra",
   "description": "Retoños de mi Tierra brinda clases para niños desde los 4 años hasta adultos mayores. Cuenta con un ballet de danzas folkloricas que se presentan en festivales y eventos de la localidad. Profesorado Escuela de arte",
   "category": "Clases y Talleres",
   "subCategory": "",
   "name": "Raul Lucero",
   "phone": "2664220048",
-  "horario":" ",
-  "status": "Free"
-  
+  "horario":"",
+  "status": "Free",
+  "tags": ["Academia", "Folklore", "Clases", "Niños", "Adultos", "Ballet", "Danzas", "Folkloricas", "Festivales", "Eventos", "Localidad", "Profesorado", "Escuela", "Arte"]
 },
 {
-  "id": 133,
+  "id": 134,
   "title":"Mermeladas La Jacinta",
   "description": "Mermeladas orgánicas,en su mayoría se elaboran con frutas de estación,sin pesticidas,ni productos químicos. Todos los productos son elaborados de manera artesanal, con frutas frescas y de calidad. Se utilizan frascos de vidrio reciclados y se envasan en caliente para garantizar la conservación de las mermeladas.",
   "category": "Productores - Emprendedores",
@@ -2014,16 +2135,10 @@
     "latitude": -32.597952,
     "longitude": -66.126929
 },
-"image": [
-  "https://i.imgur.com/CeEO65s.jpeg",
-  "https://i.imgur.com/JFXuv8h.jpeg",
-  "https://i.imgur.com/jeMXP05.jpeg",
-  "https://i.imgur.com/9a7p97n.jpeg",
-  "https://i.imgur.com/Jdnth0B.jpeg"
- ]
+"tags": ["Mermeladas", "Organicas", "Frutas", "Estacion","Productos", "Artesanal", "Frescas", "Calidad", "Frascos", "Vidrio", "Reciclados", "Envasan", "Caliente", "Conservacion"]
 },
 {
-  "id": 134,
+  "id": 135,
   "title":" La Jacinta Chales ",
   "description": "Chal en telar triangular de diferentes tamaños ,con lanas fantasía de calidad y diseños únicos y  en telar Maria ,hago caminos de mesa ,pie de cama,y bufandas. Todo hecho a mano",
   "category": "Productores - Emprendedores",
@@ -2036,18 +2151,31 @@
     "latitude": -32.598007,
     "longitude": -66.126942
 },
-"image": [
-  "https://i.imgur.com/CeEO65s.jpeg",
-  "https://i.imgur.com/JFXuv8h.jpeg",
-  "https://i.imgur.com/jeMXP05.jpeg",
-  "https://i.imgur.com/9a7p97n.jpeg",
-  "https://i.imgur.com/Jdnth0B.jpeg"
- ]
+"tags": ["Chal", "Telar", "Triangular", "Tamaños", "Lanas", "Fantasia", "Calidad", "Diseños", "Unicos",  "Caminos", "Mesa", "Pie", "Bufandas", "Hecho", "Mano"]
 },
+
 {
-  "id": 135,
+  "id": 136,
+  "title":"Verduleria Del Sur",
+  "description": "Productos de almacen y despensa",
+  "category": "Carnicerias - Verdulerias",
+  "subCategory": "",
+  "name": "Verduleria Del Sur",
+  "phone": "",
+  "horario":"Lunes a sabados de 9 a 13:30 y de 18 a 21hs - Domingos de 9 a 14hs",
+  "status": "Free",
+  "location": {
+    "latitude": -32.601450,
+    "longitude": -66.128085
+},
+"tags": ["Verduleria", "Productos", "Almacen", "Despensa"]
+},
+
+
+{
+  "id": 137,
   "title":"Ceramicas del Palmar ",
-  "description": "Somos un emprendimiento familiar dedicado a la producción de piezas cerámicas artesanales con tecnicas precolombinas y también utilitarios para uso diario.\n\nOfrecemos talleres mensuales e intensivos en nuestro taller para toda aquella persona que quiera aprender este oficio ancestral, donde podrán confeccionar sus propias piezas y aprenderán todas las tecnicas de modelado y torno alfarero.",
+  "description": "Somos un emprendimiento familiar dedicado a la producción de piezas cerámicas artesanales con tecnicas precolombinas y también utilitarios para uso diario.\n\nDictamos clases mensuales y talleres intensivos en nuestro espacio para todos los que quieran aprender este oficio ancestral.",
   "category": "Clases y Talleres",
   "subCategory": "",
   "name": "Ceramicas del Palmar",
@@ -2069,10 +2197,11 @@
   "https://i.imgur.com/nWztTjI.jpeg",
   "https://i.imgur.com/1Qfoext.jpeg",
   "https://i.imgur.com/SBfbJIl.jpeg"
- ]
+ ],
+"tags": ["Ceramicas", "Emprendimiento", "Familiar", "Produccion", "Piezas", "Ceramicas", "Artesanales", "Tecnicas", "Precolombinas", "Utilitarios", "Uso", "Diario", "Talleres", "Mensuales", "Intensivos", "Taller", "Oficio", "Ancestral", "Modelado", "Torno", "Alfarero"]
 },
 {
-  "id": 136,
+  "id": 138,
   "title":"Jade ",
   "description": "Jade venta de macetas y suculentas.Adornos ,cactus suculentas de coleccion.Todos nuestros productos son ideales para cada rincon de tu hogar. Visitanos y elegi el que mas te guste! Decora tu espacio ideal en Jade ",
   "category": "Viveros",
@@ -2096,10 +2225,11 @@
   "https://i.imgur.com/NNaHItB.jpeg",
   "https://i.imgur.com/sxCrw64.jpeg",
   "https://i.imgur.com/YymtmCz.jpeg"
- ]
+ ],
+"tags": ["Jade", "Venta", "Macetas", "Suculentas", "Adornos", "Cactus", "Coleccion", "Productos", "Ideales", "Rincon", "Hogar", "Espacio", "Ideal", "Decora", "Jade"]
 },
 {
-  "id": 137,
+  "id": 139,
   "title":"Cafeteria Pasteleria  'Banda Sur'",
   "description": "Servimos desayunos y meriendas.\n\nPastelería artesanal.\n\nOpciones saludables\n\nProductos sin TACC. ",
   "category": "Cafeterias",
@@ -2123,6 +2253,473 @@
   "https://i.imgur.com/yxd9Knz.jpeg",
   "https://i.imgur.com/RwjSHyD.jpeg",
   "https://i.imgur.com/dj74dQo.jpeg"
- ]
+ ],
+"tags": ["Cafeteria", "Pasteleria", "Banda", "Sur", "Desayunos", "Meriendas", "Pasteleria", "Artesanal", "Opciones", "Saludables", "Productos", "TACC"]
+},
+{
+  "id": 140,
+  "title":"Arte en Madera",
+  "description": "Piezas de arte y artesanias en madera",
+  "category": "Productores - Emprendedores",
+  "subCategory": "",
+  "name": "Marcelo German Hermida",
+  "phone": "2664164922",
+  "horario":" ",
+  "status": "Free",
+  "tags": ["Arte", "Artesanias", "Madera"]
+  
+},
+{
+  "id": 141,
+  "title":"Nativo Street",
+  "description": "Tienda de indumentaria y accesorios unisex",
+  "category": "Indumentaria",
+  "subCategory": "",
+  "name": "Nativo Street",
+  "phone": "26644347253",
+  "horario":" Lunes a viernes 09 a 13 y 17 a 21",
+  "status": "Free",
+  "location": {
+    "latitude": -32.599808,
+    "longitude": -66.126824
+},
+"tags": ["Tienda", "Indumentaria", "Accesorios", "Unisex"]
+},
+{
+  "id": 142,
+  "title": "Biblotea Popular Juan de Dios Escobar",
+  "description": "La Biblioteca Popular Juan de Dios Escobar fue fundada el 30 de octubre de 1910\n\nLleva el nombre de un distinguido educador chileno, de destacada actuación en nuestra comunidad\n\n El edificio principal data de 1939 y cuenta con un salón de usos múltiples inaugurado en 1996\n\nSe ofrecen servicios de préstamo de libros y se llevan a cabo diversas actividades culturales, con el fin de fomentar la lectura y la difusión del conocimiento en general.",
+"horario": "Lunes a Viernes de 9 a 12 hs",
+"category": "Lugares que tenes que conocer",
+  "status": "Lugares",
+  "dificultad": "Baja",
+  "image": [
+    "https://i.imgur.com/T2SmQRW.jpeg",
+    "https://i.imgur.com/OKwV9a8.jpeg",
+    "https://i.imgur.com/hQOvjQx.jpeg",
+    "https://i.imgur.com/gjjLRML.jpeg",
+    "https://i.imgur.com/alutvTk.jpeg"
+  ],
+
+  "location": {
+    "latitude": -32.632776,
+    "longitude": -66.153421
+  },
+  "tags": ["Biblioteca", "Cultura", "Lectura", "Conocimiento", "Comunidad", "Educacion", "Actividades", "Culturales", "Libros"]
+ 
+},
+{
+  "id": 143,
+  "title":"Brujo Excursiones",
+  "description": "Si buscas nuevas experiencias y desafíos, nuestras caminatas guiadas te esperan.Descubre impresionantes cascadas, pozos cristalinos y vistas panorámicas que te dejarán sin aliento.Organizamos excursiones y diferentes actividades en el corazón del monte nativo.\n\n- Circuitos de baja, media y alta dificultad\n- Ascensos y campamentos\n- Avistaje de Cóndores\n- Salidas Fotográficas\n- Salidas personalidas\n- Trekking nocturno\n- Salidas todo el año\n\nEstos son algunos de los circuitos que podemos ofrecerte\n\n- Salto del Indio\n- Salto Escondido\n- Algarrobo abuelo\n- Quebrada de Rio Gomez\n- Quebrada del Ramo\n- Quebrada Rio Claro\n- Paso del Cóndor (ascenso)\n- Ascenso al Portillo\n- Trekking a los puestos (ascenso)\n- Piletones\n- Noche en las Sierras",
+  "category": "Guias turisticas",
+  "subCategory": "",
+  "name": "Mariano Elgue",
+  "phone": "2664892738",
+  "horario":"",
+  "status": "Premium",
+  "location": {
+    "latitude": -32.600238,
+    "longitude": -66.099235
+},
+"links": {
+  "website": "",
+  "instagram": "https://www.instagram.com/brujo.excursiones/",
+  "facebook": ""
+},
+"image": [
+  "https://i.imgur.com/SyorRLN.jpeg",
+  "https://i.imgur.com/0gRa2VD.jpeg",
+  "https://i.imgur.com/7n0KbKU.jpeg",
+  "https://i.imgur.com/Bze1ZIQ.jpeg",
+  "https://i.imgur.com/njtGkD4.jpeg"
+ ],
+"tags": ["Experiencias", "Desafios", "Caminatas", "Guiadas", "Cascadas", "Pozos", "Cristalinos", "Vistas", "Panoramicas", "Excursiones", "Actividades", "Monte", "Nativo", "Circuitos", "Dificultad", "Ascensos", "Campamentos", "Avistaje", "Condores", "Fotograficas", "Personalidas", "Trekking", "Nocturno", "Salidas", "Circuito", "Salto", "Indio", "Escondido", "Algarrobo", "Abuelo", "Quebrada", "Rio", "Gomez", "Ramo", "Claro", "Paso", "Condor", "Portillo", "Puestos", "Piletones", "Noche", "Sierras"]
+},
+
+{
+  "id": 144,
+  "title": "Cabañas La Temperancia",
+  "description": "'Un lugar de encuentro con vos  y tus afectos'\nCompletamente equipadas, cocheras cubiertas Directv,WiFi, separadas unas de otras, quincho comunitario, gran parque y bajada al río.  Abiertas todo el año y con la cordial atención de sus dueños.",
+  "horario": "Abierto todo el año",
+  "image": [
+    "https://i.imgur.com/5HR9mvC.jpeg",
+    "https://i.imgur.com/PbzpJnI.jpeg",
+    "https://i.imgur.com/smSZW75.jpeg",
+    "https://i.imgur.com/mrHSHJk.jpeg",
+    "https://i.imgur.com/k3K5Sjg.jpeg"
+  ],
+  "category": "Cabañas - Alojamientos -Campings",
+  "subCategory": "",
+  "name": "Liliana Heredia",
+  "phone": "2664509294",
+  "status": "Premium",
+
+  "location": {
+    "latitude": -32.607601,
+    "longitude": -66.123974
+  },
+  "links": {
+    "website": "",
+    "instagram": "https://www.instagram.com/cabanaslatemperancia/",
+    "facebook": "https://www.facebook.com/profile.php?id=100045946968559"
+  },
+  "tags": ["Cabañas", "Encuentro", "Afectos", "Equipadas", "Cocheras", "Directv", "WiFi", "Quincho", "Comunitario", "Parque", "Bajada", "Rio", "Cordial", "Atencion", "Dueños"]
+},
+{
+  "id": 145,
+  "title":"Regionales San Francisco",
+  "description": "Articulos regionales, Souvenirs, Articulos de pesca",
+  "category": "Regionales",
+  "subCategory": "",
+  "name": "Claudia",
+  "phone": "2665020686",
+  "horario":" Lunes a viernes de 9:30 a 13 y de 16 a 20hs",
+  "status": "Free",
+  "location": {
+    "latitude": -32.599808,
+    "longitude": -66.126824
+},
+"tags":["Regionales", "Souvenirs","Pesca"]
+
+},
+{
+  "id": 146,
+  "title":"Regionales San Francisco",
+  "description": "Libreria - Fotocopias ",
+  "category": "Librerias",
+  "subCategory": "",
+  "name": "Claudia",
+  "phone": "2665020686",
+  "horario":" Lunes a viernes de 9:30 a 13 y de 16 a 20hs",
+  "status": "Free",
+  "location": {
+    "latitude": -32.597422,
+    "longitude": -66.126758
+},
+"tags":["Libreria", "Fotocopias"]
+
+},
+{
+  "id": 147,
+  "title":"Regionales San Francisco",
+  "description": "Jugueteria - Cosmetica ",
+  "category": "Jugueterias",
+  "subCategory": "",
+  "name": "Claudia",
+  "phone": "2665020686",
+  "horario":" Lunes a viernes de 9:30 a 13 y de 16 a 20hs",
+  "status": "Free",
+  "location": {
+    "latitude": -32.597422,
+    "longitude": -66.126758
+},
+"tags":["Jugueteria", "Cosmetica"]
+
+},
+{
+  "id": 148,
+  "title":"Regionales San Francisco",
+  "description": "Pago Facil - Western Union (Envios y retiro de dinero",
+  "category": "Pago Facil - Western Union",
+  "subCategory": "",
+  "name": "Claudia",
+  "phone": "2665020686",
+  "horario":" Lunes a viernes de 9:30 a 13 y de 16 a 20hs",
+  "status": "Free",
+  "location": {
+    "latitude": -32.597422,
+    "longitude": -66.126758
+},
+"tags":["Pagos", "Retiros", "Envios", "Dinero"]
+
+},
+{
+  "id": 149,
+  "title":"EcoAventura",
+  "description": "Recorridos:\n\nSalto Escondido\nSalto del Indio\nMina de Cuarzo\nPinturas Rupestres\nCerro La Cumbrecita\nNido del Aguila\nLaguna del Rio Claro\nQuebrada de Lopez\n\nGuia Baqueano LEG235",
+  "category": "Guias turisticas",
+  "subCategory": "",
+  "name": "Prof. Ariel Alejandro Suarez",
+  "phone": "2664933528",
+  "horario":"",
+  "status": "Free",
+  "tags": ["Recorridos", "Salto", "Escondido", "Indio", "Mina", "Cuarzo", "Pinturas", "Rupestres", "Cerro", "Cumbrecita", "Nido", "Aguila", "Laguna", "Rio", "Claro", "Quebrada", "Lopez", "Guia", "Baqueano"]
+ },
+ {
+  "id": 150 ,
+  "title":"Hacer Turismo SF",
+  "description": "Recorridos:\n\nSalto Escondido\nSalto del Indio\nMina de Cuarzo\nPinturas Rupestres\nMirador panoramico 360º",
+  "category": "Guias turisticas",
+  "subCategory": "",
+  "name": "Raul",
+  "phone": "2665010706",
+  "horario":"",
+  "status": "Free",
+  "tags": ["Recorridos", "Salto", "Escondido", "Indio", "Mina", "Cuarzo", "Pinturas", "Rupestres", "Mirador", "Panoramico"]
+ },
+ {
+  "id": 151,
+  "title":"Brujo Excursiones",
+  "description": "Si buscas nuevas experiencias y desafíos, nuestras caminatas guiadas te esperan.Descubre impresionantes cascadas, pozos cristalinos y vistas panorámicas que te dejarán sin aliento.Organizamos excursiones y diferentes actividades en el corazón del monte nativo.\n\n- Circuitos de baja, media y alta dificultad\n- Ascensos y campamentos\n- Avistaje de Cóndores\n- Salidas Fotográficas\n- Salidas personalidas\n- Trekking nocturno\n- Salidas todo el año\n\nEstos son algunos de los circuitos que podemos ofrecerte\n\n- Salto del Indio\n- Salto Escondido\n- Algarrobo abuelo\n- Quebrada de Rio Gomez\n- Quebrada del Ramo\n- Quebrada Rio Claro\n- Paso del Cóndor (ascenso)\n- Ascenso al Portillo\n- Trekking a los puestos (ascenso)\n- Piletones\n- Noche en las Sierras",
+  "category": "Actividades recreativas",
+  "subCategory": "",
+  "name": "Mariano Elgue",
+  "phone": "2664892738",
+  "horario":"",
+  "status": "Premium",
+  "location": {
+    "latitude": -32.600238,
+    "longitude": -66.099235
+},
+"links": {
+  "website": "",
+  "instagram": "https://www.instagram.com/brujo.excursiones/",
+  "facebook": ""
+},
+"image": [
+  "https://i.imgur.com/UaEuAL5.jpeg",
+  "https://i.imgur.com/srkU8ga.jpeg",
+  "https://i.imgur.com/yxd9Knz.jpeg",
+  "https://i.imgur.com/RwjSHyD.jpeg",
+  "https://i.imgur.com/dj74dQo.jpeg"
+ ],
+"tags": ["Experiencias", "Desafios", "Caminatas", "Guiadas", "Cascadas", "Pozos", "Cristalinos", "Vistas", "Panoramicas", "Excursiones", "Actividades", "Monte", "Nativo", "Circuitos", "Dificultad", "Ascensos", "Campamentos", "Avistaje", "Condores", "Fotograficas", "Personalidas", "Trekking", "Nocturno", "Salidas", "Circuito", "Salto", "Indio", "Escondido", "Algarrobo", "Abuelo", "Quebrada", "Rio", "Gomez", "Ramo", "Claro", "Paso", "Condor", "Portillo", "Puestos", "Piletones", "Noche", "Sierras"]
+},
+{
+  "id": 152 ,
+  "title":"Hacer Turismo SF",
+  "description": "Recorridos:\n\nSalto Escondido\nSalto del Indio\nMina de Cuarzo\nPinturas Rupestres\nMirador panoramico 360º",
+  "category": "Actividades recreativas",
+  "subCategory": "",
+  "name": "Raul",
+  "phone": "2665010706",
+  "horario":"",
+  "status": "Free",
+  "tags": ["Recorridos", "Salto", "Escondido", "Indio", "Mina", "Cuarzo", "Pinturas", "Rupestres", "Mirador", "Panoramico"]
+ },
+ {
+  "id": 153,
+  "title":"EcoAventura",
+  "description": "Recorridos:\n\nSalto Escondido\nSalto del Indio\nMina de Cuarzo\nPinturas Rupestres\nCerro La Cumbrecita\nNido del Aguila\nLaguna del Rio Claro\nQuebrada de Lopez\n\nGuia Baqueano LEG235",
+  "category": "Actividades recreativas",
+  "subCategory": "",
+  "name": "Prof. Ariel Alejandro Suarez",
+  "phone": "2664933528",
+  "horario":"",
+  "status": "Free",
+  "tags": ["Recorridos", "Salto", "Escondido", "Indio", "Mina", "Cuarzo", "Pinturas", "Rupestres", "Cerro", "Cumbrecita", "Nido", "Aguila", "Laguna", "Rio", "Claro", "Quebrada", "Lopez", "Guia", "Baqueano"]
+ },
+ {
+  "id": 154,
+  "title":"San Francisco Aberturas",
+  "description": "Puertas y ventanas recicladas/reacondicionadas - Aberturas antiguas - Cedro, roble pinotea, chapa - Trabajos de carpinteria - Soldaduras - Separacion de espacio con abertura - Entrepisos",
+  "category": "Aberturas",
+  "subCategory": "",
+  "name": "",
+  "phone": "1156593946",
+  "horario":"",
+  "status": "Free",
+  "tags": ["Puertas", "Ventanas", "Recicladas", "Reacondicionadas", "Aberturas", "Antiguas", "Cedro", "Roble", "Pinotea", "Chapa", "Trabajos", "Carpinteria", "Soldaduras", "Separacion", "Espacio", "Abertura", "Entrepisos"],
+  "location": {
+    "latitude": -32.608309,
+    "longitude": -66.082091
+ }
+},
+{
+  "id": 155,
+  "title":"Carniceria El Establo",
+  "description": "La mejor calidad en carnes, cerdo, pescado y la mejor atención. Brindamos la mejor atencion desde hace 8 años",
+  "category": "Carnicerias - Verdulerias",
+  "subCategory": "",
+  "name": "Alfredo Vadillo",
+  "phone": "2664757878",
+  "horario":"9 hs a 13.30 hs y de las 18 hrs a las 21.30 h",
+  "status": "Free",
+  "tags": ["Carniceria", "Carne", "Cerdo", "Pescado", "Atencion", "Calidad"],
+ 
+  "location": {
+    "latitude": -32.598614,
+    "longitude": -66.128245
+ }
+},
+{
+  "id": 156,
+  "title":"En tu piel",
+  "description": "Tienda multimarca de lencería, corsetería, pijamas y mallas.",
+  "category": "Indumentaria",
+  "subCategory": "",
+  "name": "",
+  "phone": "2664268480",
+  "horario":"de 9.30 a 13 hs y de 17.30 a 21.00 hs.",
+  "status": "Free",
+  "tags": ["Tienda", "Multimarca", "Lenceria", "Corseteria", "Pijamas", "Mallas"],
+ 
+  "location": {
+    "latitude": -32.600727,
+    "longitude": -66.127652
+ }
+},
+{
+  "id": 157,
+  "title": "Bichito de Luz",
+  "description": "Somos Bichito de Luz y te traemos la ropita más linda y de mejor calidad para Bebes y niños. Desde recién nacido hasta talle 16.\n\nRopita de abrigo\n\nBasicos\n\nAccesorios",
+  "horario": "Lunes a Viernes de 9 a 13hs y de 17 a 21hs - Sabados de 10 a 13:30hs y de  18 a 21hs",
+  "image": [
+    "https://i.imgur.com/4Mm8kdz.jpeg",
+    "https://i.imgur.com/hrsSBon.jpeg",
+    "https://i.imgur.com/TX66TJL.jpeg",
+    "https://i.imgur.com/E3n1lnA.jpeg",
+    "https://i.imgur.com/QfFGkO1.jpeg"
+  ],
+  "category": "Indumentaria",
+  "subCategory": "",
+  "name": "Bichito de Luz",
+  "phone": "",
+  "status": "Premium",
+
+  "location": {
+    "latitude": -32.600445,
+    "longitude": -66.127783
+  },
+  "links": {
+    "website": "",
+    "instagram": "https://www.instagram.com/bichitodeluzsf/",
+    "facebook": "https://www.facebook.com/profile.php?id=100057537125579"
+  },
+  "tags": ["Ropita", "Linda", "Calidad", "Bebes", "Niños", "Recien", "Nacido", "Talle", "16", "Abrigo", "Basicos", "Accesorios"]
+},
+{
+  "id": 158,
+  "title": "Escuela Ballet Aromas de mi Pago",
+  "description": "Escuela ballet aromas de mi pago ballet para niños y adultos profesorado de danzas folklóricas con títulos nacionales avalados por el i.d.a.f\n\nCLases Martes y Viernes\n\n18hs niños\n19hs adultos\n20hs profesorado",
+  "image": [
+    "https://i.imgur.com/15DxQIC.jpeg",
+    "https://i.imgur.com/FCOujg6.jpeg",
+    "https://i.imgur.com/K5mIa6B.jpeg",
+    "https://i.imgur.com/wSZ24fu.jpeg",
+    "https://i.imgur.com/zmFFLiq.jpeg"
+  ],
+  "category": "Clases y Talleres",
+  "subCategory": "",
+  "name": "Profesora Sandra Ricarte",
+  "phone": "2664899794",
+  "status": "Premium",
+  
+
+  
+  "links": {
+    "website": "",
+    "instagram": "",
+    "facebook": "https://www.facebook.com/profile.php?id=100073912955574"
+  },
+  "tags": ["Escuela", "Ballet", "Aromas", "Pago", "Niños", "Adultos", "Profesorado", "Danzas", "Folkloricas", "Titulos", "Nacionales", "Avalados", "IDAF", "Clases", "Martes", "Viernes","Folklore"]
+},
+{
+  "id": 159,
+  "title":"Farmacia Avenida",
+  "description": "Podes encontrar desde medicamentos hasta articulos de perfumeria\n\nObras sociales que atienede\n-DOSEP\n-PAMI\n-OSDE\n-Sancor\n-Swiss Medical",
+  "category": "Farmacias",
+  "subCategory": "",
+  "name": "",
+  "phone": "2651426472",
+  "horario":"Lunes a Viernes  de 8 a 13 hs y de 17 a 21:30 hs - Sabados de 9 a 13 hs y de 17:30 a 21:30 hs",
+  "status": "Free",
+  "tags": ["Farmacia", "Medicamentos", "Perfumeria", "Obras", "Sociales", "DOSEP", "PAMI", "OSDE", "Sancor", "Swiss", "Medical"],
+ 
+  "location": {
+    "latitude": -32.600336,
+    "longitude": -66.127738
+ }
+},
+{
+  "id": 160,
+  "title":"Colectivo Cultural",
+  "description": "El Colectivo Cultura cuenta con un monton de actividades, talleres, clases y eventos para toda la familia. Recreativas funciones de Teatro de Títeres de acuerdo a programación mensual. El espacio es un lugar de encuentro para la cultura y el arte",
+  "category": "Actividades recreativas",
+  "subCategory": "",
+  "name": "",
+  "phone": "2664482208",
+  "horario":"de 9 a 12hs y de 14 a 18hs.",
+  "status": "Free",
+  "tags": ["Colectivo", "Cultural", "Actividades", "Talleres", "Eventos", "Familia", "Encuentro", "Cultura", "Arte"],
+ 
+  "location": {
+    "latitude": -32.616058,
+    "longitude": -66.129244
+ }
+},
+{
+  "id": 161,
+  "title":"Clases de Pilates individuales",
+  "description": "El Colectivo Cultura ",
+  "category": "Clases y Talleres",
+  "subCategory": "",
+  "name": "",
+  "phone": "2664482208",
+  "horario":"lunes , miercoles y viernes  de 9 a 18hs",
+  "status": "Free",
+  "tags": ["Clases", "Pilates", "Individuales"],
+ 
+  "location": {
+    "latitude": -32.616058,
+    "longitude": -66.129244
+ }
+},
+{
+  "id": 162,
+  "title":"Clases de Taichi grupales",
+  "description": "El Colectivo Cultura ",
+  "category": "Clases y Talleres",
+  "subCategory": "",
+  "name": "",
+  "phone": "2664482208",
+  "horario":"Miercoles de 18 a 19:30",
+  "status": "Free",
+  "tags": ["Clases", "Pilates", "Individuales"],
+ 
+  "location": {
+    "latitude": -32.616058,
+    "longitude": -66.129244
+ }
+},
+{
+  "id": 163,
+  "title":"Clases de Acrobacia aerea para adultos",
+  "description": "El Colectivo Cultura ",
+  "category": "Clases y Talleres",
+  "subCategory": "",
+  "name": "",
+  "phone": "2664482208",
+  "horario":"Lunes de 19:30 a 20:30",
+  "status": "Free",
+  "tags":[ "Clases", "Acrobacia", "Aerea", "Adultos"],
+ 
+  "location": {
+    "latitude": -32.616058,
+    "longitude": -66.129244
+ }
+},
+{
+  "id": 164,
+  "title":"Clases de Acrobacia aerea para niños",
+  "description": "El Colectivo Cultura ",
+  "category": "Clases y Talleres",
+  "subCategory": "",
+  "name": "",
+  "phone": "2664482208",
+  "horario":"Jueves de 17:30 a 18:30",
+  "status": "Free",
+  "tags":[ "Clases", "Acrobacia", "Aerea", "Niños"],
+ 
+  "location": {
+    "latitude": -32.616058,
+    "longitude": -66.129244
+ }
 }
+
+
+
+
+
 ]

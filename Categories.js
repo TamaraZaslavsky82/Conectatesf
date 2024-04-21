@@ -21,7 +21,12 @@ import { HeaderBackButton } from '@react-navigation/stack';
 const CategoriesScreen = ({navigation}) => {
   const data = require('./data.json');
 
-  const allCategories = data.map(item => item.category);
+const allCategories = data.map(item => {
+  if (!item.category) {
+    console.log('Elemento con categoría vacía:', item);
+  }
+  return item.category;
+});
   const uniqueCategories = allCategories
     .filter((category, index, self) => self.indexOf(category) === index)
     .sort((a, b) => b.localeCompare(a));
@@ -88,6 +93,7 @@ const CategoriesScreen = ({navigation}) => {
                 backgroundColor: 'white',
                 marginBottom: 10,
                 marginTop: 10,
+                color: 'darkviolet',
               }}
               onPress={handleBackToCategories}>
               Volver a las categorías
@@ -121,6 +127,7 @@ const CategoriesScreen = ({navigation}) => {
                   backgroundColor: 'white',
                   marginBottom: 10,
                   marginTop: 10,
+                  color: 'darkviolet',
                 }}
                 onPress={handleBackToSubCategories}>
                 Volver a Subcategorías
@@ -131,7 +138,7 @@ const CategoriesScreen = ({navigation}) => {
                   <TouchableOpacity
                     onPress={() => handleSubCategorySelect(item)}>
                     <List.Item
-                      title={<Text style={{color: 'darkviolet'}}>{item}</Text>}
+                      title={<Text style={{color: 'blackdark'}}>{item}</Text>}
                       style={{backgroundColor: 'rgba(255, 255, 255, 0.9)'}}
                     />
                   </TouchableOpacity>

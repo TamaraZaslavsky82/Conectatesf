@@ -34,27 +34,56 @@ const DetailScreen = ({route}) => {
           alert(error.message);
         }
     };
-    const filteredData = data.filter(i => i.category === itemData.category);
-    // Mezcla los datos filtrados
-    const shuffledData = filteredData.sort(() => 0.5 - Math.random());
+   
 
-    // Selecciona los primeros 4 elementos
-    const relateditemDatas = shuffledData.slice(0, Math.min(4, shuffledData.length));
+// Filtra los datos
+// Filtra los datos
+// Filtra los datos
+const filteredData = data.filter(i => i.category === itemData.category);
 
-    const renderitemData = ({item}) => (
+// Divide los datos en elementos premium y no premium
+const premiumItems = filteredData.filter(i => i.status === 'premium' && i.id !== itemData.id);
+const nonPremiumItems = filteredData.filter(i => i.status !== 'premium' && i.id !== itemData.id);
+
+// Función para mezclar un array
+function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
+// Mezcla los elementos no premium
+shuffle(nonPremiumItems);
+
+// Combina las listas, poniendo los elementos premium primero
+const combinedItems = [...premiumItems, ...nonPremiumItems];
+
+// Selecciona los primeros 4 elementos
+const relateditemDatas = combinedItems.slice(0, Math.min(4, combinedItems.length));
+
+let renderedItems = {};
+
+const renderitemData = ({item}) => {
+    if (renderedItems[item.id]) {
+        return null;
+    }
+
+    renderedItems[item.id] = true;
+
+    return (
         <TouchableOpacity onPress={() => { setSelecteditemData(item); setModalVisible(true); }}>
-            <Card style={{ margin: 5, height: 120, width: '90%', alignSelf: 'center' }}>
+            <Card style={{ margin: 5, width: '90%', alignSelf: 'center' }}>
                 <Card.Content>
+                    <Text style={styles.textStyle}>{item.title}</Text>
                     <Text style={styles.textStyle}>{item.category}</Text>
                     <Text style={styles.textStyle}>{item.description.substring(0, 100)}...</Text>
                     <Text style={styles.textStyle}>{item.name}</Text>
-                    <Text style={styles.textStyle}>{item.title}</Text>
                 </Card.Content>
             </Card>
         </TouchableOpacity>
     );
-    
-    
+};
 
    
 
