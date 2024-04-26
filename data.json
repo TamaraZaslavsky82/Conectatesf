@@ -29,35 +29,35 @@
   },
   {
     "id": 2,
-    "title": "Policia",
-    "description": "Numero de telefono de la policia.",
-    "category": "Telefonos utiles",
-    "name": "Policia",
-    "phone": "101",
+    "title": "Cabalas Ecoo Maggy",
+    "description": "Te ofrecemos cabañas con pileta desde 2 a 8 personas.\n\nLas cabañas cuentan con: Una y dos habitaciones - Baño - Cocina - comedor equipado para la cantidad personas que abarca la cabaña - Aire acondicionado frio/calor - Wifi en todo el complejo - TV con cable - Ropa blanca, jabon, toalla - El complejo cuenta con 8 cabañas - Quincho compartido - Cocheras - Churrasquera - Parquerizado - Pileta\n Abierto todo el año",
+    "category": "Cabañas - Alojamientos -Campings",
+    "name": "Cabañas Ecoo Maggy",
+    "phone": "2664370021",
 
     "status": "Free",
     "location": {
-      "latitude": -32.5986,
-      "longitude": -66.126
+      "latitude": -32.609907,
+      "longitude": -66.130848
     },
     "links": {
       "website": "https://www.example.com",
       "instagram": "https://www.instagram.com/example",
       "facebook": "https://www.facebook.com/example"
     },
-    "tags": ["Tag 1", "Tag 2", "Tag 3"]
+    "tags": ["Cabañas", "Pileta", "Habitaciones", "Baño", "Cocina", "Comedor", "Aire acondicionado", "Wifi", "TV", "Cable", "Ropa blanca", "Jabon", "Toalla", "Quincho", "Cocheras", "Churrasquera", "Parquerizado", "Pileta"]
   },
   {
     "id": 3,
-    "title": "Card 3",
-    "description": "This is Card 3",
-    "category": "Telefonos utiles",
-    "name": "Name 3",
-    "phone": "135-792-4680",
+    "title": "Dormis Keisy",
+    "description": "Te ofrecemos dormis de 2 a 4 personas. Son habitaciones con baño privado, capacidad para 4 personas \n\nCuenta con : Cochera - Ropa blanca, jabon, toalla - Tv cable, Wifi - Aire acondicionado frio/calor - Kit para desayunar en la habitacion",
+    "category": "Cabañas - Alojamientos -Campings",
+    "name": "Dormis Keisy",
+    "phone": "2664209059",
     "status": "Free",
     "location": {
-      "latitude": -32.5987,
-      "longitude": -66.1261
+      "latitude": -32.593587,
+      "longitude": -66.126347
     },
     "links": {
       "website": "https://www.example.com",
@@ -652,7 +652,7 @@
     "title": "Instalacion DirecTv",
     "description": "Instalaciones de DirecTv.",
     "category": "Servicios",
-    "subCategory": "Pintor",
+    "subCategory": "Instalaciones",
     "name": "Carlos Sosa",
     "phone": "2664202623",
     "status": "Free",
@@ -957,7 +957,7 @@
     "id": 65,
     "title": "Acuarella - Libreria",
     "description": "Libreria y papeleria",
-    "category": "Librerias",
+    "category": "Librerias - Graficas",
     "subCategory": "",
     "name": "Acuarella",
     "horario": "Lunes a viernes de 7 a 13 y de 18 a 21:30hs - Sabados de 9:30 a 13:30",
@@ -1201,7 +1201,7 @@
     "id": 81,
     "title": "Carniceria la niña Linda",
     "description": "Carniceria.",
-    "category": "Carnicerias - Verdulerias",
+    "category": "Carnicerias - Verdulerias - Pollerias",
     "subCategory": "",
     "name": "",
     "phone": "2664363337",
@@ -2017,7 +2017,7 @@
   "id": 127,
   "title":"Verduleria Soler",
   "description": "Todo tipo de verduras y frutas de primera calidad, contamos con productos de despenza y almacén",
-  "category": "Carnicerias - Verdulerias",
+  "category": "Carnicerias - Verdulerias - Pollerias - Pollerias",
   "subCategory": "",
   "name": "Verduleria Soler",
   "phone": "",
@@ -2033,7 +2033,7 @@
   "id": 127,
   "title":"Carniceria Ricarte",
   "description": "Carne de primera calidad, milanesasa, hamburguesas, chorizos, pollo y mcuho mas",
-  "category": "Carnicerias - Verdulerias",
+  "category": "Carnicerias - Verdulerias - Pollerias - Pollerias",
   "subCategory": "",
   "name": "Carniceria Ricarte",
   "phone": "",
@@ -2049,7 +2049,7 @@
   "id": 129,
   "title":"Verduleria Del Sur",
   "description": "Frutas  y verduras al mejor precio",
-  "category": "Carnicerias - Verdulerias",
+  "category": "Carnicerias - Verdulerias - Pollerias - Pollerias",
   "subCategory": "",
   "name": "Verduleria Del Sur",
   "phone": "",
@@ -2081,7 +2081,7 @@
   "id": 131,
   "title":"Libreria Centro",
   "description": "Libreria comercial - artistica - impresiones - personalizados y kiosco",
-  "category": "Librerias",
+  "category": "Librerias - Graficas",
   "subCategory": "",
   "name": "Libreria Centro",
   "phone": "2665044033",
@@ -2097,7 +2097,7 @@
   "id": 132,
   "title":"La Red",
   "description": "Venta  articulos de informatica, instalacion de antenas wifi",
-  "category": "Informatica",
+  "category": "Informatica - Electronica",
   "subCategory": "",
   "name": "Raul Lucero",
   "phone": "2664220048",
@@ -2158,7 +2158,7 @@
   "id": 136,
   "title":"Verduleria Del Sur",
   "description": "Productos de almacen y despensa",
-  "category": "Carnicerias - Verdulerias",
+  "category": "Carnicerias - Verdulerias - Pollerias - Pollerias",
   "subCategory": "",
   "name": "Verduleria Del Sur",
   "phone": "",
@@ -2387,7 +2387,7 @@
   "id": 146,
   "title":"Regionales San Francisco",
   "description": "Libreria - Fotocopias ",
-  "category": "Librerias",
+  "category": "Librerias - Graficas",
   "subCategory": "",
   "name": "Claudia",
   "phone": "2665020686",
@@ -2530,7 +2530,7 @@
   "id": 155,
   "title":"Carniceria El Establo",
   "description": "La mejor calidad en carnes, cerdo, pescado y la mejor atención. Brindamos la mejor atencion desde hace 8 años",
-  "category": "Carnicerias - Verdulerias",
+  "category": "Carnicerias - Verdulerias - Pollerias - Pollerias",
   "subCategory": "",
   "name": "Alfredo Vadillo",
   "phone": "2664757878",
@@ -2635,7 +2635,7 @@
 {
   "id": 160,
   "title":"Colectivo Cultural",
-  "description": "El Colectivo Cultura cuenta con un monton de actividades, talleres, clases y eventos para toda la familia. Recreativas funciones de Teatro de Títeres de acuerdo a programación mensual. El espacio es un lugar de encuentro para la cultura y el arte",
+  "description": "El Colectivo Cultural cuenta con un monton de actividades, talleres, clases y eventos para toda la familia. Recreativas funciones de Teatro de Títeres de acuerdo a programación mensual. El espacio es un lugar de encuentro para la cultura y el arte",
   "category": "Actividades recreativas",
   "subCategory": "",
   "name": "",
@@ -2652,7 +2652,7 @@
 {
   "id": 161,
   "title":"Clases de Pilates individuales",
-  "description": "El Colectivo Cultura ",
+  "description": "El Colectivo Cultural ",
   "category": "Clases y Talleres",
   "subCategory": "",
   "name": "",
@@ -2669,7 +2669,7 @@
 {
   "id": 162,
   "title":"Clases de Taichi grupales",
-  "description": "El Colectivo Cultura ",
+  "description": "El Colectivo Cultural ",
   "category": "Clases y Talleres",
   "subCategory": "",
   "name": "",
@@ -2686,7 +2686,7 @@
 {
   "id": 163,
   "title":"Clases de Acrobacia aerea para adultos",
-  "description": "El Colectivo Cultura ",
+  "description": "El Colectivo Cultural ",
   "category": "Clases y Talleres",
   "subCategory": "",
   "name": "",
@@ -2703,7 +2703,7 @@
 {
   "id": 164,
   "title":"Clases de Acrobacia aerea para niños",
-  "description": "El Colectivo Cultura ",
+  "description": "El Colectivo Cultural ",
   "category": "Clases y Talleres",
   "subCategory": "",
   "name": "",
@@ -2715,6 +2715,319 @@
   "location": {
     "latitude": -32.616058,
     "longitude": -66.129244
+ }
+},
+{
+  "id": 165,
+  "title":"Mamull Kura, cabañas de montaña.",
+  "description": "La cabaña cuenta con energia solar - Agua de vertiente - Direct-tv - Servicio de sábanas y toallas -  Utensilios de cocina completos - Parrilla, disco, olla de campo - Piscinas individuales para cabaña 2 y 3 ",
+  "category": "Cabañas - Alojamientos -Campings",
+  "subCategory": "",
+  "name": "",
+  "phone": "2664740444",
+  "horario":"Todo el año abierto",
+  "status": "Free",
+  "tags":["Cabaña", "Montaña", "Energia", "Solar", "Agua", "Vertiente", "Direct-tv", "Servicio", "Sabanas", "Toallas", "Utensilios", "Cocina", "Parrilla", "Disco", "Olla", "Campo", "Piscinas", "Individuales", "Energia Solar", "Agua de vertiente"],
+ 
+  "location": {
+    "latitude": -32.649757,
+    "longitude": -66.122225
+ }
+},
+{
+  "id": 166,
+  "title":"Jeronimo Maderera",
+  "description": "Muebles a pedido - Venta de maderas -  Construccion de Cabañas - Parrillas - Puertas - Aberturas ",
+  "category": "Construccion",
+  "subCategory": "",
+  "name": "",
+  "phone": "2664278306",
+  "horario":"Lunes a viernes de 8 a 17 hs y Sabados de 8 a 13hs",
+  "status": "Free",
+  "tags":[ "Muebles", "Pedido", "Venta", "Maderas", "Construccion", "Cabañas", "Parrillas", "Puertas", "Aberturas"],
+ 
+  "location": {
+    "latitude": -32.589071,
+    "longitude": -66.127662
+ }
+},
+{
+  "id": 167,
+  "title":"Autoservicio Ruben",
+  "description": "Fiambres de primera calidad - Bebidas - Articulos de limpieza - Venta de garrafa - Miel pura y mucho mas ",
+  "category": "Autoservicios - Despensas - Polirubros",
+  "subCategory": "",
+  "name": "",
+  "phone": "",
+  "horario":"Lunes a Lunes de 8 a 22:30",
+  "status": "Free",
+  "tags":[ "Fiambres", "Calidad", "Bebidas", "Limpieza", "Garrafa", "Miel", "Pura"],
+ 
+  "location": {
+    "latitude": -32.592254,
+    "longitude": -66.123713
+ }
+},
+{
+  "id": 168,
+  "title":"Digital Shop",
+  "description": "Electronica y computacion - Accesorios - Venta de celulares ",
+  "category": "Informatica - Electronica",
+  "subCategory": "",
+  "name": "Duilio Garcia",
+  "phone": "2664463675",
+  "horario":"Lunes a sabados de 9 a 13 hs y de 18 a 21hs",
+  "status": "Free",
+  "tags":[ "Electronica", "Computacion", "Accesorios", "Celulares"],
+ 
+  "location": {
+    "latitude": -32.592225,
+    "longitude": -66.124224
+ }
+},
+{
+  "id": 169,
+  "title":"Taller Nafta Diesel Chiche",
+  "description": "Taller mecanico - Repuestos - Lubricentro - Inyeccion electronica - Diagnostico computarizado ",
+  "category": "Talleres mecanicos",
+  "subCategory": "",
+  "name": "",
+  "phone": "",
+  "horario":"Lunes a sabadado de 8:30 a 13 y de 16 a 20hs",
+  "status": "Free",
+  "tags":[ "Taller", "Mecanico", "Repuestos", "Lubricentro", "Inyeccion", "Electronica", "Diagnostico", "Computarizado"],
+ 
+  "location": {
+    "latitude": -32.592086,
+    "longitude": -66.126891
+ }
+},
+{
+  "id": 170,
+  "title":"Lo de Diego",
+  "description": "Desayunos - Sandwich - Cafeteria - Pizzeria ",
+  "category": "Lugares para comer",
+  "subCategory": "",
+  "name": "",
+  "phone": "2665271577",
+  "horario":"Lunes a sabados de 8 a 13hs",
+  "status": "Free",
+  "tags":[ "Desayunos", "Sandwich", "Cafeteria", "Pizzeria"],
+ 
+  "location": {
+    "latitude": -32.601506,
+    "longitude": -66.126989
+ }
+},
+{
+  "id": 171,
+  "title":"Kiosco La Terminal",
+  "description": "MaxiKiosco",
+  "category": "Kioscos",
+  "subCategory": "",
+  "name": "",
+  "phone": "",
+  "horario":"Lunes a Lunes de 7:30 a 14 hs y de 17 a 22hs",
+  "status": "Free",
+  "tags":[ "Kiosco", "Maxikiosco"],
+ 
+  "location": {
+    "latitude": -32.591594,
+    "longitude": -66.127357
+ }
+},
+{
+  "id": 172,
+  "title":"Artesanias",
+  "description": "Artesanias hechas a mano - Lamparas - Cuadros - Adornos - Regalos ",
+  "category": "Productores - Emprendedores",
+  "subCategory": "",
+  "name": "",
+  "phone": "2664637887",
+  "horario":"",
+  "status": "Free",
+  "tags":[ "Artesanias", "Hechas", "Mano", "Lamparas", "Cuadros", "Adornos", "Regalos"],
+ 
+  "location": {
+    "latitude": -32.601506,
+    "longitude": -66.126989
+ }
+},
+{
+  "id": 173,
+  "title":"La Norita",
+  "description": "Libreria Comercias y Cotillon",
+  "category": "Librerias - Graficas",
+  "subCategory": "",
+  "name": "",
+  "phone": "2664201127",
+  "horario":"",
+  "status": "Free",
+  "tags":[ "Libreria", "Comercias", "Cotillon"],
+ 
+  "location": {
+    "latitude": -32.593901,
+    "longitude": -66.129045
+ }
+},
+{
+  "id": 174,
+  "title":"La Norita",
+  "description": "Despensa",
+  "category": "Autoservicios - Despensas - Polirubros",
+  "subCategory": "",
+  "name": "",
+  "phone": "2664201127",
+  "horario":"",
+  "status": "Free",
+  "tags":[ "Despensa"],
+ 
+  "location": {
+    "latitude": -32.593901,
+    "longitude": -66.129045
+ }
+},
+{
+  "id": 175,
+  "title":"La Norita",
+  "description": "Pago Facil - Western Union ",
+  "category": "Pago Facil - Western Union",
+  "subCategory": "",
+  "name": "",
+  "phone": "2664201127",
+  "horario":"",
+  "status": "Free",
+  "tags":[ "Pago", "Facil", "Western", "Union"],
+ 
+  "location": {
+    "latitude": -32.593901,
+    "longitude": -66.129045
+ }
+},
+
+{
+  "id": 176,
+  "title":"Círculo Sanluiseño de Patinaje Artístico sede San Francisco del Monte de oro",
+  "description": "Clases de patinaje artístico recreativo, de competencia y patin adaptado, dictadas por las técnicas nacionales Romina becerra, Cecilia Becerra y el profesor medallista mundial Gastón Cuello.\n\nGrupos recreativo (4 a 11 años) y teens (12 a 18 año)",
+  "category": "Clases y Talleres",
+  "subCategory": "",
+  "name": "",
+  "phone": "",
+  "horario":" Lunes, miércoles y jueves de de 20:00 a 21:00",
+  "status": "Free",
+  "tags":[ "Patinaje", "Artistico", "Recreativo", "Competencia", "Patin", "Adaptado", "Tecnicas", "Nacionales", "Profesor", "Medallista", "Mundial", "Gaston", "Cuello", "Grupo", "Competitivo", "Federado"],
+ 
+  "location": {
+    "latitude": -32.597685,
+    "longitude": -66.129788
+ }
+},
+{
+  "id": 177,
+  "title":"Refrigueracion Rodriguez",
+  "description": "Se hacen trabajos de refrigueracion en todas las marcas y electrodomesticos.. ( heladeras lavarropas ) ",
+  "category": "Servicios",
+  "subCategory": "Refrigeracion",
+  "name": "",
+  "phone": "2664870771",
+  "horario":"",
+  "status": "Free",
+  "tags":[ "Refrigeracion", "Trabajos", "Marcas", "Electrodomesticos", "Heladeras", "Lavarropas"]
+ 
+ 
+},
+{
+  "id": 178,
+  "title":"Dati S.H Servicios Graficos",
+  "description": "Fotocopias - Impresiones - Escaneos - Anillados - Art. de Libreria y Computacion",
+  "category": "Librerias - Graficas",
+  "subCategory": "",
+  "name": "",
+  "phone": "2651426566",
+  "horario":"Lunes, miércoles y jueves de de 20:00 a 21:00",
+  "status": "Free",
+  "tags":[ "Fotocopias", "Impresiones", "Escaneos", "Anillados", "Art", "Libreria", "Computacion"],
+ 
+  "location": {
+    "latitude": -32.601340,
+    "longitude": -66.128757
+ }
+},
+{
+  "id": 179,
+  "title": "Herreria Julio",
+  "description": "Herreria, Rejas , Portones, Puertas, Techos , Tinglados, Soldaduras en general, Reparaciones y Trabajos a medida",
+  "image": [
+    "https://i.imgur.com/M0Zxu63.jpeg",
+    "https://i.imgur.com/IAizncu.jpeg",
+    "https://i.imgur.com/K5mIa6B.jpeg",
+    "https://i.imgur.com/qUdP4nN.jpeg"
+    
+  ],
+  "category": "Servicios",
+  "subCategory": "Herreria",
+  "name": "Julio",
+  "phone": "2665257107",
+  "status": "Premium",
+  
+
+  
+  "links": {
+    "website": "",
+    "instagram": "",
+    "facebook": ""
+  },
+  "tags": ["Herreria", "Rejas", "Portones", "Puertas", "Techos", "Tinglados", "Soldaduras", "Reparaciones", "Trabajos", "Medida"]
+},
+{
+  "id": 180,
+  "title":"Dati S.H Servicios Graficos",
+  "description": "Fotocopias - Impresiones - Escaneos - Anillados - Art. de Libreria y Computacion",
+  "category": "Librerias - Graficas",
+  "subCategory": "",
+  "name": "",
+  "phone": "2651426566",
+  "horario":"Lunes, miércoles y jueves de de 20:00 a 21:00",
+  "status": "Free",
+  "tags":[ "Fotocopias", "Impresiones", "Escaneos", "Anillados", "Art", "Libreria", "Computacion"],
+ 
+  "location": {
+    "latitude": -32.601340,
+    "longitude": -66.128757
+ }
+},
+{
+  "id": 181,
+  "title":"Estacion de Servicio - Yo Soy",
+  "description": "Estacion de servicio con combustible Shell - Venta de productos de Kiosco - Articulos de Lubricentro",
+  "category": "Estaciones de servicio",
+  "subCategory": "",
+  "name": "",
+  "phone": "",
+  "horario":"Lunes a lunes 24hs",
+  "status": "Free",
+  "tags":[ "Estacion", "Servicio", "Combustible", "Shell", "Productos", "Kiosco", "Lubricentro"],
+ 
+  "location": {
+    "latitude": -32.596552,
+    "longitude": -66.126502
+ }
+},
+{
+  "id": 182,
+  "title":"Estacion de Servicio - Yo Soy",
+  "description": "Salon comedor - Desayunos - Almuerzos - Meriendas - Cena",
+  "category": "Estaciones de servicio",
+  "subCategory": "",
+  "name": "",
+  "phone": "",
+  "horario":"Lunes a lunes 24hs",
+  "status": "Free",
+  "tags":[ "Salon", "Comedor", "Desayunos", "Almuerzos", "Meriendas", "Cena"],
+ 
+  "location": {
+    "latitude": -32.596552,
+    "longitude": -66.126502
  }
 }
 

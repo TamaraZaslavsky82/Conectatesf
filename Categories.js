@@ -16,7 +16,7 @@ import {
   Card,
   Title,
 } from 'react-native-paper';
-import { HeaderBackButton } from '@react-navigation/stack';
+import FeedbackForm from './FeedbackForm';
 
 const CategoriesScreen = ({navigation}) => {
   const data = require('./data.json');
@@ -104,6 +104,20 @@ const allCategories = data.map(item => {
               <Text style={{fontSize: 20, textAlign: 'center', margin: 10}}>
                 Aquí puedes encontrar todas las categorías disponibles
               </Text>
+              <Text style={{fontSize: 20, textAlign: 'center', margin: 10}}>
+             Si queres dejar una sugerencia o hacer un reclamo, con el area de Servicio al Consumidor dependiente del area de la municipalidad, podes hacerlo desde este boton.
+              </Text>
+              <Button
+  style={{
+    backgroundColor: 'white',
+    marginBottom: 10,
+    marginTop: 10,
+    color: 'darkviolet',
+  }}
+  onPress={() => navigation.navigate('FeedbackForm')}
+>
+  Acceder
+</Button>
               <FlatList
                 data={uniqueCategories}
                 numColumns={2}

@@ -39,6 +39,7 @@ import EventComponent from './Event';
 import EventIcon from './estrella.png';
 import PushNotification from 'react-native-push-notification';
 import GeoMapaWifi from './GeomapaWifi';
+import FeedbackForm from './FeedbackForm';
 
 LogBox.ignoreLogs(['new NativeEventEmitter()']);
 
@@ -197,6 +198,7 @@ class App extends React.Component {
             options={{headerShown: true}} 
             />
               <Stack.Screen name="Contacto" component={ContactFormScreen} options={{headerShown: true, title: 'Sumate'}} /> 
+              <Stack.Screen name="FeedbackForm" component={FeedbackForm} options={{headerShown: true, title: 'Deja tu consulta!'}} /> 
         </Stack.Navigator>
       </NavigationContainer>
     );
