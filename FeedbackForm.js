@@ -8,21 +8,16 @@ const FeedbackForm = () => {
 
   const handleSubmit = () => {
     const emailRecipient = 'tamaraanabellazaslavsky@gmail.com';
-    const emailSubject = 'Mensaje de la aplicación React Native';
+    const emailSubject = 'Sujerencia o Reclamo de usuario al area del Consumidor';
     const emailBody = `De: ${email}\nMensaje: ${message}`;
 
     const mailtoLink = `mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
 
-    Linking.canOpenURL(mailtoLink)
-      .then((supported) => {
-        if (!supported) {
-          console.log(`Can't handle url: ${mailtoLink}`);
-        } else {
-          Linking.openURL(mailtoLink);
-          setEmail('');
-          setPhoneNumber('');
-          setMessage('');
-        }
+    Linking.openURL(mailtoLink)
+      .then(() => {
+        setEmail('');
+        setPhoneNumber('');
+        setMessage('');
       })
       .catch((err) => console.error('An error occurred', err));
   };
@@ -32,18 +27,24 @@ const FeedbackForm = () => {
       <View style={styles.container}>
         <TextInput
           placeholder="Email"
+          placeholderTextColor="darkgray"
+          color="violet"
           value={email}
           onChangeText={setEmail}
           style={styles.input}
         />
         <TextInput
           placeholder="Número de teléfono"
+          placeholderTextColor="darkgray"
+          color="violet"
           value={phoneNumber}
           onChangeText={setPhoneNumber}
           style={styles.input}
         />
         <TextInput
           placeholder="Mensaje"
+          placeholderTextColor="darkgray"
+          color="violet"
           value={message}
           onChangeText={setMessage}
           style={styles.inputMessage}
