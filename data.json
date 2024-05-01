@@ -3369,7 +3369,58 @@
     "latitude": -32.596765,
     "longitude": -66.126627
  }
-}
+},
+{
+  "id": 201,
+  "title":"One Grafica",
+  "description": "Grafica - Impresiones - Sublimaciones - Folleteria - Tarjeteria - Estampados - Carteleria",
+  "category":"Librerias - Graficas",
+  "subCategory": "",
+  "name": "",
+  "phone": "2664668695",
+  "horario":"Lunes a Viernes de 10 a 13 hs y de 18 a 21hs",
+  "status": "Free",
+  "tags":["Grafica","Impresiones","Folleteria","Carteleria","Sublimaciones","Tarjeteria","Estampados","Personalizados"],
+ 
+  "location": {
+    "latitude": -32.596134,
+    "longitude": -66.127792
+ }
+},
+{
+  "id": 202,
+  "title":"One Taller",
+  "description": "Servicios - Electricidad - Lavado de motor - Limpieza de interiores - Tratamiento - Reparaciones - Ploteos",
+  "category":"Talleres mecanicos",
+  "subCategory": "",
+  "name": "",
+  "phone": "",
+  "horario":"Lunes a Viernes de 10 a 13 hs y de 18 a 21hs",
+  "status": "Free",
+  "tags":[,"Ploteo","Reparaciones","Motor","Limpieza","Lavado","Interiores","Tratamiento","Electricidad"],
+ 
+  "location": {
+    "latitude": -32.596189,
+    "longitude": -66.127784
+ }
+},
+{
+  "id": 202,
+  "title":"One Taller",
+  "description": "Cerrajeria",
+  "subCategory": "",
+  "name": "",
+  "phone": "",
+  "horario":"Lunes a Viernes de 10 a 13 hs y de 18 a 21hs",
+  "status": "Free",
+  "tags":["Cerrajeria"],
+ 
+  "location": {
+    "latitude": -32.596189,
+    "longitude": -66.127784
+ }
+},
+
 
 
 
