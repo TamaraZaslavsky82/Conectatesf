@@ -152,7 +152,7 @@ const allCategories = data.map(item => {
                   <TouchableOpacity
                     onPress={() => handleSubCategorySelect(item)}>
                     <List.Item
-                      title={<Text style={{color: 'blackdark'}}>{item}</Text>}
+                      title={<Text style={{color: 'darkviolet'}}>{item}</Text>}
                       style={{backgroundColor: 'rgba(255, 255, 255, 0.9)'}}
                     />
                   </TouchableOpacity>

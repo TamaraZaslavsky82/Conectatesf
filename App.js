@@ -198,7 +198,7 @@ class App extends React.Component {
             options={{headerShown: true}} 
             />
               <Stack.Screen name="Contacto" component={ContactFormScreen} options={{headerShown: true, title: 'Sumate'}} /> 
-              <Stack.Screen name="FeedbackForm" component={FeedbackForm} options={{headerShown: true, title: 'Deja tu consulta!'}} /> 
+              <Stack.Screen name="FeedbackForm" component={FeedbackForm} options={{headerShown: true, title: 'Deja tu Consulta o Reclamo!'}} /> 
         </Stack.Navigator>
       </NavigationContainer>
     );

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, TextInput, View, Linking, StyleSheet, ImageBackground } from 'react-native';
+import { Button, TextInput, View, Linking, StyleSheet, ImageBackground, Text } from 'react-native';
 
 const FeedbackForm = () => {
   const [email, setEmail] = useState('');
@@ -7,9 +7,9 @@ const FeedbackForm = () => {
   const [message, setMessage] = useState('');
 
   const handleSubmit = () => {
-    const emailRecipient = 'tamaraanabellazaslavsky@gmail.com';
-    const emailSubject = 'Sujerencia o Reclamo de usuario al area del Consumidor';
-    const emailBody = `De: ${email}\nMensaje: ${message}`;
+    const emailRecipient = 'dpuebloeducacionsl@gmail.com';
+    const emailSubject = 'Mensaje desde app CONECTATE. Area Servicio al Consumidor';
+    const emailBody = `De: ${email}\nMensaje: ${message} Numero de contacto: ${phoneNumber}`;
 
     const mailtoLink = `mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
 
@@ -24,6 +24,9 @@ const FeedbackForm = () => {
 
   return (
     <ImageBackground source={require('./montaña.jpg')} style={styles.background}>
+      <Text style={{fontSize: 20, textAlign: 'center', margin: 10}}>
+        Este mensaje sera derivado al Area de Servicio al Consumidor, directamente conectado con el ENTE correspondiente, la aplicacion no se hace cargo de responder a reclamos o sugerencias de Servicio al Consumidor.
+      </Text>
       <View style={styles.container}>
         <TextInput
           placeholder="Email"

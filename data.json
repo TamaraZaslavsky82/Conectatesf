@@ -1668,7 +1668,7 @@
     "id": 106,
     "title": "El Cesar",
     "description": "Pintureria y Ferreteria El Cesar, te ofrece una amplia gama productos.Todo para su Hogar",
-    "category": "Ferreterias",
+    "category": "Ferreterias - Corralon - Pinturerias",
     "subCategory": "",
     "name": "Cesar Ariel Raymundo",
     "phone": "2665065869",
@@ -2017,7 +2017,7 @@
   "id": 127,
   "title":"Verduleria Soler",
   "description": "Todo tipo de verduras y frutas de primera calidad, contamos con productos de despenza y almacén",
-  "category": "Carnicerias - Verdulerias - Pollerias - Pollerias",
+  "category": "Carnicerias - Verdulerias - Pollerias",
   "subCategory": "",
   "name": "Verduleria Soler",
   "phone": "",
@@ -2033,7 +2033,7 @@
   "id": 127,
   "title":"Carniceria Ricarte",
   "description": "Carne de primera calidad, milanesasa, hamburguesas, chorizos, pollo y mcuho mas",
-  "category": "Carnicerias - Verdulerias - Pollerias - Pollerias",
+  "category": "Carnicerias - Verdulerias - Pollerias",
   "subCategory": "",
   "name": "Carniceria Ricarte",
   "phone": "",
@@ -2049,7 +2049,7 @@
   "id": 129,
   "title":"Verduleria Del Sur",
   "description": "Frutas  y verduras al mejor precio",
-  "category": "Carnicerias - Verdulerias - Pollerias - Pollerias",
+  "category": "Carnicerias - Verdulerias - Pollerias",
   "subCategory": "",
   "name": "Verduleria Del Sur",
   "phone": "",
@@ -2158,7 +2158,7 @@
   "id": 136,
   "title":"Verduleria Del Sur",
   "description": "Productos de almacen y despensa",
-  "category": "Carnicerias - Verdulerias - Pollerias - Pollerias",
+  "category": "Carnicerias - Verdulerias - Pollerias",
   "subCategory": "",
   "name": "Verduleria Del Sur",
   "phone": "",
@@ -2530,7 +2530,7 @@
   "id": 155,
   "title":"Carniceria El Establo",
   "description": "La mejor calidad en carnes, cerdo, pescado y la mejor atención. Brindamos la mejor atencion desde hace 8 años",
-  "category": "Carnicerias - Verdulerias - Pollerias - Pollerias",
+  "category": "Carnicerias - Verdulerias - Pollerias",
   "subCategory": "",
   "name": "Alfredo Vadillo",
   "phone": "2664757878",
@@ -3029,7 +3029,352 @@
     "latitude": -32.596552,
     "longitude": -66.126502
  }
+},
+{
+  "id": 183,
+  "title": "Centro Cultural de San Francisco del Monte de Oro",
+  "description": "El Centro Cultural de San Francisco del Monte de Oro es un centro cultural comunitario destinado a mantener actividades que promueven la cultura, la democratización y revitalización de la cultura regional, en el marco de una política de estado.\n\nEl Centro Cultural cuenta con una amplica cantidad de Talleres y Clases:\n- Taller fotografía y cine para niños\n- Taller de juegos de mesa\n- Tango infantil\n- Tango adultos\n- Tango fusión\n- Tae kwondo\n- Tae kwondo\n- Taller de arte/ pintura\n- Taller de radio\n- Taller de guitarra para niños\n- Yoga\n- Jumpers fit\n- Fénix jump\n- Fénix zumba\n- Zumba\n- (Baile) Urbano\n- (Baile) K-Pop\n- (Baile) Jazz Fusión\n- Elongacion y Stretching\n- Taller de Bienestar integral p/ Adultos Mayores\n- Taller de Escultura orgánica yodelado en arcilla\n- Taller de Guitarra adultos\n- Taller de apoyo al pensamiento lógico\n- Taller de canto\n- Tai chi chuan\n- Taller de escritura creativa y literatura\n- Taller de arte infantil\n- Taller de teatro\n- Corte y confección\n- Danza árabe\n- Taller de acondicionamiento físico p/bailarines\n- Ballet folklórico Retoños de mí Tierra\n- Ballet folklórico Aromas de mí pago\n- Ballet Valle de Caranday\n- Iniciación al folklore\n- Ballet folklórico Renacer serrano\n\nPara informacion sobre Clases y Talleres se puede acercar al Centro Cultural, en los horarios de atencion",
+  "horario": "Lunes a viernes",
+  "image": [
+    "https://i.imgur.com/BWzsLwv.jpeg",
+    "https://i.imgur.com/ksb0g6i.jpeg",
+    "https://i.imgur.com/8fqpZdD.jpeg",
+    "https://i.imgur.com/igSrDhR.jpeg"
+    
+  ],
+  "category": "Centro Cultural",
+
+  "name": "",
+  "phone": "",
+  "status": "Premium",
+  "location": {
+    "latitude": -32.601635,
+    "longitude": -66.126951
+  },
+  "links": {
+    "website": "",
+    "instagram": "https://www.instagram.com/centroculturalsanfco/",
+    "facebook": "https://www.facebook.com/centroculturalsanfco"
+  },
+  "tags": ["Centro Cultura", "Actividades", "Talleres", "Teatro", "Eventos", "Cultura", "Clases","Cine", "Fotografia","Juegos","Tango","Tae Kwondo", "Arte", "Pintura","Radio","Guitarra","Yoga","Jumpers","Zumba","Baile","Elongacion","Stretching","Binestar","Escultura","Canto", "Tai Chi Chuan","Corte","Confeccion","Danza","Arabe","Folklore","Teatro", "Escritura","Urbano","K-Pop","Jazz","Canto","Niños","Adultos","Literatura","Muestras","Mayores", "Infantil"]
+},
+{
+  "id": 184,
+  "title": "Posada El Algarrobo",
+  "description": "El Restaurante Posada El Algarrobo te invita a embarcarte en un viaje culinario por los sabores más auténticos de la región.\n\nSu menú, cuidadosamente elaborado con productos frescos y de estación, te ofrece una amplia variedad de platos para todos los gustos. Desde suculentas carnes asadas hasta pastas caseras y ensaladas frescas, cada bocado es una explosión de sabor.\n\nDisfruta de tus comidas en un ambiente cálido y familiar. La atención personalizada del personal te hará sentir como en casa.\n\nSe realizan Eventos y Cumpleaños con o sin servicio.",
+  "horario": "Lunes , Martes y Jueves  y Domingos de 12 a 16hs - Miércoles cerrados - Viernes y Sábados de 12 a16 y de 21 a 24hs",
+  "image": [
+    "https://i.imgur.com/W31Ou7h.jpeg",
+    "https://i.imgur.com/U89II4h.jpeg",
+    "https://i.imgur.com/YOoWezj.jpeg",
+    "https://i.imgur.com/zezjcOq.jpeg",
+    "https://i.imgur.com/IbXOgrv.jpeg"
+  ],
+  "category": "Deliverys",
+
+  "name": "Yanina",
+  "phone": "1169622127",
+  "status": "Premium",
+  "location": {
+    "latitude": -32.618943,
+    "longitude": -66.129701
+  },
+  "links": {
+    "website": "",
+    "instagram": "https://www.instagram.com/posadaelalgarrobo/",
+    "facebook": ""
+  },
+  "tags": ["Restaurante", "Comida regional", "Eventos", "Cumpleaños", "Almuerzo", "Cena","Pastas","Delivery"]
+},
+{
+  "id": 185,
+  "title": "Centro Cultural de San Francisco del Monte de Oro",
+  "description": "El Centro Cultural de San Francisco del Monte de Oro es un centro cultural comunitario destinado a mantener actividades que promueven la cultura, la democratización y revitalización de la cultura regional, en el marco de una política de estado.\n\nEl Centro Cultural cuenta con una amplica cantidad de Talleres y Clases:\n- Taller fotografía y cine para niños\n- Taller de juegos de mesa\n- Tango infantil\n- Tango adultos\n- Tango fusión\n- Tae kwondo\n- Tae kwondo\n- Taller de arte/ pintura\n- Taller de radio\n- Taller de guitarra para niños\n- Yoga\n- Jumpers fit\n- Fénix jump\n- Fénix zumba\n- Zumba\n- (Baile) Urbano\n- (Baile) K-Pop\n- (Baile) Jazz Fusión\n- Elongacion y Stretching\n- Taller de Bienestar integral p/ Adultos Mayores\n- Taller de Escultura orgánica yodelado en arcilla\n- Taller de Guitarra adultos\n- Taller de apoyo al pensamiento lógico\n- Taller de canto\n- Tai chi chuan\n- Taller de escritura creativa y literatura\n- Taller de arte infantil\n- Taller de teatro\n- Corte y confección\n- Danza árabe\n- Taller de acondicionamiento físico p/bailarines\n- Ballet folklórico Retoños de mí Tierra\n- Ballet folklórico Aromas de mí pago\n- Ballet Valle de Caranday\n- Iniciación al folklore\n- Ballet folklórico Renacer serrano\n\nPara informacion sobre Clases y Talleres se puede acercar al Centro Cultural, en los horarios de atencion",
+  "horario": "Lunes a viernes",
+  "image": [
+    "https://i.imgur.com/BWzsLwv.jpeg",
+    "https://i.imgur.com/ksb0g6i.jpeg",
+    "https://i.imgur.com/8fqpZdD.jpeg",
+    "https://i.imgur.com/igSrDhR.jpeg"
+    
+  ],
+  "category": "Actividades recreativas",
+
+  "name": "",
+  "phone": "",
+  "status": "Premium",
+  "location": {
+    "latitude": -32.601635,
+    "longitude": -66.126951
+  },
+  "links": {
+    "website": "",
+    "instagram": "https://www.instagram.com/centroculturalsanfco/",
+    "facebook": "https://www.facebook.com/centroculturalsanfco"
+  },
+  "tags": ["Centro Cultura", "Actividades", "Talleres", "Teatro", "Eventos", "Cultura", "Clases","Cine", "Fotografia","Juegos","Tango","Tae Kwondo", "Arte", "Pintura","Radio","Guitarra","Yoga","Jumpers","Zumba","Baile","Elongacion","Stretching","Binestar","Escultura","Canto", "Tai Chi Chuan","Corte","Confeccion","Danza","Arabe","Folklore","Teatro", "Escritura","Urbano","K-Pop","Jazz","Canto","Niños","Adultos","Literatura","Muestras","Mayores", "Infantil"]
+},
+{
+  "id": 186,
+  "title":"Frida ",
+  "description": "Podes encontrar todo lo que buscas - Libreria - Cotillon - Fotocopias - Impresiones - Bazar - Anillados - Jugueteria - Tecnologia - Articulos de belleza - Marroqueria - Pequeñas herramientas - Accesorios de indumentaria - Bijouterie - Regaleria - Merceria",
+  "category": "Librerias - Graficas",
+  "subCategory": "",
+  "name": "",
+  "phone": "",
+  "horario":"Lunes a Viernes de 9 a 13hs y de 18 a 22hs\nSabados de 9:30 a 13hs y de 18 a 22hs\nDomingos 10 a 13:30hs",
+  "status": "Free",
+  "tags":[ "Bazar","Libreria","Anillados","Jugueteria","Tecnologia","Articulos","Belleza","Marroqueria","Herramientas","Impresiones","Cotillon","Bijouterie","Regaleria","Fotocopias","Impresiones"],
+ 
+  "location": {
+    "latitude": -32.599660,
+    "longitude": -66.127860 
+ }
+},
+{
+  "id": 187,
+  "title":"Pastas Artesanales Portal del Rio",
+  "description": "Patas caseras y artesanales. Podes encontrar Sorrentinos, Canelones, Lasagna, Fideos y Salsa. Hace tu consulta!",
+  "category": "Productores - Emprendedores",
+  "subCategory": "",
+  "name": "",
+  "phone": "2613405812",
+  "horario":"",
+  "status": "Free",
+  "tags":[ "Pastas", "Salsa","Fideos","Canelones","Lagsana", "Caseras","Artesanal","Cena","Almuerzo","Sorrentinos"],
+ 
+  "location": {
+    "latitude": -32.634770,
+    "longitude": -66.134152 
+ }
+},
+{
+  "id": 188,
+  "title":"Vitamina",
+  "description": "Ubicado en el centro del pueblo, frente a la Plaza Pringles se encuentra Vitamina. Pizzeria - Empanadas - Lomos - Hamburguesas - Bebidas - Barroluco. Cuenta con delivery",
+  "category": "Lugares para comer",
+  "subCategory": "",
+  "name": "",
+  "phone": "",
+  "horario":"Martes y Domingos de 20 a 01hs",
+  "status": "Free",
+  "tags":[ "Empanadas", "Pizzas","Lomos","Hamburguesa", "Bebidas","Barroluco","Cena","Delivery"],
+ 
+  "location": {
+    "latitude": -32.600892,
+    "longitude": -66.126642 
+ }
+},
+{
+  "id": 189,
+  "title":"Correo Argentino",
+  "description": "Sucursal de Correo Argentino San Francisco del Monte de Oro. Envios y Recepcion",
+  "category": "Correo",
+  "subCategory": "",
+  "name": "",
+  "phone": "",
+  "horario":"Lunes a Viernes de 8:30 a 14:30hs",
+  "status": "Free",
+  "tags":[ "Correo","Envio","Recepcion","Cartas","Sucursal"],
+ 
+  "location": {
+    "latitude": -32.600187,
+    "longitude": -66.125047
+ }
+},
+{
+  "id": 190,
+  "title":"Correo Argentino",
+  "description": "Pago Facil. Solo pagos en efectivo. No entrega dinero",
+  "category": "Pago Facil - Western Union",
+  "subCategory": "",
+  "name": "",
+  "phone": "",
+  "horario":"Lunes a Viernes 8:30 a 12hs",
+  "status": "Free",
+  "tags":["Pagos","Facil","Efectivo"],
+ 
+  "location": {
+    "latitude": -32.600187,
+    "longitude": -66.125047
+ }
+},
+{
+  "id": 191,
+  "title":"La Negrita",
+  "description": "Indumentaria femenina y masculina, para todas las edades",
+  "category": "Indumentaria",
+  "subCategory": "",
+  "name": "",
+  "phone": "2664722777",
+  "horario":"Lunes a Sabados de 9 a 13hs y de 14 a 21hs",
+  "status": "Free",
+  "tags":[ "Indumentaria","Femenina","Masculina","Zapatillas","Niños","Adultos"],
+ 
+  "location": {
+    "latitude": -32.600430,
+    "longitude": -66.125476
+ }
+},
+{
+  "id": 192,
+  "title":"La Estrellita",
+  "description": "Baza y Jugueteria",
+  "category": "Bazar y hogar",
+  "subCategory": "",
+  "name": "",
+  "phone": "",
+  "horario":"Lunes a Sabados de 9 a 13hs y de 14 a 21hs",
+  "status": "Free",
+  "tags":[ "Jugueteria","Bazar"],
+ 
+  "location": {
+    "latitude": -32.600414,
+    "longitude": -66.125409
+ }
+},
+{
+  "id": 193,
+  "title":"Solo Tu",
+  "description": "Electronica, accesorio para celulares, celulares, fundas, parlantes",
+  "category": "Informatica - Electronica",
+  "subCategory": "",
+  "name": "",
+  "phone": "",
+  "horario":"Lunes a Sabados de 9 a 13hs y de 14 a 21hs",
+  "status": "Free",
+  "tags":["Parlantes","Fundas","Electronica","Celulares","Accesorios"],
+ 
+  "location": {
+    "latitude": -32.600378,
+    "longitude": -66.125438
+ }
+},
+{
+  "id": 194,
+  "title":"Clinica Rawson Mediciana Privada",
+  "description": "Atencio a Obra social Dosep - Medicos Generalistas - Ecografias - Laboratorio\n\nMedicos:\nDoctor Juan Arbia\nDoctora Teresita Nuñez\nRaul Montovani\n\nLaboratorio Martes y Jueves por orden de llegada a partir de las 7:30hs",
+  "category": "Atencion medica",
+  "subCategory": "",
+  "name": "",
+  "phone": "",
+  "horario":"Lunes a Viernes de 9 a 11hs y de 17 a 19hs",
+  "status": "Free",
+  "tags":[ "Dosep", "Laboratorio","Medico","Ecografia","Obra social","Clinica"],
+ 
+  "location": {
+    "latitude": -32.600281,
+    "longitude": -66.124898
+ }
+},
+{
+  "id": 195,
+  "title":"El Silo Forrajes",
+  "description": "Venta de productos de forrajeria",
+  "category": "Forrajerias",
+  "subCategory": "",
+  "name": "",
+  "phone": "",
+  "horario":"Lunes a Sabados de 8:30 a 13hs",
+  "status": "Free",
+  "tags":[ "Forrajeria"],
+ 
+  "location": {
+    "latitude": -32.599790,
+    "longitude": -66.125211
+ }
+},
+{
+  "id": 196,
+  "title":"El Silo Forrajes",
+  "description":"Venta  de gas envasado de 10 - 15 y 45. Reparto a domicilio",
+  "category": "Venta de Garrafas",
+  "subCategory": "",
+  "name": "",
+  "phone": "2664200580",
+  "horario":"Lunes a Sabados de 8:30 a 13hs",
+  "status": "Free",
+  "tags":[ "Garrafa","Gas","Envasado","Reparto","Domicilio"],
+ 
+  "location": {
+    "latitude": -32.599790,
+    "longitude": -66.125211
+ }
+},
+{
+  "id": 197,
+  "title":"Pintomazz Pintureria",
+  "description": "Pintureria",
+  "category": "Ferreterias - Corralon - Pinturerias",
+  "subCategory": "",
+  "name": "",
+  "phone": "",
+  "horario":"Lunes a Viernes de 8:30 a 12:30 y de 17 a 21hs\nSabados de 9 a 13hs",
+  "status": "Free",
+  "tags":[ "Pintureria"],
+ 
+  "location": {
+    "latitude": -32.599587,
+    "longitude": -66.125148
+ }
+},
+{
+  "id": 198,
+  "title":"Corralon Garcia",
+  "description": "Pintureria - Corralon - Materiales de construccion - Ladrillos - Hierros y mas",
+  "category": "Ferreterias - Corralon - Pinturerias",
+  "subCategory": "",
+  "name": "",
+  "phone": "",
+  "horario":"Lunes a Vienes de 9 a 12:30 y de 16 a 19:30\nSabados de 9 a 12:30",
+  "status": "Free",
+  "tags":[ "Pintureria","Corralon","Ladrillos","Construccion","Hierros"],
+ 
+  "location": {
+    "latitude": -32.597401,
+    "longitude": -66.126813
+ }
+},
+{
+  "id": 199,
+  "title":"Panaderia Garcia",
+  "description": "Desayunos - Cafeteria - Panificados - Facturas - Tostados - Pasteleria a pedido",
+  "category": "Panaderias",
+  "subCategory": "",
+  "name": "",
+  "phone": "",
+  "horario":"Lunes a Sabados de 7 a 12:30\nDomingos de 8 a 12:30",
+  "status": "Free",
+  "tags":["Cafeteria", "Panderia","Facturas","Tostados","Desayunos","Pasteleria","Pedidos"],
+ 
+  "location": {
+    "latitude": -32.596765,
+    "longitude": -66.126627
+ }
+},
+{
+  "id": 200
+  ,
+  "title":"Panaderia Garcia",
+  "description": "Desayunos - Cafeteria - Panificados - Facturas - Tostados - Pasteleria a pedido",
+  "category": "Cafeterias",
+  "subCategory": "",
+  "name": "",
+  "phone": "",
+  "horario":"Lunes a Sabados de 7 a 12:30\nDomingos de 8 a 12:30",
+  "status": "Free",
+  "tags":["Cafeteria", "Panderia","Facturas","Tostados","Desayunos","Pasteleria","Pedidos"],
+ 
+  "location": {
+    "latitude": -32.596765,
+    "longitude": -66.126627
+ }
 }
+
+
+
+
+
 
 
 
