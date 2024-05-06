@@ -1,4 +1,4 @@
-package com.conectatesf
+package com.conectate
 
 import android.app.Application
 import com.facebook.react.PackageList

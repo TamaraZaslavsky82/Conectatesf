@@ -83,9 +83,7 @@ class GeoMapa extends React.Component {
                                     <Text style={{ color: 'darkviolet' }}>{this.state.selectedItem.category}</Text>
                                     <Text style={{ color: 'darkviolet' }}>{this.state.selectedItem.name}</Text>
                                     <Text style={{ color: 'darkviolet' }}>{this.state.selectedItem.phone}</Text>
-                                    <Text style={{ color: 'darkviolet' }}>{this.state.selectedItem.links.website}</Text>
-                                    <Text style={{ color: 'darkviolet' }}>{this.state.selectedItem.links.instagram}</Text>
-                                    <Text style={{ color: 'darkviolet' }}>{this.state.selectedItem.links.facebook}</Text>
+                                    
                                 </>
                             )}
 

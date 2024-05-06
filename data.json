@@ -123,7 +123,7 @@
     "title": "Salto Escondido",
     "description": "El Salto Escondido es una de las Siete Maravillas Naturales de San Luis y un destino imperdible para los amantes de la naturaleza. Se encuentra en la localidad de San Francisco del Monte de Oro, a unos 12 kilómetros del centro de la ciudad.\n\nEl Salto Escondido es una cascada de 70 metros de altura que se precipita desde un farallón rocoso, creando una imagen imponente y cautivadora. El agua cae en una olla de color esmeralda de 8 metros de diámetro y 5 metros de profundidad, rodeada de vegetación autóctona.",
     "category": "Lugares que tenes que conocer",
-"alert":"Consultar en la seccion de Guias turiscas y Actividades recreativas para realizar la visita",
+"alert":"Consultar en la seccion de Guias de Turismo y Actividades recreativas para realizar la visita",
     "status": "Lugares",
     "dificultad": "Alta",
     "image": [
@@ -146,7 +146,7 @@
     "title": "Salto de las Gemelas",
     "description": "El Salto de las Gemelas es una cascada de 60 metros de altura ubicada en la localidad de San Francisco del Monte de Oro, en la provincia de San Luis, Argentina. Se encuentra dentro de la Reserva Natural Provincial** El Chañar **y es un destino ideal para los amantes de la naturaleza y el senderismo\n\nCONSULTAR EN TURISMO!!",
     "category": "Lugares que tenes que conocer",
-    "alert":"Consultar en la seccion de Guias turiscas y Actividades recreativas para realizar la visita",
+    "alert":"Consultar en la seccion de Guias de Turismo y Actividades recreativas para realizar la visita",
     "status": "Lugares",
     "dificultad": "Media",
     "image": [
@@ -251,7 +251,7 @@
     "description": "El arte prehistorico esta presente en San Francisco del Monte de Oro en mas de un centenar de yacimientos de arte rupestre localizado en las serranias y son tan antigos como la presencia de los primitivos habitantes de esas tierras\n\nEn la zona se pueden ver pinturas rupestres datadas en unos 6.000 años antes de Cristo. Las pinturas muestran puntos, lineas , formas, objetos antropomorfos y zoomorfos en pictogradias y petroglifos\n\nUn lugar que no podes dejar de visitar si te gusta la historia y la naturaleza.",
 
     "category": "Lugares que tenes que conocer",
-    "alert":"Consultar en la seccion de Guias turiscas y Actividades recreativas para realizar la visita",
+    "alert":"Consultar en la seccion de Guias de Turismo y Actividades recreativas para realizar la visita",
     "status": "Lugares",
     "dificultad": "Baja",
     "image": [
@@ -274,7 +274,7 @@
     "title": "Cascada de Rio Gomez",
     "description": "La Cascada del Río Gómez es una cascada de 20 metros de altura ubicada en la localidad de San Francisco del Monte de Oro, en la provincia de San Luis, Argentina. Se encuentra dentro de la Reserva Natural Provincial El Chañar y es un destino ideal para los amantes de la naturaleza y el senderismo\n\nLa cascada está formada por el Río Gómez que se precipita desde un farallón rocoso, creando una imagen imponente y cautivadora. El agua cae en una olla de color verde esmeralda, rodeada de vegetación autóctona.",
     "category": "Lugares que tenes que conocer",
-    "alert":"Consultar en la seccion de Guias turiscas y Actividades recreativas para realizar la visita",
+    "alert":"Consultar en la seccion de Guias de Turismo y Actividades recreativas para realizar la visita",
     "status": "Lugares",
     "dificultad": "Alta",
     "image": ["https://i.imgur.com/NHN2CBR.jpeg"],
@@ -1138,7 +1138,7 @@
     "id": 78,
     "title": "Panaderia los Hermanos",
     "description": "Facturas, tortas, panes, galletas y mucho mas, elaboracion propia.",
-    "category": "Panaderias",
+    "category": "Panaderias - Pastelerias",
     "subCategory": "",
     "name": "Rosa",
     "phone": "2224455279",
@@ -1155,7 +1155,7 @@
     "id": 79,
     "title": "Panaderia los Hermanos",
     "description": "Facturas, tortas, panes, galletas y mucho mas, elaboracion propia.",
-    "category": "Panaderias",
+    "category": "Panaderias - Pastelerias",
     "subCategory": "",
     "name": "Rosa",
     "phone": "2224455279",
@@ -1284,7 +1284,7 @@
   {
     "id": 86,
     "title": "Radio Comunitaria La Cigarra",
-    "description": "FM 90.3 Comunicacion Popular. Al aires las 24 hs",
+    "description": "FM 90.3 Comunicacion Popular. Al aire las 24 hs",
     "category": "Radios y Programas",
     "subCategory": "",
     "name": "",
@@ -1937,7 +1937,7 @@
   "id": 122,
   "title":"Panaderia  Las Buenas Migas",
   "description": "Panificados, facturas, masas, sandwhichs de miga, tartas dulces. Todo elaboracion propia",
-  "category": "Panaderias",
+  "category": "Panaderias - Pastelerias",
   "subCategory": "",
   "name": "Panaderia",
   "phone": "2664758164",
@@ -2312,7 +2312,7 @@
   "id": 143,
   "title":"Brujo Excursiones",
   "description": "Si buscas nuevas experiencias y desafíos, nuestras caminatas guiadas te esperan.Descubre impresionantes cascadas, pozos cristalinos y vistas panorámicas que te dejarán sin aliento.Organizamos excursiones y diferentes actividades en el corazón del monte nativo.\n\n- Circuitos de baja, media y alta dificultad\n- Ascensos y campamentos\n- Avistaje de Cóndores\n- Salidas Fotográficas\n- Salidas personalidas\n- Trekking nocturno\n- Salidas todo el año\n\nEstos son algunos de los circuitos que podemos ofrecerte\n\n- Salto del Indio\n- Salto Escondido\n- Algarrobo abuelo\n- Quebrada de Rio Gomez\n- Quebrada del Ramo\n- Quebrada Rio Claro\n- Paso del Cóndor (ascenso)\n- Ascenso al Portillo\n- Trekking a los puestos (ascenso)\n- Piletones\n- Noche en las Sierras",
-  "category": "Guias turisticas",
+  "category": "Guias de Turismo",
   "subCategory": "",
   "name": "Mariano Elgue",
   "phone": "2664892738",
@@ -2438,7 +2438,7 @@
   "id": 149,
   "title":"EcoAventura",
   "description": "Recorridos:\n\nSalto Escondido\nSalto del Indio\nMina de Cuarzo\nPinturas Rupestres\nCerro La Cumbrecita\nNido del Aguila\nLaguna del Rio Claro\nQuebrada de Lopez\n\nGuia Baqueano LEG235",
-  "category": "Guias turisticas",
+  "category": "Guias de Turismo",
   "subCategory": "",
   "name": "Prof. Ariel Alejandro Suarez",
   "phone": "2664933528",
@@ -2450,7 +2450,7 @@
   "id": 150 ,
   "title":"Hacer Turismo SF",
   "description": "Recorridos:\n\nSalto Escondido\nSalto del Indio\nMina de Cuarzo\nPinturas Rupestres\nMirador panoramico 360º",
-  "category": "Guias turisticas",
+  "category": "Guias de Turismo",
   "subCategory": "",
   "name": "Raul",
   "phone": "2665010706",
@@ -3017,7 +3017,7 @@
   "id": 182,
   "title":"Estacion de Servicio - Yo Soy",
   "description": "Salon comedor - Desayunos - Almuerzos - Meriendas - Cena",
-  "category": "Estaciones de servicio",
+  "category": "Lugares para comer",
   "subCategory": "",
   "name": "",
   "phone": "",
@@ -3339,7 +3339,7 @@
   "id": 199,
   "title":"Panaderia Garcia",
   "description": "Desayunos - Cafeteria - Panificados - Facturas - Tostados - Pasteleria a pedido",
-  "category": "Panaderias",
+  "category": "Panaderias - Pastelerias",
   "subCategory": "",
   "name": "",
   "phone": "",
@@ -3397,7 +3397,7 @@
   "phone": "",
   "horario":"Lunes a Viernes de 10 a 13 hs y de 18 a 21hs",
   "status": "Free",
-  "tags":[,"Ploteo","Reparaciones","Motor","Limpieza","Lavado","Interiores","Tratamiento","Electricidad"],
+  "tags":["Ploteo","Reparaciones","Motor","Limpieza","Lavado","Interiores","Tratamiento","Electricidad"],
  
   "location": {
     "latitude": -32.596189,
@@ -3405,10 +3405,11 @@
  }
 },
 {
-  "id": 202,
+  "id": 203,
   "title":"One Taller",
   "description": "Cerrajeria",
-  "subCategory": "",
+  "category":"Cerrajerias",
+    "subCategory": "",
   "name": "",
   "phone": "",
   "horario":"Lunes a Viernes de 10 a 13 hs y de 18 a 21hs",
@@ -3420,11 +3421,209 @@
     "longitude": -66.127784
  }
 },
+{
+  "id": 204,
+  "title":"Vitamina",
+  "description": "Ubicado en el centro del pueblo, frente a la Plaza Pringles se encuentra Vitamina. Pizzeria - Empanadas - Lomos - Hamburguesas - Bebidas - Barroluco. Cuenta con delivery",
+  "category": "Deliverys",
+  "subCategory": "",
+  "name": "",
+  "phone": "",
+  "horario":"Martes y Domingos de 20 a 01hs",
+  "status": "Free",
+  "tags":[ "Empanadas", "Pizzas","Lomos","Hamburguesa", "Bebidas","Barroluco","Cena","Delivery"],
+ 
+  "location": {
+    "latitude": -32.600892,
+    "longitude": -66.126642 
+ }
+},
+{
+  "id": 205,
+  "title": "Casa Museo Rosenda Quiroga ",
+  "description": "Casa Museo Rosenda Quiroga, lugar donde vivió la eximia maestra normal, escritora, corresponsal y conferencista sanfrancisqueña.",
+"horario": "Abierto todo los dias de 9 a 12hs y de 16 a 19hs",
+"category": "Lugares que tenes que conocer",
+  "status": "Lugares",
+  "dificultad": "Baja",
+  "image": [
+    "https://i.imgur.com/I3490tp.jpeg",
+    "https://i.imgur.com/HOZ7Epo.jpeg",
+    "https://i.imgur.com/HbLiMs3.jpeg",
+    "https://i.imgur.com/Ob20Iaz.jpeg",
+    "https://i.imgur.com/QZ9O5St.jpeg"
+  ],
+
+  "location": {
+    "latitude": -32.598816,
+    "longitude": -66.121286
+  },
+  "tags": ["Museo","Turismo","Maestros","Rosenda","Quiroga","Lugares"]
+ 
+},
+{
+  "id": 206,
+  "title": "Cabañas Las Palmeras",
+  "description": "Si te gusta la naturaleza, veni a disfrutar en Cabañas Las Palmeras\n2 Cabañas hasta 4 personas unicamente - 2 Duplex hasta 3 personas unicamente!\n\nTotalmente amueblados:- Las cabañas cuentan  con cocina/comedor, baño y 2 habitaciones y los dúplex con cocina/comedor y baño en planta baja y en planta alta amplia habitación con balcón con vista a las sierras - Sommier y ropa de cama - Toallas y toallones - Ventiladores de techo - Heladeras con frizzer - Cocina completamente equipada - Estufas ecológicas a leña (se entrega un cajón de leña todos los días) - Smart TV - DirecTV - Wi-fi gratuito en todo el predio - Cocheras techadas con parrillas individuales - Sector de piscina con reposeras y sombrillas - Sector recreativo para niños",
+  "category": "Cabañas - Alojamientos -Campings",
+  "horario":"De 8 a 19hs",
+  "subCategory": "",
+  "name": "",
+  "phone": "2901611235",
+  "status": "Free",
+  "location": {
+    "latitude": -32.637287,
+    "longitude": -66.140091
+  },
+  "tags": ["Cabañas", "Duplex","Alojamiento","Dique","Turismo","WIFI","Estufas ecologicas","Cocina","Sommier","Sabanas","Toallas","Ventilador","DirecTv","SmartTv","Piscina","Niños","Cochera","Parrilla","Recreativo"]
+},
+{
+  "id": 207,
+  "title": "English Way - Scholl of English",
+  "description": "Inscripto en el Ministerio de Educacion\n\nSuperintendencia Nacional de Enseñanza Privada Nº 10754/93\n\nCursos para todos los niveles desde los 4 años - Examenes Internacionales - First Certificate - Clses presenciales y virtuales",
+  "category": "Clases y Talleres",
+  "subCategory": "",
+  "name": "",
+  "phone": "2665003207",
+  "status": "Free",
+  "location": {
+    "latitude": -32.598593,
+    "longitude": -66.126046
+  },
+  "tags": ["Instituto","Ingles","Niños","Adultos","Certificado","Educacion","Presenciales","Virtuales","Clases"]
+},
+{
+  "id": 208,
+  "title": "Departamento Marisol",
+  "description": "Departamento hasta 8 personas - Totalmente equipado con todos los servicios - Aire acondicionado frio/calor - A una cuadra de Plaza Pringles - Zona centro",
+  "category": "Cabañas - Alojamientos -Campings",
+  "subCategory": "",
+  "name": "",
+  "phone": "2664021782",
+  "status": "Free",
+  "location": {
+    "latitude": -32.600236,
+    "longitude": -66.125111
+  },
+  "tags": ["Departamento","Equipado","Servicios","Centro"]
+},
+{
+  "id": 209,
+  "title": "Sabores M Soler",
+  "description": "Pasteleria Artesanal - Pedidos unicamente por Whatsapp - Se realizan pedidos personalizados ",
+  "category": "Panaderias - Pastelerias",
+  "subCategory": "",
+  "name": "",
+  "phone": "2664021782",
+  "status": "Free",
+ 
+  "tags": ["Pasteleria","Pedidos","Personalizados","Sabores","Tortas"]
+},
+{
+  "id": 210,
+  "title": "Vivero Jazmin de Luz",
+  "description": "Arboles frutales - Arboles de sombra - Pinos - Semillas - Plantas de interior - Plantas de exterior - Abono organico - Enredaderas\nPlantas de primera calidad , seleccionadas de forma personal por su genetica ya fructificando ",
+  "category": "Viveros",
+  "subCategory": "",
+  "name": "",
+  "phone": "2664488848",
+  "status": "Free",
+ "horario":"Lunes a Viernes de 8 a 13hs y de 17 a 20 hs - Sabados y Domingos de 8 a 15hs",
+  "tags": ["Arboles","Vivero","Frutales","Plantas","Interior","Exterior","Semillas","Abono","Organico","Enredaderas","Frutales","Sombra","Calidad","Pinos","Flores"]
+},
+{
+  "id": 211,
+  "title": "La Nona 1",
+  "description": "Productos de almacen y despensa - Carniceria - Verduleria - Fiambreria ",
+  "category": "Autoservicios - Despensas - Polirubros",
+  "subCategory": "",
+  "horario": " De 8 a 14 y de 17 a 23hs",
+  "phone": "",
+  "status": "Free",
+  "location": {
+    "latitude": -32.601369,
+    "longitude": -66.129173
+  },
+  "tags": ["Despensa","Almacen","Verduleria","Carniceria","Fiambreria"]
+},
+{
+  "id": 212,
+  "title": "La Nona 2",
+  "description": "Productos de almacen y despensa - Carniceria - Verduleria - Fiambreria ",
+  "category": "Autoservicios - Despensas - Polirubros",
+  "subCategory": "",
+  "horario": " De 8 a 14 y de 17 a 23hs",
+  "phone": "",
+  "status": "Free",
+  "location": {
+    "latitude": -32.601694,
+    "longitude": -66.127126 
+  },
+  "tags": ["Despensa","Almacen","Verduleria","Carniceria","Fiambreria"]
+},
+{
+  "id": 213,
+  "title": "Patio de las Pecas",
+  "description": "En Patio de las Pencas ofrecemos una amplia variedad en nuestro menu. Hamburguesas - Lomo - Bondiola - Milanesas - Panchos con salsa ESPECIALES - Tortillas - Pizzas - Empanadas - Matambre - Bondiola a la cerveza - El lugar cuenta con WIFI - Delivery ",
+  "category": "Lugares para comer",
+  "subCategory": "",
+  "horario": " de Martes a Jueves de 11 a 15hs y de 19 a 00hs - Miercoles cerrado",
+  "phone": "1168330794",
+  "status": "Free",
+  "location": {
+    "latitude": -32.616573,
+    "longitude": -66.128904 
+  },
+  "tags": ["Almuerzo","Cena","Lomo","Panchos","Tortillas","Pizza","Empanadas","Matambre","Bondiola","wifi","Delivery"]
+},
+{
+  "id": 213,
+  "title": "Patio de las Pecas",
+  "description": "En Patio de las Pencas ofrecemos una amplia variedad en nuestro menu. Hamburguesas - Lomo - Bondiola - Milanesas - Panchos con salsa ESPECIALES - Tortillas - Pizzas - Empanadas - Matambre - Bondiola a la cerveza - El lugar cuenta con WIFI - Delivery ",
+  "category": "Deliverys",
+  "subCategory": "",
+  "horario": " de Martes a Jueves de 11 a 15hs y de 19 a 00hs - Miercoles cerrado",
+  "phone": "1168330794",
+  "status": "Free",
+  "location": {
+    "latitude": -32.616573,
+    "longitude": -66.128904 
+  },
+  "tags": ["Almuerzo","Cena","Lomo","Panchos","Tortillas","Pizza","Empanadas","Matambre","Bondiola","wifi","Delivery"]
+},
+{
+  "id": 214,
+  "title": "Altos del Molle",
+  "description": "Apartamentos y cabañas hasta 5 personas - Totalmente equipadas - Wifi - Aire acondicionado - TV por cable - Cocina completa - Parrilla - Horno de barro - Cochera individual - Parque - Atendido por sus dueños ",
+  "category": "Cabañas - Alojamientos -Campings",
+  "subCategory": "",
+  "horario": "Todo el año",
+  "phone": "1133371643",
+  "status": "Free",
+  "location": {
+    "latitude": -32.619440,
+    "longitude": -66.129906 
+  },
+  "tags": ["Turismo","Cabañas","Departamentos","Wifi","Parrilla","Horno de barro","Aire","Tv","Cable","Cochera"]
+},
+{
+  "id": 215,
+  "title": "Alquimia Cabañas",
+  "description": "Donde lo simple se transforma en una mágica experiencia. Tenemos para ofrecerte  dos cabañas de un dormitorio separadas entre sí , totalmente equipadas, con cocina, aire acondicionado y T.V. Led. Atendida por sus dueños",
+  "category": "Cabañas - Alojamientos -Campings",
+  "subCategory": "",
+  "horario": "Todo el año",
+  "phone": "3416064947",
+  "status": "Free",
+  "location": {
+    "latitude": -32.607798,
+    "longitude": -66.122359 
+  },
+  "tags": ["Turismo","Cabañas","Aire","Tv","Cable","Cochera"]
+}
 
 
-
-
-
+ 
 
 
 
