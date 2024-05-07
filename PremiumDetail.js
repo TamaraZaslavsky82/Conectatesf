@@ -25,24 +25,26 @@ const PremiumDetailScreen = ({route}) => {
     }, []);
     
 
-   const getDirections = async () => {
-    const origin = `${currentLocation.latitude},${currentLocation.longitude}`;
-    const destination = `${itemData.location.latitude},${itemData.location.longitude}`;
-    const url = `https://maps.googleapis.com/maps/api/directions/json?origin=${origin}&destination=${destination}&key=${GOOGLE_MAPS_APIKEY}`;
-
-    try {
-        const response = await fetch(url);
-        const data = await response.json();
-
-        if (data.routes && data.routes.length > 0) {
+    const getDirections = async () => {
+        const origin = `${currentLocation.latitude},${currentLocation.longitude}`;
+        const destination = `${itemData.location.latitude},${itemData.location.longitude}`;
+        const url = `https://maps.googleapis.com/maps/api/directions/json?origin=${origin}&destination=${destination}&key=${GOOGLE_MAPS_APIKEY}`;
+      
+        try {
+          const response = await fetch(url);
+          const data = await response.json();
+      
+          if (data.routes && data.routes.length > 0) {
             const points = data.routes[0].overview_polyline.points;
             const coordinates = decodePolyline(points); // Necesitarás una función para decodificar la polilínea
             setDirectionsRoute(coordinates);
+          }
+        } catch (error) {
+          console.error("Error obteniendo direcciones:", error);
+          // También puedes mostrar un mensaje de error al usuario aquí
         }
-    } catch (error) {
-        console.log(error);
-    }
-};
+      };
+      
     const dialCall = (number) => {
         let phoneNumber = '';
         if (Platform.OS === 'android') { phoneNumber = `tel:${number}`; }
@@ -115,11 +117,7 @@ const PremiumDetailScreen = ({route}) => {
                         <Text style={styles.subtitle}>{itemData.category}</Text>
                         <Text style={styles.description}>{itemData.description}</Text>
                         <Text style={styles.description}>{itemData.horario}</Text>
-                        {itemData.horario && (
-                            <Text style={{...styles.description, color: isOpen(itemData.horario) ? 'green' : 'red'}}>
-                                {isOpen(itemData.horario) ? 'Abierto' : 'Cerrado'}
-                            </Text>
-                        )}
+                        
                         <Text style={styles.description}>{itemData.subCategory}</Text>
                         <Text style={styles.status}>{itemData.status}</Text>
                         <TouchableOpacity style={styles.button} onPress={()=>dialCall(itemData.phone)}>
@@ -165,15 +163,17 @@ const PremiumDetailScreen = ({route}) => {
                 coordinate={{latitude: itemData.location.latitude, longitude: itemData.location.longitude}}
                 title={itemData.title}
             />
-            {currentLocation && (
-                <MapViewDirections
-                    origin={currentLocation}
-                    destination={{latitude: itemData.location.latitude, longitude: itemData.location.longitude}}
-                    apikey={GOOGLE_MAPS_APIKEY}
-                    strokeWidth={3}
-                    strokeColor="hotpink"
-                />
-            )}
+      {currentLocation && (
+  <MapViewDirections
+    origin={currentLocation}
+    destination={{ latitude: itemData.location.latitude, longitude: itemData.location.longitude }}
+    apikey={GOOGLE_MAPS_APIKEY}
+    strokeWidth={3}
+    strokeColor="hotpink"
+  />
+)}
+
+
         </MapView>
         <Button title="Cómo llegar" onPress={getDirections} />
         <Button title="Compartir" onPress={onShare} />
