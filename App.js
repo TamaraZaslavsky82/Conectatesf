@@ -40,6 +40,10 @@ import EventIcon from './estrella.png';
 import PushNotification from 'react-native-push-notification';
 import GeoMapaWifi from './GeomapaWifi';
 import FeedbackForm from './FeedbackForm';
+import MunicipalityInfo from './MunicipalityInfo';
+import dataEvents from './dataevent.json';
+import searchIcon from './lupa.png';
+
 
 LogBox.ignoreLogs(['new NativeEventEmitter()']);
 
@@ -155,18 +159,26 @@ const AppTabs = () => {
 
 class App extends React.Component {
   componentDidMount() {
-   PushNotification.createChannel(
-  {
-    channelId: "your-channel-id", // (required)
-    channelName: "My channel", // (required)
-    channelDescription: "A channel to categorise your notifications", // (optional) default: undefined.
-    playSound: false, // (optional) default: true
-    soundName: "default", // (optional) See `soundName` parameter of `localNotification` function
-    importance: 4, // (optional) default: 4. Int value of the Android notification importance
-    vibrate: true, // (optional) default: true. Creates the default vibration pattern if true.
-  },
-  (created) => console.log(`createChannel returned '${created}'`) // (optional) callback returns whether the channel was created, false means it already existed.
-);
+    PushNotification.createChannel(
+      {
+        channelId: "your-channel-id", // (required)
+        channelName: "My channel", // (required)
+        channelDescription: "A channel to categorise your notifications", // (optional) default: undefined.
+        playSound: false, // (optional) default: true
+        soundName: "default", // (optional) See `soundName` parameter of `localNotification` function
+        importance: 4, // (optional) default: 4. Int value of the Android notification importance
+        vibrate: true, // (optional) default: true. Creates the default vibration pattern if true.
+      },
+      (created) => console.log(`createChannel returned '${created}'`) // (optional) callback returns whether the channel was created, false means it already existed.
+    );
+
+    dataEvents.forEach(event => {
+      PushNotification.localNotification({
+        channelId: "your-channel-id",
+        title: "Nuevo evento",
+        message: `Hay un nuevo evento: ${event.title}`,
+      });
+    });
   }
 
   render() {
@@ -199,6 +211,7 @@ class App extends React.Component {
             />
               <Stack.Screen name="Contacto" component={ContactFormScreen} options={{headerShown: true, title: 'Sumate'}} /> 
               <Stack.Screen name="FeedbackForm" component={FeedbackForm} options={{headerShown: true, title: 'Deja tu Consulta o Reclamo!'}} /> 
+              <Stack.Screen name="MunicipalityInfo" component={MunicipalityInfo} options={{headerShown: true, title: 'Municipalidad'}} /> 
         </Stack.Navigator>
       </NavigationContainer>
     );
@@ -237,7 +250,7 @@ const [filteredData, setFilteredData] = useState([]);
 
     const options = {
       keys: ['name', 'category', 'title', 'description', 'subCategory', 'phone', 'status','tags'],
-      threshold: 0.2
+      threshold: 0.1
     };
 
     const fuse = new Fuse(data, options);
@@ -361,6 +374,7 @@ const [filteredData, setFilteredData] = useState([]);
   value={searchQuery}
   placeholder="Realiza tu busqueda..."
   placeholderTextColor="#9400D3"
+  icon={() => <Image source={searchIcon} style={{width: 25, height: 25}} />} // Agrega esta línea
 />
 {searchQuery && (
   <View style={{backgroundColor: 'white'}}>
@@ -387,8 +401,23 @@ const [filteredData, setFilteredData] = useState([]);
   </View>
 )}
             
-          
-        
+            <Text
+            style={{
+              fontSize: 18,
+              fontWeight: 'bold',
+              marginTop: 20,
+              color: 'white',
+              marginLeft: 20,
+              marginBottom: 25,
+            }}>
+           Conoce nuestra Municipalidad
+          </Text>
+     <TouchableOpacity
+  style={styles.buttonContainer}
+  onPress={() => navigation.navigate('MunicipalityInfo')}
+>
+  <Text style={styles.buttonText}>Ir a Municipalidad</Text>
+</TouchableOpacity>
           <Text  style={{
               fontSize: 20,
               fontWeight: 'bold',

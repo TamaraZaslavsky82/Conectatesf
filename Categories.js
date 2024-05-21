@@ -17,6 +17,52 @@ import {
   Title,
 } from 'react-native-paper';
 import FeedbackForm from './FeedbackForm';
+import aberturas from './iconos/aberturas.png';
+import almacen from './iconos/almacen.png';
+import bazar from './iconos/bazar.png';
+import cabañas from './iconos/cabañas.png';
+import cafeteria from './iconos/cafeteria.png';
+import cerrajeria from './iconos/cerrajeria.png';
+import clases from './iconos/clases.png';
+import construccion from './iconos/construccion.png';
+import correo from './iconos/correo.png';
+import cultura from './iconos/cultural.png';
+import delivery from './iconos/delivery.png';
+import dietetica from './iconos/dietetica.png';
+import estacion from './iconos/estacion.png';
+import estetica from './iconos/estetica.png';
+import farmacia from './iconos/farmacia.png';
+import feria from './iconos/feria.png';
+import ferreteria from './iconos/ferreteria.png';
+import fiestas from './iconos/fiestas.png';
+import forrajeria from './iconos/forrajeria.png';
+import garrafa from './iconos/garrafa.png';
+import guia from './iconos/guia.png';
+import holistico from './iconos/holistico.png';
+import hospital from './iconos/hospital.png';
+import indumentaria from './iconos/indumentaria.png';
+import informatica from './iconos/informatica.png';
+import inmobiliaria from './iconos/inmobiliaria.png';
+import juguetes from './iconos/juguetes.png';
+import kiosco from './iconos/kiosco.png';
+import libreria from './iconos/libreria.png';
+import Lugares from './iconos/lugares.png';
+import mecanico from './iconos/mecanico.png';
+import merceria from './iconos/merceria.png';
+import micro from './iconos/micros.png';
+import pago from './iconos/pago.png';
+import panaderia from './iconos/panaderias.png';
+import productores from './iconos/productores.png';
+import quinela from './iconos/quiniela.png';
+import radios from './iconos/radios.png';
+import recreativo from './iconos/recreativo.png';
+import regionales from './iconos/regionales.png';
+import remis from './iconos/remis.png';
+import resto from './iconos/resto.png';
+import servicios from './iconos/servicios.png';
+import verdu from './iconos/verdu.png';
+import viveros from './iconos/viveros.png';
+
 
 const CategoriesScreen = ({navigation}) => {
   const data = require('./data.json');
@@ -27,9 +73,10 @@ const allCategories = data.map(item => {
   }
   return item.category;
 });
-  const uniqueCategories = allCategories
+const uniqueCategories = allCategories
     .filter((category, index, self) => self.indexOf(category) === index)
-    .sort((a, b) => b.localeCompare(a));
+    .sort((a, b) => a.localeCompare(b)); // Cambiado de b.localeCompare(a) a a.localeCompare(b)
+
 
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [selectedSubCategory, setSelectedSubCategory] = useState(null);
@@ -51,7 +98,54 @@ const allCategories = data.map(item => {
     setSelectedCategory(null);
   }, []);
 
-  
+  const categoryIcons={
+    'Aberturas': aberturas,
+    'Actividades recreativas': recreativo,
+    'Atencion medica': hospital,
+  'Autoservicios - Despensas - Polirubros': almacen,
+  'Bazar y hogar': bazar,
+  'Cabañas - Alojamientos -Campings': cabañas,
+  'Cafeterias': cafeteria,
+  'Carnicerias - Verdulerias - Pollerias': verdu,
+  'Centro Cultural': cultura,
+  'Cerrajerias': cerrajeria,
+  'Clases y Talleres': clases,
+  'Construccion': construccion,
+  'Correo': correo,
+  'Deliverys': delivery,
+  'Dieteticas': dietetica,
+  'Estaciones de servicio': estacion,
+  'Estetica': estetica,
+  'Farmacias': farmacia,
+  'Ferias americanas y venta de Garage': feria,
+  'Ferreterias - Corralon - Pinturerias': ferreteria,
+  'Fiestas Infantiles': fiestas,
+  'Forrajerias': forrajeria,
+  'Guias de Turismo': guia,
+  'Holisticos': holistico,
+  'Indumentaria': indumentaria,
+  'Informatica - Electronica': informatica,
+  'Inmobiliarias': inmobiliaria,
+  'Jugueterias': juguetes,
+  'Kioscos': kiosco,
+  'Librerias - Graficas': libreria,
+  'Lugares para comer': resto,
+  'Lugares que tenes que conocer': Lugares,
+  'Merceria': merceria,
+  'Micros': micro,
+  'Pago Facil - Western Union': pago,
+  "Panaderias - Pastelerias": panaderia,
+  'Productores - Emprendedores': productores,
+  'Quiniela': quinela,
+  'Radios y Programas': radios,
+  'Regionales': regionales,
+  'Remises': remis,
+  'Servicios': servicios,
+  'Talleres mecanicos': mecanico,
+  'Viveros - Florerias': viveros,
+  'Venta de Garrafas': garrafa,
+  'Viveros': viveros,
+  }
 
   const filteredData = selectedCategory
     ? data
@@ -71,9 +165,9 @@ const allCategories = data.map(item => {
     .map(item => item.subCategory)
     .filter(subCategory => subCategory);
 
-  const uniqueSubCategories = allSubCategories
+    const uniqueSubCategories = allSubCategories
     .filter((subCategory, index, self) => self.indexOf(subCategory) === index)
-    .sort((a, b) => b.localeCompare(a));
+    .sort((a, b) => a.localeCompare(b)); // Cambiado de b.localeCompare(a) a a.localeCompare(b)
 
   return (
     <PaperProvider>
@@ -118,21 +212,24 @@ const allCategories = data.map(item => {
 >
   Acceder
 </Button>
-              <FlatList
-                data={uniqueCategories}
-                numColumns={2}
-                renderItem={({item}) => (
-                  <Card
-                    style={styles.card}
-                    onPress={() => handleCategorySelect(item)}>
-                    <Card.Content>
-                      <Title style={styles.title}>{item}</Title>
-                    </Card.Content>
-                  </Card>
-                )}
-                keyExtractor={item => item}
-                key="categories"
-              />
+             <FlatList
+  data={uniqueCategories}
+  numColumns={1} // Cambiado de 2 a 1
+  renderItem={({item}) => (
+  <Card
+  style={{...styles.card, maxWidth: '100%'}} // Cambiado de '60%' a '100%'
+  onPress={() => handleCategorySelect(item)}>
+  <Card.Content>
+  <View style={{flexDirection: 'row', alignItems: 'center'}}>
+          <Image source={categoryIcons[item]} style={{width: 30, height: 30, marginRight: 10}} />
+          <Title style={styles.title}>{item}</Title>
+        </View>
+  </Card.Content>
+</Card>
+  )}
+  keyExtractor={item => item}
+  key="categories"
+/>
             </>
           ) : uniqueSubCategories.length > 0 && !selectedSubCategory ? (
             <>
@@ -141,7 +238,7 @@ const allCategories = data.map(item => {
                   backgroundColor: 'white',
                   marginBottom: 10,
                   marginTop: 10,
-                  color: 'darkviolet',
+                  color: 'black',
                 }}
                 onPress={handleBackToSubCategories}>
                 Volver a Subcategorías
@@ -179,7 +276,7 @@ const allCategories = data.map(item => {
                   }}>
                   <List.Item
                     title={
-                      <Text style={{color: 'darkviolet'}}>{item.title}</Text>
+                      <Text style={{color: 'black'}}>{item.title}</Text>
                     }
                     description={
                       <Text
@@ -215,12 +312,12 @@ const allCategories = data.map(item => {
       marginBottom:60
     },
     card: {
-      justifyContent: 'center',
-      alignItems: 'center',
+      justifyContent: 'flex-start', // Añadido para alinear el contenido a la izquierda
+      alignItems: 'flex-start',
       padding: 2,
       maxWidth: '60%',
-      marginBottom: 5,
-      marginTop: 5,
+      marginBottom: 2,
+      marginTop: 2,
       marginLeft: 10,
       backgroundColor: '#fff', // Asegúrate de tener un color de fondo para que la sombra sea visible
       shadowColor: '#000', // El color de la sombra debe ser oscuro para que sea visible
@@ -232,7 +329,7 @@ const allCategories = data.map(item => {
     title: {
       fontSize: 12,
       fontWeight: 'bold',
-      color:'darkviolet'
+      color:'black'
     },
   });
   export default CategoriesScreen;

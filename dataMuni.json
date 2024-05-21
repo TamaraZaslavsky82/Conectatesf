@@ -1,0 +1,53 @@
+{
+    "areas":[
+        {
+           "id":1,
+           "name":"Cipe"
+        },
+        {
+           "id":2,
+           "name":"Comercio y Bromatologia"
+        },
+        {
+           "id":3,
+           "name":"Secretaria de Turismo"
+        },
+        {
+           "id":4,
+           "name":"Secretaria de Deportes"
+        },
+        {
+           "id":5,
+           "name":"Trabajo y Capacitaciones"
+        },
+        {
+           "id":6,
+           "name":"Secretaria de cultura"
+        },
+        {
+           "id":7,
+           "name":"Agua Potable"
+        },
+        {
+           "id":8,
+           "name":"Defensoria del Pueblo"
+        },
+        {
+           "id":9,
+           "name":"Consejo Deliberante"
+        },
+        {
+           "id":10,
+           "name":"Parque Automotor"
+        },
+        {
+           "id":11,
+           "name":"Transporte"
+        },
+        {
+           "id":12,
+           "name":"Secretaria de Gobierno"
+        }
+        
+    ]
+}

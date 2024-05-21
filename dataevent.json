@@ -1,10 +1,21 @@
 [
     {
         "id": 1,
-        "title": "evento1",
+        "title": "3er Encuentro Nacional Senderismo",
+        "description": "¡Prepárate para explorar la naturaleza en su máximo esplendor! Del 20 al 23 de junio, te invitamos al 3er Encuentro Nacional de Senderismo en San Francisco del Monte de Oro, San Luis. ¡Una experiencia recreativa que no te puedes perder!Más información y reservas: clubdemontanasanfrancisco@gmail.com",
         "image":
         [
-            "https://i.imgur.com/W31Ou7h.jpeg"
+            "https://i.imgur.com/QFlxry3.jpeg"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Campeonato Provincial de MTB",
+        "description": "29 Y 30 DE Junio - Coronacion del Campeonato Provincial de MTB - Regional Cuyano ¡ Vivi la Velocidad y destreza en dos ruedas !",
+        "image":
+        [
+            "https://i.imgur.com/2t8zyPr.jpeg"
         ]
     }
+    
 ]

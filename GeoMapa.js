@@ -1,11 +1,22 @@
 import React from 'react';
 import { Text, Modal, View, Button, ImageBackground, StyleSheet, Image } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
-import MapView, { Marker, Callout } from 'react-native-maps';
+import MapView, { Marker, Callout,PROVIDER_GOOGLE } from 'react-native-maps';
 import MapViewDirections from 'react-native-maps-directions';
 import Geolocation from '@react-native-community/geolocation';
 import data from './data.json'; 
 
+const customStyle = [
+    {
+      "featureType": "poi",
+      "elementType": "labels",
+      "stylers": [
+        {
+          "visibility": "off"
+        }
+      ]
+    }
+  ];
 
 class GeoMapa extends React.Component {
     constructor(props) {
@@ -115,14 +126,16 @@ class GeoMapa extends React.Component {
                     })}
                 </Picker>
                 <MapView
-                        style={{ flex: 1 }}
-                        initialRegion={{
-                            latitude: this.state.center.latitude,
-                            longitude: this.state.center.longitude,
-                            latitudeDelta: 0.0922,
-                            longitudeDelta: 0.0421,
-                        }}
-                    >
+                    provider={PROVIDER_GOOGLE} // Asegúrate de usar el proveedor de Google
+                    customMapStyle={customStyle} // Aplica el estilo personalizado
+                    style={{ flex: 1 }}
+                    initialRegion={{
+                        latitude: this.state.center.latitude,
+                        longitude: this.state.center.longitude,
+                        latitudeDelta: 0.0922,
+                        longitudeDelta: 0.0421,
+                    }}
+                >
                         {this.renderAnnotations()}
                         {origin && destination && (
                             <MapViewDirections

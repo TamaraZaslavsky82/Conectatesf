@@ -12,7 +12,7 @@
       "https://i.imgur.com/IbXOgrv.jpeg"
     ],
     "category": "Lugares para comer",
-
+"type":"turismo",
     "name": "Yanina",
     "phone": "1169622127",
     "status": "Premium",
@@ -34,7 +34,7 @@
     "category": "Cabañas - Alojamientos -Campings",
     "name": "Cabañas Ecoo Maggy",
     "phone": "2664370021",
-
+    "type":"turismo",
     "status": "Free",
     "location": {
       "latitude": -32.609907,
@@ -54,6 +54,7 @@
     "category": "Cabañas - Alojamientos -Campings",
     "name": "Dormis Keisy",
     "phone": "2664209059",
+    "type":"turismo",
     "status": "Free",
     "location": {
       "latitude": -32.593587,
@@ -71,7 +72,7 @@
     "title": "Dique las Palmeras",
     "description": "El dique se encuentra rodeado de cerros y palmeras Caranday, creando un paisaje único y paradisíaco. Sus aguas cristalinas invitan a disfrutar de diferentes actividades acuáticas como natación, pesca, kayak, windsurf y paseos en bote.\n\nEl Dique Las Palmeras es un lugar ideal para relajarse y disfrutar del aire libre.Ubicado a solo 2 km al sur del centro de la ciudad. Se puede realizar caminatas, cabalgatas y mountain bike por los senderos que rodean el embalse.",
     "category": "Lugares que tenes que conocer",
-
+    "type":"turismo",
     "status": "Lugares",
     "dificultad": "Baja",
     "image": [
@@ -87,9 +88,9 @@
       "longitude": -66.153421
     },
     "links": {
-      "website": "https://www.example.com",
-      "instagram": "https://www.instagram.com/example",
-      "facebook": "https://www.facebook.com/example"
+      "website": "",
+      "instagram": "",
+      "facebook": ""
     },
     "tags": ["Dique",  "Pesca", "Kayak", "Caminatas", "Cabalgatas", "Mountain bike"]
   },
@@ -98,7 +99,7 @@
     "title": "Ranchito de Sarmiento",
     "description": "El ranchito se ha convertido en un espacio de memoria y homenaje a la figura de Sarmiento. En el predio se encuentra un museo que exhibe objetos personales del prócer, documentos históricos y material educativo. Además, se realizan visitas guiadas y talleres educativos para niños y adultos.\n\nEl ranchito es un Monumento Histórico Nacional y un símbolo de la lucha de Sarmiento por la educación pública y gratuita en Argentina. En este lugar, el prócer argentino enseñó a leer y escribir a niños de la zona, utilizando métodos pedagógicos innovadores para la época.",
     "category": "Lugares que tenes que conocer",
-
+    "type":"turismo",
     "status": "Lugares",
     "dificultad": "Baja",
     "image": [
@@ -111,9 +112,9 @@
       "longitude": -66.126917
     },
     "links": {
-      "website": "https://www.example.com",
-      "instagram": "https://www.instagram.com/example",
-      "facebook": "https://www.facebook.com/example"
+      "website": "",
+      "instagram": "",
+      "facebook": ""
     },
     
     "tags": ["Museo", "Visitas guiadas", "Talleres educativos", "Monumento Histórico Nacional"]
@@ -134,10 +135,11 @@
       "latitude": -32.699412,
       "longitude": -66.152338
     },
+    "type":"turismo",
     "links": {
-      "website": "https://www.example.com",
-      "instagram": "https://www.instagram.com/example",
-      "facebook": "https://www.facebook.com/example"
+      "website": "",
+      "instagram": "",
+      "facebook": ""
     },
     "tags": ["Cascada", "Maravilla Natural", "Senderismo", "Trekking"]
   },
@@ -149,6 +151,7 @@
     "alert":"Consultar en la seccion de Guias de Turismo y Actividades recreativas para realizar la visita",
     "status": "Lugares",
     "dificultad": "Media",
+    "type":"turismo",
     "image": [
       "https://i.imgur.com/by8l5c5.jpeg",
       "https://i.imgur.com/kg84MaH.jpeg",
@@ -159,9 +162,9 @@
       "longitude": -66.096632
     },
     "links": {
-      "website": "https://www.example.com",
-      "instagram": "https://www.instagram.com/example",
-      "facebook": "https://www.facebook.com/example"
+      "website": "",
+      "instagram": "",
+      "facebook": ""
     },
     "tags": ["Cascada", "Reserva Natural", "Senderismo", "Trekking"]
   },
@@ -170,7 +173,7 @@
     "title": "Ollas de Rio Gomez",
     "description": "Las Ollas de Río Gómez son un conjunto de pozas naturales de aguas cristalinas y color verde esmeralda, ubicadas en el Valle de Conlara, en la provincia de San Luis, Argentina. Se encuentran a orillas del Río Gómez, a unos 10 kilómetros de la localidad de San Francisco del Monte de Oro",
     "category": "Lugares que tenes que conocer",
-    
+    "type":"turismo",
     "status": "Lugares",
     "dificultad": "Media",
     "image": ["https://i.imgur.com/NHN2CBR.jpeg"],
@@ -179,9 +182,9 @@
       "longitude": -66.082947
     },
     "links": {
-      "website": "https://www.example.com",
-      "instagram": "https://www.instagram.com/example",
-      "facebook": "https://www.facebook.com/example"
+      "website": "",
+      "instagram": "",
+      "facebook": ""
     },
     "tags": ["Pozas naturales", "Aguas cristalinas", "Valle de Conlara"]
   },
@@ -190,7 +193,7 @@
     "title": "El Azud",
     "description": "El Azud es un embalse artificial de 16 hectáreas, ideal para relajarse y disfrutar del aire libre. Se puede pescar desde la costa o embarcado, nadar en sus aguas cristalinas o simplemente observar la naturaleza.",
     "category": "Lugares que tenes que conocer",
-
+    "type":"turismo",
     "status": "Lugares",
     "dificultad": "Media",
     "image  ": ["https://i.imgur.com/KJVCeoV.jpeg"],
@@ -199,9 +202,9 @@
       "longitude": -66.145165
     },
     "links": {
-      "website": "https://www.example.com",
-      "instagram": "https://www.instagram.com/example",
-      "facebook": "https://www.facebook.com/example"
+      "website": "",
+      "instagram": "",
+      "facebook": ""
     },
     "tags": ["Embalse", "Naturaleza"]
   },
@@ -212,6 +215,7 @@
     "category": "Lugares que tenes que conocer",
     "alert": "Unicamente con vehiculos todo terreno",
     "status": "Lugares",
+    "type":"turismo",
     "dificultad": "Baja",
     "image": ["https://i.imgur.com/uLHAxVx.jpeg"],
     "location": {
@@ -219,9 +223,9 @@
       "longitude": -66.129646
     },
     "links": {
-      "website": "https://www.example.com",
-      "instagram": "https://www.instagram.com/example",
-      "facebook": "https://www.facebook.com/example"
+      "website": "",
+      "instagram": "",
+      "facebook": ""
     },
     "tags": ["Cañón natural", "Arenisca roja", "Río de aguas cristalinas"]
   },
@@ -230,7 +234,7 @@
     "title": "Mirador Rodeo de Gallinas",
     "description": "El Mirador del Cerro ofrece una vista panorámica de la ciudad de San Francisco del Monte de Oro, el Valle de Conlara y las sierras Comechingones. Desde el mirador se pueden observar los principales atractivos turísticos de la zona\n\nUbicado en la localidad de San Francisco del Monte de Oro, en la provincia de San Luis, Argentina. Se encuentra a solo 5 kilómetros del centro de la ciudad, por la Ruta Provincial N° 20.\n\n Cuenta con un punto WIFI gratuito para los visitantes, que te permite compartir en tus redes sociales toda la belleza que ofrece el lugar.",
     "category": "Lugares que tenes que conocer",
-
+    "type":"turismo",
     "status": "Lugares",
     "dificultad": "Baja",
     "image": ["https://i.imgur.com/sEqoKJj.jpeg"],
@@ -239,9 +243,9 @@
       "longitude": -66.152338
     },
     "links": {
-      "website": "https://www.example.com",
-      "instagram": "https://www.instagram.com/example",
-      "facebook": "https://www.facebook.com/example"
+      "website": "",
+      "instagram": "",
+      "facebook": ""
     },
     "tags": ["Mirador", "Vista panorámica", "Valle de Conlara", "Sierras Comechingones","WIFI"]
   },
@@ -249,7 +253,7 @@
     "id": 12,
     "title": "Rodeo de Cadenas - Pinturas rupestres",
     "description": "El arte prehistorico esta presente en San Francisco del Monte de Oro en mas de un centenar de yacimientos de arte rupestre localizado en las serranias y son tan antigos como la presencia de los primitivos habitantes de esas tierras\n\nEn la zona se pueden ver pinturas rupestres datadas en unos 6.000 años antes de Cristo. Las pinturas muestran puntos, lineas , formas, objetos antropomorfos y zoomorfos en pictogradias y petroglifos\n\nUn lugar que no podes dejar de visitar si te gusta la historia y la naturaleza.",
-
+    "type":"turismo",
     "category": "Lugares que tenes que conocer",
     "alert":"Consultar en la seccion de Guias de Turismo y Actividades recreativas para realizar la visita",
     "status": "Lugares",
@@ -263,9 +267,9 @@
       "longitude": -66.172788
     },
     "links": {
-      "website": "https://www.example.com",
-      "instagram": "https://www.instagram.com/example",
-      "facebook": "https://www.facebook.com/example"
+      "website": "",
+      "instagram": "",
+      "facebook": ""
     },
     "tags": ["Pinturas rupestres", "Arte prehistorico", "Yacimientos", "Serranias"]
   },
@@ -276,6 +280,7 @@
     "category": "Lugares que tenes que conocer",
     "alert":"Consultar en la seccion de Guias de Turismo y Actividades recreativas para realizar la visita",
     "status": "Lugares",
+    "type":"turismo",
     "dificultad": "Alta",
     "image": ["https://i.imgur.com/NHN2CBR.jpeg"],
     "location": {
@@ -283,9 +288,9 @@
       "longitude": -66.074934
     },
     "links": {
-      "website": "https://www.example.com",
-      "instagram": "https://www.instagram.com/example",
-      "facebook": "https://www.facebook.com/example"
+      "website": "",
+      "instagram": "",
+      "facebook": ""
     },
     "tags": ["Cascada", "Reserva Natural", "Senderismo", "Trekking"]
   },
@@ -315,6 +320,7 @@
     "description": "Alquiler de bicicletas, MTB mountaine bike/todo terreno.",
     "category": "Actividades recreativas",
     "name": "Laura Ponce",
+    "type":"turismo",
     "phone": "1151555581",
     "status": "Free",
     "tags": ["Alquiler", "Bicicletas", "MTB", "Mountaine bike", "Todo terreno"]
@@ -392,6 +398,7 @@
       "https://i.imgur.com/hJKBvq3.jpeg"
     ],
     "category": "Cabañas - Alojamientos -Campings",
+    "type":"turismo",
     "subCategory": "",
     "name": "Viviana",
     "phone": "+5492657493676",
@@ -413,6 +420,7 @@
     "title": "Camping las Palmas",
     "description": "Imagina despertar con el susurro de las hojas y el canto de las aves, mientras el sol acaricia tu rostro y te invita a una jornada llena de aventuras en medio de la naturaleza virgen de las serranías.\n\nEn Camping Las Palmas, cada día es una nueva oportunidad para explorar y descubrir. Desde parcelas amplias y sombreadas hasta baños impecables y una proveeduría bien surtida, hemos pensado en cada detalle para garantizarte una estadía confortable y sin preocupaciones.\n\n¿Qué te apetece hacer hoy? Sumérgete en nuestra refrescante piscina, desafía al río San Francisco en un emocionante paseo en kayak, o simplemente relájate junto al asador compartiendo deliciosas comidas al aire libre con tus seres queridos.\n\nYa sea que vengas en familia, en pareja o con amigos, en Camping Las Palmas encontrarás tu lugar. ¡Reserva hoy mismo y prepárate para vivir una experiencia de camping como ninguna otra!",
     "horario": "Abierto todo el año",
+    "type":"turismo",
     "image": [
       "https://i.imgur.com/lwptB74.jpeg",
       "https://i.imgur.com/bRq49ju.jpeg",
@@ -997,8 +1005,9 @@
     "description": "Complejo de Cabañas Misky Wayra.  Contamos desde cabañitas monoambiente a Cabañas de 3 dormitorios. Pileta con jacuzzi , bajada exclusiva al Río San Francisco,  Aire Acondicionado , Quincho cerrado con parrillas , horno industrial, disco. Amplio parque con arboleda y total seguridad para niños",
     "category": "Cabañas - Alojamientos -Campings",
     "subCategory": "",
+    "type":"turismo",
     "name": "Danisa",
-    "phone": "222615603481",
+    "phone": "2226603481",
     "status": "Free",
     "location": {
       "latitude": -32.606836,
@@ -1618,7 +1627,7 @@
   },
   {
     "id": 104,
-    "title": "Supermercado la Casona de Adrian",
+    "title": "Supermercado La Casona de Adrian",
     "description": "Fiambres - Verduleria - Almacen - Bebidas - Limpieza - Panaderia - Productos de Bazar , todo lo que buscas y necesitas",
     "category": "Autoservicios - Despensas - Polirubros",
     "subCategory": "",
@@ -2130,6 +2139,13 @@
   "name": "Marcela",
   "phone": "1164856692",
   "horario":"",
+  "image": [
+    "https://i.imgur.com/CeEO65s.jpg",
+    "https://i.imgur.com/JFXuv8h.jpg",
+    "https://i.imgur.com/jeMXP05.jpg",
+    "https://i.imgur.com/9a7p97n.jpg",
+    "https://i.imgur.com/Jdnth0B.jpg"
+  ],
   "status": "Premium",
   "location": {
     "latitude": -32.597952,
@@ -2139,17 +2155,24 @@
 },
 {
   "id": 135,
-  "title":" La Jacinta Chales ",
+  "title":"La Jacinta Chales",
   "description": "Chal en telar triangular de diferentes tamaños ,con lanas fantasía de calidad y diseños únicos y  en telar Maria ,hago caminos de mesa ,pie de cama,y bufandas. Todo hecho a mano",
   "category": "Productores - Emprendedores",
   "subCategory": "",
   "name": "Marcela",
   "phone": "1164856692",
   "horario":"",
+  "image":  [
+    "https://i.imgur.com/CeEO65s.jpg",
+    "https://i.imgur.com/JFXuv8h.jpg",
+    "https://i.imgur.com/jeMXP05.jpg",
+    "https://i.imgur.com/9a7p97n.jpg",
+    "https://i.imgur.com/Jdnth0B.jpg"
+  ],
   "status": "Premium",
   "location": {
-    "latitude": -32.598007,
-    "longitude": -66.126942
+    "latitude": -32.597952,
+    "longitude": -66.126929
 },
 "tags": ["Chal", "Telar", "Triangular", "Tamaños", "Lanas", "Fantasia", "Calidad", "Diseños", "Unicos",  "Caminos", "Mesa", "Pie", "Bufandas", "Hecho", "Mano"]
 },
@@ -2231,6 +2254,7 @@
 {
   "id": 139,
   "title":"Cafeteria Pasteleria  'Banda Sur'",
+  "type":"turismo",
   "description": "Servimos desayunos y meriendas.\n\nPastelería artesanal.\n\nOpciones saludables\n\nProductos sin TACC. ",
   "category": "Cafeterias",
   "subCategory": "",
@@ -2292,6 +2316,7 @@
 "horario": "Lunes a Viernes de 9 a 12 hs",
 "category": "Lugares que tenes que conocer",
   "status": "Lugares",
+  "type":"turismo",
   "dificultad": "Baja",
   "image": [
     "https://i.imgur.com/T2SmQRW.jpeg",
@@ -2302,8 +2327,8 @@
   ],
 
   "location": {
-    "latitude": -32.632776,
-    "longitude": -66.153421
+    "latitude": -32.600506,
+    "longitude": -66.128434
   },
   "tags": ["Biblioteca", "Cultura", "Lectura", "Conocimiento", "Comunidad", "Educacion", "Actividades", "Culturales", "Libros"]
  
@@ -2315,6 +2340,7 @@
   "category": "Guias de Turismo",
   "subCategory": "",
   "name": "Mariano Elgue",
+  "type":"turismo",
   "phone": "2664892738",
   "horario":"",
   "status": "Premium",
@@ -2342,6 +2368,7 @@
   "title": "Cabañas La Temperancia",
   "description": "'Un lugar de encuentro con vos  y tus afectos'\nCompletamente equipadas, cocheras cubiertas Directv,WiFi, separadas unas de otras, quincho comunitario, gran parque y bajada al río.  Abiertas todo el año y con la cordial atención de sus dueños.",
   "horario": "Abierto todo el año",
+  "type":"turismo",
   "image": [
     "https://i.imgur.com/5HR9mvC.jpeg",
     "https://i.imgur.com/PbzpJnI.jpeg",
@@ -2439,6 +2466,7 @@
   "title":"EcoAventura",
   "description": "Recorridos:\n\nSalto Escondido\nSalto del Indio\nMina de Cuarzo\nPinturas Rupestres\nCerro La Cumbrecita\nNido del Aguila\nLaguna del Rio Claro\nQuebrada de Lopez\n\nGuia Baqueano LEG235",
   "category": "Guias de Turismo",
+  "type":"turismo",
   "subCategory": "",
   "name": "Prof. Ariel Alejandro Suarez",
   "phone": "2664933528",
@@ -2489,6 +2517,7 @@
 {
   "id": 152 ,
   "title":"Hacer Turismo SF",
+  "type":"turismo",
   "description": "Recorridos:\n\nSalto Escondido\nSalto del Indio\nMina de Cuarzo\nPinturas Rupestres\nMirador panoramico 360º",
   "category": "Actividades recreativas",
   "subCategory": "",
@@ -2503,6 +2532,7 @@
   "title":"EcoAventura",
   "description": "Recorridos:\n\nSalto Escondido\nSalto del Indio\nMina de Cuarzo\nPinturas Rupestres\nCerro La Cumbrecita\nNido del Aguila\nLaguna del Rio Claro\nQuebrada de Lopez\n\nGuia Baqueano LEG235",
   "category": "Actividades recreativas",
+  "type":"turismo",
   "subCategory": "",
   "name": "Prof. Ariel Alejandro Suarez",
   "phone": "2664933528",
@@ -2720,6 +2750,7 @@
 {
   "id": 165,
   "title":"Mamull Kura, cabañas de montaña.",
+  "type":"turismo",
   "description": "La cabaña cuenta con energia solar - Agua de vertiente - Direct-tv - Servicio de sábanas y toallas -  Utensilios de cocina completos - Parrilla, disco, olla de campo - Piscinas individuales para cabaña 2 y 3 ",
   "category": "Cabañas - Alojamientos -Campings",
   "subCategory": "",
@@ -2805,6 +2836,7 @@
 {
   "id": 170,
   "title":"Lo de Diego",
+  "type":"turismo",
   "description": "Desayunos - Sandwich - Cafeteria - Pizzeria ",
   "category": "Lugares para comer",
   "subCategory": "",
@@ -2855,7 +2887,7 @@
 },
 {
   "id": 173,
-  "title":"La Norita",
+  "title":"Norix",
   "description": "Libreria Comercias y Cotillon",
   "category": "Librerias - Graficas",
   "subCategory": "",
@@ -2872,7 +2904,7 @@
 },
 {
   "id": 174,
-  "title":"La Norita",
+  "title":"Norix",
   "description": "Despensa",
   "category": "Autoservicios - Despensas - Polirubros",
   "subCategory": "",
@@ -2889,7 +2921,7 @@
 },
 {
   "id": 175,
-  "title":"La Norita",
+  "title":"Norix",
   "description": "Pago Facil - Western Union ",
   "category": "Pago Facil - Western Union",
   "subCategory": "",
@@ -3001,6 +3033,7 @@
   "title":"Estacion de Servicio - Yo Soy",
   "description": "Estacion de servicio con combustible Shell - Venta de productos de Kiosco - Articulos de Lubricentro",
   "category": "Estaciones de servicio",
+  "type":"turismo",
   "subCategory": "",
   "name": "",
   "phone": "",
@@ -3016,6 +3049,7 @@
 {
   "id": 182,
   "title":"Estacion de Servicio - Yo Soy",
+  "type":"turismo",
   "description": "Salon comedor - Desayunos - Almuerzos - Meriendas - Cena",
   "category": "Lugares para comer",
   "subCategory": "",
@@ -3134,7 +3168,7 @@
 {
   "id": 187,
   "title":"Pastas Artesanales Portal del Rio",
-  "description": "Patas caseras y artesanales. Podes encontrar Sorrentinos, Canelones, Lasagna, Fideos y Salsa. Hace tu consulta!",
+  "description": "Pastas caseras y artesanales. Podes encontrar Sorrentinos, Canelones, Lasagna, Fideos y Salsa. Hace tu consulta!",
   "category": "Productores - Emprendedores",
   "subCategory": "",
   "name": "",
@@ -3151,6 +3185,7 @@
 {
   "id": 188,
   "title":"Vitamina",
+  "type":"turismo",
   "description": "Ubicado en el centro del pueblo, frente a la Plaza Pringles se encuentra Vitamina. Pizzeria - Empanadas - Lomos - Hamburguesas - Bebidas - Barroluco. Cuenta con delivery",
   "category": "Lugares para comer",
   "subCategory": "",
@@ -3338,6 +3373,7 @@
 {
   "id": 199,
   "title":"Panaderia Garcia",
+  
   "description": "Desayunos - Cafeteria - Panificados - Facturas - Tostados - Pasteleria a pedido",
   "category": "Panaderias - Pastelerias",
   "subCategory": "",
@@ -3358,6 +3394,7 @@
   "title":"Panaderia Garcia",
   "description": "Desayunos - Cafeteria - Panificados - Facturas - Tostados - Pasteleria a pedido",
   "category": "Cafeterias",
+  "type":"turismo",
   "subCategory": "",
   "name": "",
   "phone": "",
@@ -3441,6 +3478,7 @@
 {
   "id": 205,
   "title": "Casa Museo Rosenda Quiroga ",
+  "type":"turismo",
   "description": "Casa Museo Rosenda Quiroga, lugar donde vivió la eximia maestra normal, escritora, corresponsal y conferencista sanfrancisqueña.",
 "horario": "Abierto todo los dias de 9 a 12hs y de 16 a 19hs",
 "category": "Lugares que tenes que conocer",
@@ -3464,6 +3502,7 @@
 {
   "id": 206,
   "title": "Cabañas Las Palmeras",
+  "type":"turismo",
   "description": "Si te gusta la naturaleza, veni a disfrutar en Cabañas Las Palmeras\n2 Cabañas hasta 4 personas unicamente - 2 Duplex hasta 3 personas unicamente!\n\nTotalmente amueblados:- Las cabañas cuentan  con cocina/comedor, baño y 2 habitaciones y los dúplex con cocina/comedor y baño en planta baja y en planta alta amplia habitación con balcón con vista a las sierras - Sommier y ropa de cama - Toallas y toallones - Ventiladores de techo - Heladeras con frizzer - Cocina completamente equipada - Estufas ecológicas a leña (se entrega un cajón de leña todos los días) - Smart TV - DirecTV - Wi-fi gratuito en todo el predio - Cocheras techadas con parrillas individuales - Sector de piscina con reposeras y sombrillas - Sector recreativo para niños",
   "category": "Cabañas - Alojamientos -Campings",
   "horario":"De 8 a 19hs",
@@ -3495,6 +3534,7 @@
 {
   "id": 208,
   "title": "Departamento Marisol",
+  "type":"turismo",
   "description": "Departamento hasta 8 personas - Totalmente equipado con todos los servicios - Aire acondicionado frio/calor - A una cuadra de Plaza Pringles - Zona centro",
   "category": "Cabañas - Alojamientos -Campings",
   "subCategory": "",
@@ -3564,6 +3604,7 @@
 {
   "id": 213,
   "title": "Patio de las Pecas",
+  "type":"turismo",
   "description": "En Patio de las Pencas ofrecemos una amplia variedad en nuestro menu. Hamburguesas - Lomo - Bondiola - Milanesas - Panchos con salsa ESPECIALES - Tortillas - Pizzas - Empanadas - Matambre - Bondiola a la cerveza - El lugar cuenta con WIFI - Delivery ",
   "category": "Lugares para comer",
   "subCategory": "",
@@ -3594,6 +3635,7 @@
 {
   "id": 214,
   "title": "Altos del Molle",
+  "type":"turismo",
   "description": "Apartamentos y cabañas hasta 5 personas - Totalmente equipadas - Wifi - Aire acondicionado - TV por cable - Cocina completa - Parrilla - Horno de barro - Cochera individual - Parque - Atendido por sus dueños ",
   "category": "Cabañas - Alojamientos -Campings",
   "subCategory": "",
@@ -3609,6 +3651,7 @@
 {
   "id": 215,
   "title": "Alquimia Cabañas",
+  "type":"turismo",
   "description": "Donde lo simple se transforma en una mágica experiencia. Tenemos para ofrecerte  dos cabañas de un dormitorio separadas entre sí , totalmente equipadas, con cocina, aire acondicionado y T.V. Led. Atendida por sus dueños",
   "category": "Cabañas - Alojamientos -Campings",
   "subCategory": "",
@@ -3620,8 +3663,158 @@
     "longitude": -66.122359 
   },
   "tags": ["Turismo","Cabañas","Aire","Tv","Cable","Cochera"]
-}
+},
+{
+  "id": 216,
+  "title": "Ayres de Cuarzo",
+  "type":"turismo",
+  "description": "Atendidas por sus propios dueños, abierto todo el año, Cabañas Ayres de Cuarzo, en San Francisco del Monte de Oro (San Luis) es un lugar mágico, ideal para una estancia tranquila en vacaciones o una escapada de fin de semana, en armonía con el paisaje que las rodea.Las cabañas son a estrenar y cuentan con una capacidad para 2 y hasta 5 personas . Construidas con estilo rústico, predominando en su construcción la piedra y la madera, decoradas con el gusto de la simplicidad, conformando espacios cálidos y ambientes familiares.",
+  "category": "Cabañas - Alojamientos -Campings",
+  "subCategory": "",
+  "horario": "Todo el año",
+  "phone": "2254413393",
+  "status": "Free",
+  "location": {
+    "latitude": -32.650500,
+    "longitude": -66.155457 
+  },
+  "tags": ["Turismo","Cabañas","Aire","Tv","Cable","Cochera"]
+},
+{
+  "id": 217,
+  "title":"Turismo Arqueologico y Cultural responsable",
+  "type":"turismo",
+  "description": "Senderismo Recorridos:\n\nRodeo de cadenas, pinturas rupestres.\nParaje el rincón\nLos once Morteros. \nPinturas Rupestres\nRecorrido urbano circuito los morteros en la ribera del Rio Claro",
+  "category": "Guias de Turismo",
+  "subCategory": "",
+  "name": "Alejandra Negro",
+  "phone": "2664933528",
+  "horario":"",
+  "status": "Free",
+  "tags": ["Turismo","Arqueologico","Cultural","Senderismo","Recorridos","Pinturas","Rupestres","Rodeo","Cadenas","Paraje","Rincon","Morteros","Rio","Claro"]
+ },
+ {
+  "id": 218,
+  "title":"Turismo Arqueologico y Cultural responsable",
+  "description": "Senderismo Recorridos:\n\nRodeo de cadenas, pinturas rupestres.\nParaje el rincón\nLos once Morteros. \nPinturas Rupestres\nRecorrido urbano circuito los morteros en la ribera del Rio Claro",
+  "category": "Actividades recreativas",
+  "subCategory": "",
+  "name": "Alejandra Negro",
+  "phone": "2664933528",
+  "horario":"",
+  "status": "Free",
+  "tags": ["Turismo","Arqueologico","Cultural","Senderismo","Recorridos","Pinturas","Rupestres","Rodeo","Cadenas","Paraje","Rincon","Morteros","Rio","Claro"]
+ },
+ {
+  "id": 219,
+  "title":"Pablo Spinelli 'Farolito'",
+  "description": "Animación de fiestas infantiles - Propuestas para todas las edades! -Juegos cooperativos y competitivos - Kermesse - Juguetes de circo -Pincha plaf!",
+  "category": "Fiestas Infantiles",
+  "subCategory": "",
+  "name": "Farolito",
+  "phone": "2664160350",
+  "horario":"",
+  "status": "Free",
+  "tags": ["Animaciones","Fiestas","Infantiles","Juegos","Kermesse","Circo","Niños","Niñas","Cumpleaños"]
+ },
+ {
+  "id": 220,
+  "title": " Balneario Primer Baden",
+  "type":"turismo",
+  "description": "Un oasis de paz en San Francisco del Monte de Oro. En el corazón de San Luis, Argentina, se encuentra el Balneario Primer Baden, un refugio de tranquilidad y belleza natural. Ubicado en la localidad de San Francisco del Monte de Oro, a solo 144 kilómetros de la capital provincial, este oasis invita a sus visitantes a sumergirse en un entorno de aguas cristalinas, aire puro y exuberante vegetación.\n\nEl balneario se destaca por su imponente lago, rodeado de cerros verdes que le dan un marco incomparable. Sus aguas cristalinas y de temperatura agradable son perfectas para nadar, practicar deportes acuáticos o simplemente relajarse en la arena. ",
+  "category": "Lugares que tenes que conocer",
 
+  "status": "Lugares",
+  "dificultad": "Baja",
+  "image": [
+    "https://i.imgur.com/K875DOG.jpeg",
+    "https://i.imgur.com/U78g7jq.jpeg",
+    "https://i.imgur.com/JEAN9Xf.jpeg"
+    
+  ],
+
+  "location": {
+    "latitude": -32.624062,
+    "longitude": -66.132929
+  },
+ 
+  "tags": ["Balneario","Turismo","Naturaleza","Paz","Aguas","Cristalinas","Deportes","Acuaticos","Relax","Arena","Cerro","Verde","Lago","Cristalinas","Aire","Puro","Vegetacion"]
+},
+{
+  "id": 221,
+  "title": " Balneario Segundo Baden",
+  "type":"turismo",
+  "description": "El Balneario Segundo Baden es un lugar ideal para quienes buscan escapar del ritmo frenético de la ciudad y conectar con la naturaleza. Su ambiente familiar y tranquilo lo convierte en el destino perfecto para unas vacaciones inolvidables o un fin de semana de descanso.\n\nLos visitantes también pueden disfrutar de caminatas por senderos naturales, picnics en áreas verdes, cabalgatas por la sierra o simplemente contemplar la impresionante vista desde alguno de los miradores.",
+  "category": "Lugares que tenes que conocer",
+
+  "status": "Lugares",
+  "dificultad": "Baja",
+  "image": [
+    "https://i.imgur.com/xnGHgVN.jpeg",
+    "https://i.imgur.com/p9YZAlv.jpeg"
+    
+  ],
+
+  "location": {
+    "latitude": -32.624062,
+    "longitude": -66.132929
+  },
+ 
+  "tags": ["Balneario","Turismo","Naturaleza","Paz","Aguas","Cristalinas","Deportes","Acuaticos","Relax","Arena","Cerro","Verde","Lago","Cristalinas","Aire","Puro","Vegetacion"]
+},
+{
+  "id": 222,
+  "title": "Hospital San Francisco del Monte de Oro",
+  "description": "El Hospital cuenta con un equipo de profesionales para brindar una atención de calidad a todos los pacientes. Además, ofrece:\nGuardia las 24 horas\nInternación\nConsultorios externos\nLaboratorio\nRadiología\nEcografía\nOdontología\nFarmacia\nVacunatorio\nAmbulancia\nPediatria\nGinecología\nClínica Médica\nTraumatología\nOftalmología\nCardiología\nKinesiología\nNutrición\nPsicología\nPsiquiatría\nTrabajo Social\nOculista\nFonoaudiología\n",
+  "horario": "Lunes a viernes",
+  "image": [
+    "https://i.imgur.com/atw93Up.jpeg"
+   
+    
+  ],
+  "category": "Atencion medica",
+
+  "name": "",
+  "phone": "",
+  "status": "Premium",
+  "location": {
+    "latitude": -32.600673,
+    "longitude": -66.121673
+  },
+  "links": {
+    "website": "",
+    "instagram": "",
+    "facebook": "https://www.facebook.com/people/HSF-Hospital-y-Comunidad/100063552101203/"
+  },
+  "tags": ["Hospital","Atencion","Medica","Guardia","Internacion","Consultorios","Laboratorio","Radiologia","Ecografia","Odontologia","Farmacia","Vacunatorio","Ambulancia","Pediatria","Ginecologia","Clinica","Medica","Traumatologia","Oftalmologia","Cardiologia","Kinesiologia","Nutricion","Psicologia","Psiquiatria","Trabajo","Social","Oculista","Fonoaudiologia"]
+},
+{
+  "id": 223,
+  "title": "Blanca Paloma",
+  "description": "A continucion dejamos los horarios de pasajes de la empresa Blanca Paloma",
+  "horario": "",
+  "image": [
+    "https://i.imgur.com/kqjJLoN.jpeg",
+    "https://i.imgur.com/1ZLWUl0.jpeg"
+   
+    
+  ],
+  "category": "Micros",
+
+  "name": "",
+  "phone": "",
+  "status": "Premium",
+  "location": {
+    "latitude": -32.591592,
+    "longitude": -66.127247
+  },
+  "links": {
+    "website": "",
+    "instagram": "",
+    "facebook": ""
+  },
+  "tags": ["Blanca Paloma","Micros","Pasajes","Horarios","San Luis"]
+}
 
  
 

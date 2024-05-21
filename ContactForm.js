@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, TextInput, View, ImageBackground, StyleSheet, Text, Switch } from 'react-native';
+import { Button, TextInput, View, ImageBackground, StyleSheet, Text, Switch, KeyboardAvoidingView, } from 'react-native';
 import { Linking } from 'react-native';
 
 const ContactForm = () => {
@@ -16,7 +16,7 @@ const ContactForm = () => {
 
     return (
         <ImageBackground source={require('./montaña.jpg')} style={styles.background}>
-            <View style={styles.container}>
+            <KeyboardAvoidingView behavior={Platform.OS === "ios" ? "padding" : "height"} style={styles.container}>
                 <Text style={styles.invitation}>¡Suma tus servicios en la app de Conectate! Podes llenar los datos y a la brevedad te enviaremos toda la informacion que necesitamos para sumar tus datos.</Text>
                 <Text style={styles.invitation}>Recorda que la aplicacion es gratuita. En caso que desees realizar publicidad cliclea la casilla y te brindaremos toda la informacion necesaria.</Text>
                 <TextInput style={styles.input} placeholder="Nombre" onChangeText={setName} placeholderTextColor="darkviolet"/>
@@ -34,7 +34,7 @@ const ContactForm = () => {
                     <Text style={styles.label}>Deseo promocionar</Text>
                 </View>
                 <Button title="Enviar" onPress={handleSubmit} />
-            </View>
+            </KeyboardAvoidingView>
         </ImageBackground>
     );
 };
