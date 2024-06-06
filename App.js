@@ -43,6 +43,7 @@ import FeedbackForm from './FeedbackForm';
 import MunicipalityInfo from './MunicipalityInfo';
 import dataEvents from './dataevent.json';
 import searchIcon from './lupa.png';
+import ThreeCategoriesComponent from './ThreeCategoriesComponent';
 
 
 LogBox.ignoreLogs(['new NativeEventEmitter()']);
@@ -301,45 +302,44 @@ const [filteredData, setFilteredData] = useState([]);
       style={styles.backgroundImage}>
       <View style={styles.container}>
         <ScrollView>
-        {weatherData && (
-          <ImageBackground
-            source={weatherBackgrounds[weatherData.weather[0].main]}
-            style={{flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingHorizontal: 20}}>
-            <View>
-              <Image
-                source={{uri: `http://openweathermap.org/img/wn/${weatherData.weather[0].icon}.png`}}
-                style={{width: 80, height: 80}}
-              />
-              <Text
-                style={{
-                  fontSize: 20,
-                  fontWeight: 'bold',
-                  marginTop: 5,
-                  color: 'white',
-                  marginLeft: 20,
-                }}>
-                Temperatura: {Math.round(weatherData.main.temp - 273.15)}°C
-              </Text>
-              <Text style={{color: 'white', marginLeft: 20}}>
-                Sensación térmica: {Math.round(weatherData.main.feels_like - 273.15)}°C
-              </Text>
-              <Text style={{color: 'white', marginLeft: 20}}>
-                Velocidad del viento: {(weatherData.wind.speed * 3.6).toFixed(2)} km/h
-              </Text>
-              <Text style={{color: 'white', marginLeft: 20}}>
-                Rachas de viento: {(weatherData.wind.gust * 3.6).toFixed(2)} km/h
-              </Text>
-              <Text style={{color: 'white', marginLeft: 20,marginBottom:20}}>
-                Presión atmosférica: {weatherData.main.pressure} hPa
-              </Text>
-            </View>
-          </ImageBackground>
-        )}
+       {weatherData && (
+  <ImageBackground
+    source={weatherBackgrounds[weatherData.weather[0].main]}
+    style={{flex: 1}}>
+    <View style={{backgroundColor: 'rgba(0,0,0,0.5)', flex: 1, paddingHorizontal: 20, justifyContent: 'center'}}>
+<View style={{flexDirection: 'row', alignItems: 'center'}}>
+  <Image
+    source={{uri: `http://openweathermap.org/img/wn/${weatherData.weather[0].icon}.png`}}
+    style={{width: 150, height: 150}} // Aumenta estas dimensiones para hacer el icono más grande
+  />
+  <Text
+    style={{
+      fontSize: 50, // Aumenta este valor para hacer la temperatura más grande
+      fontWeight: 'bold',
+      color: 'white',
+      marginLeft: 20,
+    }}>
+    {Math.round(weatherData.main.temp - 273.15)}°C
+  </Text>
+</View>
+      <Text style={{color: 'white', fontSize: 20, marginTop: 10}}>
+        Térmica: {Math.round(weatherData.main.feels_like - 273.15)}°C
+      </Text>
+      <Text style={{color: 'white', fontSize: 20, marginTop: 10}}>
+        Viento: {(weatherData.wind.speed * 3.6).toFixed(2)} km/h
+      </Text>
+      <Text style={{color: 'white', fontSize: 20, marginTop: 10}}>
+        Rachas: {(weatherData.wind.gust * 3.6).toFixed(2)} km/h
+      </Text>
+      {/* Aquí puedes agregar los componentes de texto para la predicción de 3 días */}
+    </View>
+  </ImageBackground>
+)}
           <Text
             style={{
               fontSize: 55,
               fontWeight: 'bold',
-              marginTop: 100,
+              marginTop: 50,
               color: 'white',
               marginLeft: 20,
             }}>
@@ -367,6 +367,7 @@ const [filteredData, setFilteredData] = useState([]);
             }}>
             Una App donde vas a poder encontrar todos contactos que necesitas en San Francisco del Monte de Oro
           </Text>
+              <ThreeCategoriesComponent/>
           <Searchbar
   style={{ backgroundColor: 'white', borderWidth: 1, borderRadius: 10, margin: 10, shadowColor: 'black', shadowOffset: {width: 5, height: 5}, shadowOpacity: 0.5, shadowRadius: 10, elevation: 5 }}
   inputStyle={{ color: '#9400D3' }}
@@ -428,54 +429,42 @@ const [filteredData, setFilteredData] = useState([]);
           <ScrollView>
            
 
-          <View style={{ flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
-      {randomCards.map(item => (
-        <Card key={item.id} style={{ margin: 10, width: '60%' }}>
-          <Card.Title  title={item.title} titleStyle={{color: '#9400D3'}} />
+        <View style={{ flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
+  {randomCards.map(item => (
+    <Card key={item.id} style={{ margin: 10, width: '45%' }}>
+      <Card.Title  title={item.title} titleStyle={{color: '#9400D3'}} />
 
+      <Card.Content style={{flex: 1}}>
+        <View style={{flexDirection: 'row', alignItems: 'center'}}>
+          <Text style={styles.textcards}>{item.title}</Text>
+          <Image source={require('./estrella.png')} style={{width: 15, height: 15, marginLeft: 5}} />
+        </View>
+        <Text style={styles.textcards} >{item.description.substring(0, 50)}...</Text>
+        <Text style={styles.textcards} >{item.phone}</Text>
+      </Card.Content>
 
-          <Card.Content>
-            <View style={{flexDirection: 'row', alignItems: 'center'}}>
-              <Text style={styles.textcards}>{item.title}</Text>
-              <Image source={require('./estrella.png')} style={{width: 15, height: 15, marginLeft: 5}} />
-            </View>
-            <Text style={styles.textcards} >{item.description.substring(0, 50)}...</Text>
-            <Text style={styles.textcards} >{item.phone}</Text>
-          </Card.Content>
-
-          <FAB
-            small
-            label='Mas Info'
-            icon={() => <Image source={require('./info.png')} style={{width: 24, height: 24}} />}
-            onPress={() => {
-              // Navega a 'Detail' o 'PremiumDetail' dependiendo del estado del item
-              if (item.status === 'Free') {
-                navigation.navigate('Detail', { itemData: item });
-              } else if (item.status === 'Premium') {
-                navigation.navigate('PremiumDetail', { itemData: item });
-              }
-              else if (item.status === 'Lugares') {
-                navigation.navigate('Lugares', { itemData: item });
-              }
-            }}
-          />
-        </Card>
-      ))}
-    </View>
+      <FAB
+        small
+        label='Mas Info'
+        icon={() => <Image source={require('./info.png')} style={{width: 24, height: 24}} />}
+        onPress={() => {
+          // Navega a 'Detail' o 'PremiumDetail' dependiendo del estado del item
+          if (item.status === 'Free') {
+            navigation.navigate('Detail', { itemData: item });
+          } else if (item.status === 'Premium') {
+            navigation.navigate('PremiumDetail', { itemData: item });
+          }
+          else if (item.status === 'Lugares') {
+            navigation.navigate('Lugares', { itemData: item });
+          }
+        }}
+      />
+    </Card>
+  ))}
+</View>
           </ScrollView>
            
-        {/*   {searchQuery &&
-  filteredData.map(item => (
-    <Card key={item.id} style={{margin: 10}}>
-      <Card.Title title={item.name} />
-      <Card.Content>
-        <Text>{item.title}</Text>
-        <Text>{item.description}</Text>
-        <Text>{item.phone}</Text>
-      </Card.Content>
-    </Card>
-  ))
-} */}
+    
  <Text style={{
               fontSize: 40,
               fontWeight: 'bold',
@@ -501,16 +490,7 @@ const [filteredData, setFilteredData] = useState([]);
               <Card.Cover source={require('./mapa.png')} style={{ borderRadius: 10 }} />
             </Card>
           </TouchableOpacity>
-<View >
-  <Text style={{
-              fontSize: 20,
-              fontWeight: 'bold',
-              marginTop: 20,
-              color: 'white',
-              marginLeft: 20,
-            }}>Todos los Servicios, Profesionales, Tefefonos utiles y mucho mas los encontras en CONECTATE </Text>
-            <Button  onPress={() => navigation.navigate('Categorias')}>Mas info</Button>
-</View>
+
           </View>
           
         </ScrollView>

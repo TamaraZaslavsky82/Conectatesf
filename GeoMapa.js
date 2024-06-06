@@ -41,34 +41,34 @@ class GeoMapa extends React.Component {
             this.setState({ origin: { latitude: position.coords.latitude, longitude: position.coords.longitude } });
         }, (error) => console.error(error), { enableHighAccuracy: true, timeout: 20000, maximumAge: 1000 });
     }
-    renderAnnotations() {
-        const filteredData = data.filter(item => item.category === this.state.category);
+   renderAnnotations() {
+    const filteredData = data.filter(item => item.category === this.state.category);
 
-        return filteredData.map(item => {
-            if (item.location && item.location.latitude && item.location.longitude) {
-                return (
-                    <Marker
-                        key={item.id}
-                        coordinate={{latitude: item.location.latitude, longitude: item.location.longitude}}
-                        onPress={() => {
-                            this.setState({ selectedItem: item, modalVisible: true, destination: { latitude: item.location.latitude, longitude: item.location.longitude } });
-                        }}
-                    >
-                        <View style={{ flexDirection: 'row', alignItems: 'center', backgroundColor: 'white', borderRadius: 5, padding: 2, marginRight: 5 }}>
-                            {item.image && item.image.length > 0 && (
-                                <Image
-                                    style={{ width: 50, height: 50, marginRight: 5 }}
-                                    source={{ uri: item.image[0] }}
-                                />
-                            )}
-                            <Text style={{ color: 'darkviolet' }}>{item.title}</Text>
-                        </View>
-                        
-                    </Marker>
-                );
-            }
-        });
-    }
+    return filteredData.map(item => {
+        if (item.location && item.location.latitude && item.location.longitude) {
+            return (
+                <Marker
+                    key={item.id}
+                    coordinate={{latitude: item.location.latitude, longitude: item.location.longitude}}
+                    onPress={() => {
+                        this.setState({ selectedItem: item, modalVisible: true, destination: { latitude: item.location.latitude, longitude: item.location.longitude } });
+                    }}
+                >
+                    <View style={{ flexDirection: 'row', alignItems: 'center', backgroundColor: 'white', borderRadius: 5, padding: item.image && item.image.length > 0 ? 2 : 10, marginRight: 5 }}>
+                        {item.image && item.image.length > 0 && (
+                            <Image
+                                style={{ width: 50, height: 50, marginRight: 5 }}
+                                source={{ uri: item.image[0] }}
+                            />
+                        )}
+                        <Text style={{ color: 'darkviolet' }}>{item.title}</Text>
+                    </View>
+                    
+                </Marker>
+            );
+        }
+    });
+}
 
     render() {
         const { origin, destination } = this.state;

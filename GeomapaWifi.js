@@ -1,8 +1,22 @@
 import React from 'react';
 import { Text, Modal, View, Button, ImageBackground, StyleSheet, Image } from 'react-native';
-import MapView, { Marker } from 'react-native-maps';
+import MapView, { Marker, PROVIDER_GOOGLE } from 'react-native-maps';
 import Geolocation from '@react-native-community/geolocation';
 import data from './datawifi.json'; 
+
+
+const customStyle = [
+    {
+      "featureType": "poi",
+      "elementType": "labels",
+      "stylers": [
+        {
+          "visibility": "off"
+        }
+      ]
+    }
+  ];
+
 
 class GeoMapaWifi extends React.Component {
     constructor(props) {
@@ -85,7 +99,9 @@ class GeoMapaWifi extends React.Component {
                             Comparte tus fotos y posteos, envia mensajes, mira videos o simplemente navega por la web. Todo de forma gratuita!!!
                         </Text>
                    
-                    <MapView
+                        <MapView
+                        provider={PROVIDER_GOOGLE} // Asegúrate de usar el proveedor de Google
+                        customMapStyle={customStyle} // Aplica el estilo personalizado
                         style={{ flex: 1 }}
                         initialRegion={{
                             latitude: this.state.center.latitude,

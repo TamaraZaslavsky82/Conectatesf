@@ -3,11 +3,25 @@ import { ScrollView, View, Text, Linking, TouchableOpacity, Share, Image, StyleS
 import { Card } from 'react-native-paper';
 import data from './data.json';
 import Swiper from 'react-native-swiper';
-import MapView, { Marker } from 'react-native-maps';
+import MapView, { Marker, PROVIDER_GOOGLE } from 'react-native-maps';
 import MapViewDirections from 'react-native-maps-directions';
 import Geolocation from '@react-native-community/geolocation';
+import { Dimensions } from 'react-native';
 
 const GOOGLE_MAPS_APIKEY = 'AIzaSyAAlpyQPvBVphO6J59Cz05Umjka4MHBIO0'
+
+
+const customStyle = [
+    {
+      "featureType": "poi",
+      "elementType": "labels",
+      "stylers": [
+        {
+          "visibility": "off"
+        }
+      ]
+    }
+  ];
 
 const PremiumDetailScreen = ({route}) => {
     const { itemData } = route.params;
@@ -101,13 +115,51 @@ const PremiumDetailScreen = ({route}) => {
         return nowInMinutes >= start && nowInMinutes <= end;
     };
 
+    const { width } = Dimensions.get('window');
+
+ const renderPagination = (index, total, context) => {
+    return (
+        <View style={{ 
+            position: 'absolute', 
+            bottom: -60,
+            width,
+            flexDirection: 'row',
+            justifyContent: 'center',
+            backgroundColor: 'rgba(0, 0, 0, 0.5)', 
+            padding: 10,
+        }}>
+            {context.state.width && context.state.height && itemData.image.map((imageUrl, i) => (
+                <TouchableOpacity key={i} onPress={() => context.scrollBy(i - index)}>
+                    <View style={{
+    borderWidth: 2, // Grosor del marco
+    borderColor: 'darkviolet', // Color del marco
+    backgroundColor: 'rgba(0, 0, 0, 0.5)', // Fondo oscuro semi-transparente
+    borderRadius: 5, // Bordes redondeados
+    
+}}>
+                        <Image
+                            style={{ width: 70, height: 70, margin: 3, opacity: i === index ? 1 : 0.5 }}
+                            source={{ uri: imageUrl }}
+                        />
+                    </View>
+                </TouchableOpacity>
+            ))}
+        </View>
+    );
+};
     return (
         <ScrollView>
-            <Swiper height={400} autoplay>
-        {itemData.image && itemData.image.map((imageUrl, index) => (
-    <Image key={index} style={styles.image} source={{ uri: imageUrl }} />
-))}
-            </Swiper>
+        <Swiper
+            style={{ height: 400 }}
+            width={width}
+            autoplay
+            autoplayTimeout={2.5}
+            renderPagination={renderPagination}
+        >
+            {itemData.image && itemData.image.map((imageUrl, index) => (
+                <Image key={index} style={styles.image} source={{ uri: imageUrl }} />
+            ))}
+        </Swiper>
             <View style={styles.content}>
                 <Card style={styles.card}>
                     <Card.Content>
@@ -116,18 +168,14 @@ const PremiumDetailScreen = ({route}) => {
                         <Text style={styles.subtitle}>{itemData.category}</Text>
                         <Text style={styles.description}>{itemData.description}</Text>
                         <Text style={styles.description}>{itemData.horario}</Text>
-                        {itemData.horario && (
-                            <Text style={{...styles.description, color: isOpen(itemData.horario) ? 'green' : 'red'}}>
-                                {isOpen(itemData.horario) ? 'Abierto' : 'Cerrado'}
-                            </Text>
-                        )}
+                   
                         <Text style={styles.description}>{itemData.subCategory}</Text>
                         <Text style={styles.status}>{itemData.status}</Text>
                         <TouchableOpacity style={styles.button} onPress={()=>dialCall(itemData.phone)}>
                             <Text style={styles.buttonText}>Llamar</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.button} onPress={()=>sendWhatsApp(itemData.phone)}>
-                            <Text style={styles.buttonText}>Eviar WhatsApp</Text>
+                            <Text style={styles.buttonText}>Enviar WhatsApp</Text>
                         </TouchableOpacity>
                         {itemData.links && (
                             <View style={styles.links}>
@@ -154,14 +202,16 @@ const PremiumDetailScreen = ({route}) => {
           <View style={{ flex: 1, height: 200 }}>
     {itemData !== undefined && itemData.location && itemData.location.latitude && itemData.location.longitude ? (
     <MapView
-        style={{ flex: 1 }}
-        initialRegion={{
-            latitude: itemData.location.latitude,
-            longitude: itemData.location.longitude,
-            latitudeDelta: 0.0922,
-            longitudeDelta: 0.0421,
-        }}
-    >
+    provider={PROVIDER_GOOGLE} // Usar el proveedor de Google
+    customMapStyle={customStyle} // Aplicar el estilo personalizado
+    style={{ flex: 1 }}
+    initialRegion={{
+        latitude: itemData.location.latitude,
+        longitude: itemData.location.longitude,
+        latitudeDelta: 0.0922,
+        longitudeDelta: 0.0421,
+    }}
+>
         <Marker
             coordinate={{latitude: itemData.location.latitude, longitude: itemData.location.longitude}}
             title={itemData.title}
@@ -194,6 +244,7 @@ const styles = StyleSheet.create({
     },
     content: {
         padding: 10,
+        marginTop:50
     },
     card: {
         margin: 10,

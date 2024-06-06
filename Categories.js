@@ -1,4 +1,4 @@
-import React, {useState, useLayoutEffect, useCallback} from 'react';
+import React, {useState, useLayoutEffect, useCallback, useEffect} from 'react';
 import {
   FlatList,
   View,
@@ -63,29 +63,29 @@ import servicios from './iconos/servicios.png';
 import verdu from './iconos/verdu.png';
 import viveros from './iconos/viveros.png';
 
-
-const CategoriesScreen = ({navigation}) => {
+const CategoriesScreen = ({ route, navigation }) => {
   const data = require('./data.json');
 
-const allCategories = data.map(item => {
-  if (!item.category) {
-    console.log('Elemento con categoría vacía:', item);
-  }
-  return item.category;
-});
-const uniqueCategories = allCategories
+  const { selectedCategory: initialSelectedCategory } = route.params || {};
+
+  const allCategories = data.map(item => {
+    if (!item.category) {
+      console.log('Elemento con categoría vacía:', item);
+    }
+    return item.category;
+  });
+
+  const uniqueCategories = allCategories
     .filter((category, index, self) => self.indexOf(category) === index)
-    .sort((a, b) => a.localeCompare(b)); // Cambiado de b.localeCompare(a) a a.localeCompare(b)
+    .sort((a, b) => a.localeCompare(b));
 
-
-  const [selectedCategory, setSelectedCategory] = useState(null);
+  const [selectedCategory, setSelectedCategory] = useState(initialSelectedCategory);
   const [selectedSubCategory, setSelectedSubCategory] = useState(null);
 
   const handleCategorySelect = category => {
     setSelectedCategory(category);
     setSelectedSubCategory(null);
   };
-
   const handleSubCategorySelect = subCategory => {
     setSelectedSubCategory(subCategory);
   };
@@ -98,13 +98,22 @@ const uniqueCategories = allCategories
     setSelectedCategory(null);
   }, []);
 
+  // Si la categoría inicial cambia (por ejemplo, si se selecciona una nueva categoría desde 'ThreeCategoriesComponent'),
+  // actualiza 'selectedCategory'
+  useEffect(() => {
+    setSelectedCategory(initialSelectedCategory);
+  }, [initialSelectedCategory]);
+
+  // ...
+
+
   const categoryIcons={
     'Aberturas': aberturas,
     'Actividades recreativas': recreativo,
     'Atencion medica': hospital,
   'Autoservicios - Despensas - Polirubros': almacen,
   'Bazar y hogar': bazar,
-  'Cabañas - Alojamientos -Campings': cabañas,
+  'Alojamientos': cabañas,
   'Cafeterias': cafeteria,
   'Carnicerias - Verdulerias - Pollerias': verdu,
   'Centro Cultural': cultura,

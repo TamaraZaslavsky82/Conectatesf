@@ -4,8 +4,13 @@ import { View, Text, TouchableOpacity } from 'react-native';
 
 const ads = [
     { id: 1, content: 'https://i.imgur.com/65tf0BQ.png' },
-    { id: 2, content: 'https://i.imgur.com/65tf0BQ.png' },
-    { id: 3, content: 'https://i.imgur.com/65tf0BQ.png'},
+    { id: 2, content: 'https://i.imgur.com/UGHRigs.jpeg' },
+    { id: 3, content: 'https://i.imgur.com/44WsXcm.jpeg'},
+    { id: 4, content: 'https://i.imgur.com/9IgLTcd.jpeg' },
+    { id: 5, content: 'https://i.imgur.com/v9un8aS.jpeg' },
+    { id: 6, content: 'https://i.imgur.com/guUGgdH.jpeg' },
+    { id: 7, content: 'https://i.imgur.com/pQnQ7hZ.jpeg' },
+   
     // Agrega más anuncios aquí
 ];
 
@@ -20,23 +25,23 @@ const AdBanner = () => {
     }, [isVisible]);
 
     const showRandomAd = () => {
-        if (!isVisible) return;
         let newAd;
         do {
             newAd = ads[Math.floor(Math.random() * ads.length)];
         } while (ad && newAd.id === ad.id);
         setAd(newAd);
+        setIsVisible(true); // Agrega esta línea
     };
 
     const closeAd = () => {
         setIsVisible(false);
-        setAd(null); // Agrega esta línea
+        setAd(null);
         setTimeout(() => {
-            setIsVisible(true);
-        }, 55000); // Muestra un nuevo anuncio después de 1 minuto
+            showRandomAd();
+        }, 5000); // Muestra un nuevo anuncio después de 20 segundos
     };
 
-    if (!isVisible || !ad) return null; // Mueve esta línea aquí
+    if (!isVisible || !ad) return null;
 
     return (
         <View style={{ position: 'absolute', bottom: 0, }}>

@@ -31,7 +31,7 @@
     "id": 2,
     "title": "Cabalas Ecoo Maggy",
     "description": "Te ofrecemos cabañas con pileta desde 2 a 8 personas.\n\nLas cabañas cuentan con: Una y dos habitaciones - Baño - Cocina - comedor equipado para la cantidad personas que abarca la cabaña - Aire acondicionado frio/calor - Wifi en todo el complejo - TV con cable - Ropa blanca, jabon, toalla - El complejo cuenta con 8 cabañas - Quincho compartido - Cocheras - Churrasquera - Parquerizado - Pileta\n Abierto todo el año",
-    "category": "Cabañas - Alojamientos -Campings",
+    "category": "Alojamientos",
     "name": "Cabañas Ecoo Maggy",
     "phone": "2664370021",
     "type":"turismo",
@@ -51,7 +51,7 @@
     "id": 3,
     "title": "Dormis Keisy",
     "description": "Te ofrecemos dormis de 2 a 4 personas. Son habitaciones con baño privado, capacidad para 4 personas \n\nCuenta con : Cochera - Ropa blanca, jabon, toalla - Tv cable, Wifi - Aire acondicionado frio/calor - Kit para desayunar en la habitacion",
-    "category": "Cabañas - Alojamientos -Campings",
+    "category": "Alojamientos",
     "name": "Dormis Keisy",
     "phone": "2664209059",
     "type":"turismo",
@@ -397,7 +397,7 @@
       "https://i.imgur.com/rafFjbp.jpeg",
       "https://i.imgur.com/hJKBvq3.jpeg"
     ],
-    "category": "Cabañas - Alojamientos -Campings",
+    "category": "Alojamientos",
     "type":"turismo",
     "subCategory": "",
     "name": "Viviana",
@@ -428,7 +428,7 @@
       "https://i.imgur.com/2cvHHuP.jpeg",
       "https://i.imgur.com/XcI7apQ.jpeg"
     ],
-    "category": "Cabañas - Alojamientos -Campings",
+    "category": "Alojamientos",
     "subCategory": "",
     "name": "Alicia",
     "phone": "+5493516210400",
@@ -1003,7 +1003,7 @@
     "id": 68,
     "title": "Cabañas MISKY WAYRA",
     "description": "Complejo de Cabañas Misky Wayra.  Contamos desde cabañitas monoambiente a Cabañas de 3 dormitorios. Pileta con jacuzzi , bajada exclusiva al Río San Francisco,  Aire Acondicionado , Quincho cerrado con parrillas , horno industrial, disco. Amplio parque con arboleda y total seguridad para niños",
-    "category": "Cabañas - Alojamientos -Campings",
+    "category": "Alojamientos",
     "subCategory": "",
     "type":"turismo",
     "name": "Danisa",
@@ -1914,7 +1914,7 @@
     "id": 120,
     "title":"Akasia Hospedaje",
     "description": "Posada equipada para 4 personas. Amplio monomabiente , cama matrimonial , una cucheta con servicio de sabanas y toallas. Cocina equipada, con vajilla, heladera con freezer, cocina horno. Baño privado con termotanque. Aire acondicionado, sin TV. Gran patio con parrilla. Atendido por su dueña",
-    "category": "Cabañas - Alojamientos -Campings",
+    "category": "Alojamientos",
     "subCategory": "",
     "name": "Aruza",
     "phone": "1164005480",
@@ -2376,7 +2376,7 @@
     "https://i.imgur.com/mrHSHJk.jpeg",
     "https://i.imgur.com/k3K5Sjg.jpeg"
   ],
-  "category": "Cabañas - Alojamientos -Campings",
+  "category": "Alojamientos",
   "subCategory": "",
   "name": "Liliana Heredia",
   "phone": "2664509294",
@@ -2752,7 +2752,7 @@
   "title":"Mamull Kura, cabañas de montaña.",
   "type":"turismo",
   "description": "La cabaña cuenta con energia solar - Agua de vertiente - Direct-tv - Servicio de sábanas y toallas -  Utensilios de cocina completos - Parrilla, disco, olla de campo - Piscinas individuales para cabaña 2 y 3 ",
-  "category": "Cabañas - Alojamientos -Campings",
+  "category": "Alojamientos",
   "subCategory": "",
   "name": "",
   "phone": "2664740444",
@@ -3504,7 +3504,7 @@
   "title": "Cabañas Las Palmeras",
   "type":"turismo",
   "description": "Si te gusta la naturaleza, veni a disfrutar en Cabañas Las Palmeras\n2 Cabañas hasta 4 personas unicamente - 2 Duplex hasta 3 personas unicamente!\n\nTotalmente amueblados:- Las cabañas cuentan  con cocina/comedor, baño y 2 habitaciones y los dúplex con cocina/comedor y baño en planta baja y en planta alta amplia habitación con balcón con vista a las sierras - Sommier y ropa de cama - Toallas y toallones - Ventiladores de techo - Heladeras con frizzer - Cocina completamente equipada - Estufas ecológicas a leña (se entrega un cajón de leña todos los días) - Smart TV - DirecTV - Wi-fi gratuito en todo el predio - Cocheras techadas con parrillas individuales - Sector de piscina con reposeras y sombrillas - Sector recreativo para niños",
-  "category": "Cabañas - Alojamientos -Campings",
+  "category": "Alojamientos",
   "horario":"De 8 a 19hs",
   "subCategory": "",
   "name": "",
@@ -3536,7 +3536,7 @@
   "title": "Departamento Marisol",
   "type":"turismo",
   "description": "Departamento hasta 8 personas - Totalmente equipado con todos los servicios - Aire acondicionado frio/calor - A una cuadra de Plaza Pringles - Zona centro",
-  "category": "Cabañas - Alojamientos -Campings",
+  "category": "Alojamientos",
   "subCategory": "",
   "name": "",
   "phone": "2664021782",
@@ -3637,7 +3637,7 @@
   "title": "Altos del Molle",
   "type":"turismo",
   "description": "Apartamentos y cabañas hasta 5 personas - Totalmente equipadas - Wifi - Aire acondicionado - TV por cable - Cocina completa - Parrilla - Horno de barro - Cochera individual - Parque - Atendido por sus dueños ",
-  "category": "Cabañas - Alojamientos -Campings",
+  "category": "Alojamientos",
   "subCategory": "",
   "horario": "Todo el año",
   "phone": "1133371643",
@@ -3653,7 +3653,7 @@
   "title": "Alquimia Cabañas",
   "type":"turismo",
   "description": "Donde lo simple se transforma en una mágica experiencia. Tenemos para ofrecerte  dos cabañas de un dormitorio separadas entre sí , totalmente equipadas, con cocina, aire acondicionado y T.V. Led. Atendida por sus dueños",
-  "category": "Cabañas - Alojamientos -Campings",
+  "category": "Alojamientos",
   "subCategory": "",
   "horario": "Todo el año",
   "phone": "3416064947",
@@ -3669,7 +3669,7 @@
   "title": "Ayres de Cuarzo",
   "type":"turismo",
   "description": "Atendidas por sus propios dueños, abierto todo el año, Cabañas Ayres de Cuarzo, en San Francisco del Monte de Oro (San Luis) es un lugar mágico, ideal para una estancia tranquila en vacaciones o una escapada de fin de semana, en armonía con el paisaje que las rodea.Las cabañas son a estrenar y cuentan con una capacidad para 2 y hasta 5 personas . Construidas con estilo rústico, predominando en su construcción la piedra y la madera, decoradas con el gusto de la simplicidad, conformando espacios cálidos y ambientes familiares.",
-  "category": "Cabañas - Alojamientos -Campings",
+  "category": "Alojamientos",
   "subCategory": "",
   "horario": "Todo el año",
   "phone": "2254413393",
@@ -3684,25 +3684,40 @@
   "id": 217,
   "title":"Turismo Arqueologico y Cultural responsable",
   "type":"turismo",
-  "description": "Senderismo Recorridos:\n\nRodeo de cadenas, pinturas rupestres.\nParaje el rincón\nLos once Morteros. \nPinturas Rupestres\nRecorrido urbano circuito los morteros en la ribera del Rio Claro",
+  "description": "Turismo Arqueológico y Cultural Responsable\n\nSan Francisco del Monte de Oro guarda riquezas culturales y naturales que valen la pena conocerlas y vivirlas. Te invito a explorar e interpretar nuestro paisaje, donde los primeros habitantes del valle plasmaron sus conocimientos para transformarlos en mensajes ancestrales.\nActividades: Visita a las pinturas rupestres- Once morteros- Paseo de los Morteros (urbano) Salidas nocturnas: Astronomía Cultural (cosmovisión ancestral y actual del cielo)\n\nPerfil de la actividad: Turismo familiar- Turismo educativo- Turismo científico- Turismo recreativo.\nDificultad: Baja a moderada\nAlejandra Negro (Lic. en Cs Antropológicas, UBA)\nTrabajando desde el año 2016 en turismo Arqueológico",
   "category": "Guias de Turismo",
   "subCategory": "",
+  "image": [
+    "https://i.imgur.com/FvTalff.jpeg",
+    "https://i.imgur.com/TgKsZ0j.jpeg",
+    "https://i.imgur.com/f4CUdcp.jpeg",
+    "https://i.imgur.com/oaX2vBj.jpeg",
+    "https://i.imgur.com/JjXuXrI.jpeg"
+  ],
   "name": "Alejandra Negro",
   "phone": "2664933528",
   "horario":"",
-  "status": "Free",
+  "status": "Premium",
   "tags": ["Turismo","Arqueologico","Cultural","Senderismo","Recorridos","Pinturas","Rupestres","Rodeo","Cadenas","Paraje","Rincon","Morteros","Rio","Claro"]
  },
  {
   "id": 218,
   "title":"Turismo Arqueologico y Cultural responsable",
-  "description": "Senderismo Recorridos:\n\nRodeo de cadenas, pinturas rupestres.\nParaje el rincón\nLos once Morteros. \nPinturas Rupestres\nRecorrido urbano circuito los morteros en la ribera del Rio Claro",
-  "category": "Actividades recreativas",
+  "type":"turismo",
+  "description": "Turismo Arqueológico y Cultural Responsable\n\nSan Francisco del Monte de Oro guarda riquezas culturales y naturales que valen la pena conocerlas y vivirlas. Te invito a explorar e interpretar nuestro paisaje, donde los primeros habitantes del valle plasmaron sus conocimientos para transformarlos en mensajes ancestrales.\nActividades: Visita a las pinturas rupestres- Once morteros- Paseo de los Morteros (urbano) Salidas nocturnas: Astronomía Cultural (cosmovisión ancestral y actual del cielo)\n\nPerfil de la actividad: Turismo familiar- Turismo educativo- Turismo científico- Turismo recreativo.\nDificultad: Baja a moderada\nAlejandra Negro (Lic. en Cs Antropológicas, UBA)\nTrabajando desde el año 2016 en turismo Arqueológico",
+  "category": "Guias de Turismo",
   "subCategory": "",
+  "image": [
+    "https://i.imgur.com/FvTalff.jpeg",
+    "https://i.imgur.com/TgKsZ0j.jpeg",
+    "https://i.imgur.com/f4CUdcp.jpeg",
+    "https://i.imgur.com/oaX2vBj.jpeg",
+    "https://i.imgur.com/JjXuXrI.jpeg"
+  ],
   "name": "Alejandra Negro",
   "phone": "2664933528",
   "horario":"",
-  "status": "Free",
+  "status": "Premium",
   "tags": ["Turismo","Arqueologico","Cultural","Senderismo","Recorridos","Pinturas","Rupestres","Rodeo","Cadenas","Paraje","Rincon","Morteros","Rio","Claro"]
  },
  {
@@ -3814,7 +3829,58 @@
     "facebook": ""
   },
   "tags": ["Blanca Paloma","Micros","Pasajes","Horarios","San Luis"]
+},
+{
+  "id": 224,
+  "title": "Piedra Suelta",
+  "description": "Somos productores artesanales\n\nNuestros productos:\n* Vinagres vivo( casero)\n* Hierbas medicinales\n* Panificados\n* Cerveza artesanal (coccion a leña)\n* Conservas dulces y saladas\n* Muebles y accesorios en madera rústica y de autor.\n * y más.\n\nTodos nuestros productos los realizamos en el Paraje Río Juan Gómez.  Intentamos mantener técnicas naturales.\nNuestras cocciones son a Leña para darle mejor calidad y calidez a nuestros productos.\nSolicita nuestros productos.\nSiempre tenemos novedades. CONSULTA POR NUESTROS NUEVOS PRODUCTOS DE ESTACIÓN.\nUna familia en el monte.",
+  "horario": "",
+  "image": [
+    "https://i.imgur.com/EKYIXGw.jpeg",
+    "https://i.imgur.com/1GJCLqF.jpeg",
+    "https://i.imgur.com/GTcCFNq.jpeg",
+    "https://i.imgur.com/XLVGTrg.jpeg",
+    "https://i.imgur.com/G9IRmxH.jpeg"
+  ],
+  "category": "Productores - Emprendedores",
+"type":"turismo",
+  "name": "",
+  "phone": "2664163566",
+  "status": "Premium",
+  "location": {
+    "latitude": -32.607368,
+    "longitude": -66.08362
+  },
+  "links": {
+    "website": "",
+    "instagram": "https://www.instagram.com/piedra.suelta/",
+    "facebook": ""
+  },
+  "tags": ["Artesanal","Vinagres","Hierbas","Medicinales","Panificados","Cerveza","Conservas","Dulces","Saladas","Muebles","Accesorios","Madera","Rustica","Autor","Leña","Calidad","Monte","Familia"]
+},
+{
+  "id": 225,
+  "title": "SOLUCIONES INTEGRALES PARA EL HOGAR Y EL COMERCIO",
+  "description": "Servicio de mantenimiento\n\n*Carpintería de autor\n*Herrería de autor\n*Pintura\n*Electricidad\n*Montaje de muebles\n*Planos - dirección de obra\n*Limpieza de galpones y depósitos\n*Agua: instalación,  cisternas. Bombas\n\nCuento con mi propio equipo de trabajo.\n\nSi tenés un problema en tu hogar, comercio o cabaña te encuentro la SOLUCIÓN",
+  "horario": "",
+  "image": [
+    "https://i.imgur.com/aDqNfIz.jpeg"
+   
+  ],
+  "category": "Construccion",
+"type":"turismo",
+  "name": "",
+  "phone": "2664163566",
+  "status": "Premium",
+  
+  "links": {
+    "website": "",
+    "instagram": "",
+    "facebook": ""
+  },
+  "tags": ["Mantenimiento","Carpinteria","Herreria","Pintura","Electricidad","Montaje","Muebles","Planos","Direccion","Obra","Limpieza","Galpones","Depositos","Agua","Instalacion","Cisternas","Bombas","Soluciones","Hogar","Comercio","Cabaña"]
 }
+
 
  
 
